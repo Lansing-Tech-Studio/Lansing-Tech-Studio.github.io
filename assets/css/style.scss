@@ -765,6 +765,7 @@ h4 { font-size: 1.25rem; }
   position: sticky;
   top: 0;
   z-index: 1000;
+  min-height: 80px;
 }
 
 .navbar {
@@ -775,6 +776,7 @@ h4 { font-size: 1.25rem; }
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .nav-brand {
@@ -974,7 +976,7 @@ h4 { font-size: 1.25rem; }
   }
   
   .nav-menu {
-    position: fixed;
+    position: absolute;
     top: 100%;
     left: 0;
     right: 0;
@@ -983,16 +985,13 @@ h4 { font-size: 1.25rem; }
     align-items: stretch;
     padding: 2rem;
     box-shadow: var(--shadow-lg);
-    transform: translateY(-100%);
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.3s ease;
+    border-top: 1px solid var(--border-light);
+    display: none;
+    z-index: 999;
   }
   
   .nav-menu.active {
-    transform: translateY(0);
-    opacity: 1;
-    visibility: visible;
+    display: flex;
   }
   
   .nav-links {
