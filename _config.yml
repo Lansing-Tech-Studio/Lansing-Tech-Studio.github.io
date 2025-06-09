@@ -1,0 +1,67 @@
+# Site settings
+title: Lansing Tech Studio
+email: contact@lansingtechstudio.org
+description: >-
+  Empowering youth through technology, robotics, and community service.
+  Supporting FIRST LEGO League teams, hosting coding bootcamps, and making a difference.
+baseurl: ""
+url: "https://lansing-tech-studio.github.io"
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Navigation
+header_pages:
+  - about.md
+  - programs.md
+  - outreach.md
+  - resources.md
+  - sponsors.md
+  - contact.md
+
+# Social media
+github_username: Lansing-Tech-Studio
+facebook_username: lansingtechstudio
+youtube_username: lansingtechstudio
+
+# Custom variables
+logo: /assets/images/logo.png
+mission_statement: "Inspiring the next generation of innovators through hands-on technology education and community engagement."
+
+# Collections
+collections:
+  team_bios:
+    output: true
+    permalink: /:collection/:name/
+  blog_posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "team_bios"
+    values:
+      layout: "bio"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - SiteLayout.md

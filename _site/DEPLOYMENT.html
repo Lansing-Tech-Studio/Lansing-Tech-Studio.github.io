@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deployment Instructions for Lansing Tech Studio Website | Lansing Tech Studio</title>
+  <meta name="description" content="Empowering youth through technology, robotics, and community service. Supporting FIRST LEGO League teams, hosting coding bootcamps, and making a difference.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+  
+  <!-- SEO -->
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Deployment Instructions for Lansing Tech Studio Website | Lansing Tech Studio</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Deployment Instructions for Lansing Tech Studio Website" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Empowering youth through technology, robotics, and community service. Supporting FIRST LEGO League teams, hosting coding bootcamps, and making a difference." />
+<meta property="og:description" content="Empowering youth through technology, robotics, and community service. Supporting FIRST LEGO League teams, hosting coding bootcamps, and making a difference." />
+<link rel="canonical" href="http://0.0.0.0:4000/DEPLOYMENT.html" />
+<meta property="og:url" content="http://0.0.0.0:4000/DEPLOYMENT.html" />
+<meta property="og:site_name" content="Lansing Tech Studio" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Deployment Instructions for Lansing Tech Studio Website" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Empowering youth through technology, robotics, and community service. Supporting FIRST LEGO League teams, hosting coding bootcamps, and making a difference.","headline":"Deployment Instructions for Lansing Tech Studio Website","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://0.0.0.0:4000/assets/images/logo.png"}},"url":"http://0.0.0.0:4000/DEPLOYMENT.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+  
+  <!-- Feed -->
+  <link type="application/atom+xml" rel="alternate" href="http://0.0.0.0:4000/feed.xml" title="Lansing Tech Studio" />
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-brand">
+          <a href="/" class="brand-link">
+            
+              <img src="/assets/images/logo.png" alt="Lansing Tech Studio" class="brand-logo">
+            
+            <span class="brand-text">Lansing Tech Studio</span>
+          </a>
+        </div>
+        
+        <div class="nav-menu" id="nav-menu">
+          <div class="nav-links">
+            <a href="/" class="nav-link ">Home</a>
+            <a href="/about" class="nav-link ">About</a>
+            <a href="/programs" class="nav-link ">Programs</a>
+            <a href="/outreach" class="nav-link ">Outreach</a>
+            <a href="/resources" class="nav-link ">Resources</a>
+            <a href="/sponsors" class="nav-link ">Sponsors</a>
+            <a href="/contact" class="nav-link ">Contact</a>
+          </div>
+          <div class="nav-actions">
+            <a href="/contact#registration" class="btn btn-primary btn-small">Register Now</a>
+          </div>
+        </div>
+        
+        <div class="nav-toggle" id="nav-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="site-main">
+    <div class="page-content">
+  <div class="container">
+    <h1 id="deployment-instructions-for-lansing-tech-studio-website">Deployment Instructions for Lansing Tech Studio Website</h1>
+
+<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+  <li>GitHub account</li>
+  <li>Git installed on your computer</li>
+  <li>GitHub Pages enabled for your repository</li>
+</ul>
+
+<h2 id="initial-setup">Initial Setup</h2>
+
+<ol>
+  <li><strong>Create GitHub Repository</strong>
+    <ul>
+      <li>Go to <a href="https://github.com">GitHub</a></li>
+      <li>Create a new repository named <code class="language-plaintext highlighter-rouge">Lansing-Tech-Studio.github.io</code></li>
+      <li>Make sure it’s public (required for GitHub Pages free tier)</li>
+    </ul>
+  </li>
+  <li><strong>Upload Site Files</strong>
+    <ul>
+      <li>Clone this repository or upload all files to your GitHub repository</li>
+      <li>Ensure the main branch contains all the Jekyll files</li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="enable-github-pages">Enable GitHub Pages</h2>
+
+<ol>
+  <li>Go to your repository on GitHub</li>
+  <li>Click on <strong>Settings</strong> tab</li>
+  <li>Scroll down to <strong>Pages</strong> section</li>
+  <li>Under <strong>Source</strong>, select <strong>Deploy from a branch</strong></li>
+  <li>Select <strong>main</strong> branch and <strong>/ (root)</strong> folder</li>
+  <li>Click <strong>Save</strong></li>
+</ol>
+
+<h2 id="automatic-deployment">Automatic Deployment</h2>
+
+<p>The site includes a GitHub Actions workflow (<code class="language-plaintext highlighter-rouge">.github/workflows/jekyll.yml</code>) that will:</p>
+<ul>
+  <li>Automatically build the site when you push changes</li>
+  <li>Deploy to GitHub Pages</li>
+  <li>Handle Jekyll dependencies and build process</li>
+</ul>
+
+<h2 id="manual-deployment-alternative">Manual Deployment (Alternative)</h2>
+
+<p>If you prefer manual deployment:</p>
+
+<ol>
+  <li><strong>Local Development</strong>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle <span class="nb">install
+</span>bundle <span class="nb">exec </span>jekyll serve
+</code></pre></div>    </div>
+  </li>
+  <li><strong>Build for Production</strong>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle <span class="nb">exec </span>jekyll build
+</code></pre></div>    </div>
+  </li>
+  <li><strong>Deploy</strong>
+    <ul>
+      <li>Push changes to main branch</li>
+      <li>GitHub Pages will automatically deploy</li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="site-url">Site URL</h2>
+
+<p>Once deployed, your site will be available at:
+<code class="language-plaintext highlighter-rouge">https://lansing-tech-studio.github.io</code></p>
+
+<h2 id="customization">Customization</h2>
+
+<h3 id="content-updates">Content Updates</h3>
+<ul>
+  <li>Update markdown files in the root directory</li>
+  <li>Add blog posts to <code class="language-plaintext highlighter-rouge">_posts/</code> directory</li>
+  <li>Modify <code class="language-plaintext highlighter-rouge">_config.yml</code> for site settings</li>
+</ul>
+
+<h3 id="images">Images</h3>
+<ul>
+  <li>Replace placeholder images in <code class="language-plaintext highlighter-rouge">assets/images/</code> with actual photos</li>
+  <li>Update image references in markdown files</li>
+</ul>
+
+<h3 id="contact-form">Contact Form</h3>
+<ul>
+  <li>Replace Formspree endpoint in <code class="language-plaintext highlighter-rouge">contact.md</code> with your actual form processor</li>
+  <li>Set up form processing service (Formspree, Netlify Forms, etc.)</li>
+</ul>
+
+<h3 id="social-media">Social Media</h3>
+<ul>
+  <li>Update social media links in <code class="language-plaintext highlighter-rouge">_layouts/default.html</code></li>
+  <li>Add actual social media URLs</li>
+</ul>
+
+<h2 id="troubleshooting">Troubleshooting</h2>
+
+<h3 id="build-errors">Build Errors</h3>
+<ul>
+  <li>Check GitHub Actions tab for build logs</li>
+  <li>Ensure all dependencies are properly listed in <code class="language-plaintext highlighter-rouge">Gemfile</code></li>
+  <li>Verify YAML front matter syntax in markdown files</li>
+</ul>
+
+<h3 id="cssstyling-issues">CSS/Styling Issues</h3>
+<ul>
+  <li>Check <code class="language-plaintext highlighter-rouge">assets/css/style.scss</code> for syntax errors</li>
+  <li>Ensure Sass syntax is compatible with GitHub Pages Jekyll version</li>
+</ul>
+
+<h3 id="navigation-issues">Navigation Issues</h3>
+<ul>
+  <li>Verify navigation links in <code class="language-plaintext highlighter-rouge">_layouts/default.html</code></li>
+  <li>Check that page slugs match navigation URLs</li>
+</ul>
+
+<h2 id="maintenance">Maintenance</h2>
+
+<h3 id="regular-updates">Regular Updates</h3>
+<ul>
+  <li>Keep Jekyll dependencies updated</li>
+  <li>Monitor GitHub Pages status</li>
+  <li>Update content and images regularly</li>
+  <li>Check for broken links periodically</li>
+</ul>
+
+<h3 id="security">Security</h3>
+<ul>
+  <li>Keep dependencies updated</li>
+  <li>Monitor for security advisories</li>
+  <li>Use environment variables for sensitive data</li>
+</ul>
+
+<h2 id="support">Support</h2>
+
+<p>For issues with:</p>
+<ul>
+  <li>Jekyll: <a href="https://jekyllrb.com/docs/">Jekyll Documentation</a></li>
+  <li>GitHub Pages: <a href="https://docs.github.com/en/pages">GitHub Pages Documentation</a></li>
+  <li>GitHub Actions: <a href="https://docs.github.com/en/actions">GitHub Actions Documentation</a></li>
+</ul>
+
+<h2 id="next-steps">Next Steps</h2>
+
+<ol>
+  <li>Replace all placeholder content with actual information</li>
+  <li>Add real images and photos</li>
+  <li>Set up contact form processing</li>
+  <li>Configure Google Analytics (optional)</li>
+  <li>Set up custom domain (optional)</li>
+  <li>Add SEO optimization</li>
+  <li>Test on multiple devices and browsers</li>
+</ol>
+
+  </div>
+</div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Lansing Tech Studio</h3>
+          <p>Inspiring the next generation of innovators through hands-on technology education and community engagement.</p>
+          <div class="social-icons">
+            
+              <a href="https://facebook.com/lansingtechstudio" class="social-icon" target="_blank" rel="noopener" aria-label="Facebook">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                </svg>
+              </a>
+            
+            
+              <a href="https://youtube.com/lansingtechstudio" class="social-icon" target="_blank" rel="noopener" aria-label="YouTube">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                </svg>
+              </a>
+            
+            
+              <a href="https://github.com/Lansing-Tech-Studio" class="social-icon" target="_blank" rel="noopener" aria-label="GitHub">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                </svg>
+              </a>
+            
+          </div>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="/programs">Programs</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/outreach">Community Service</a></li>
+            <li><a href="/resources">Resources</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Get Involved</h4>
+          <ul class="footer-links">
+            <li><a href="/contact#registration">Register for Programs</a></li>
+            <li><a href="/contact#volunteer">Volunteer</a></li>
+            <li><a href="/sponsors">Sponsor Us</a></li>
+            <li><a href="/contact#donation">Donate</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Contact Info</h4>
+          <div class="contact-info">
+            <p>123 Innovation Drive<br>Lansing, MI 48933</p>
+            <p><a href="mailto:contact@lansingtechstudio.org">contact@lansingtechstudio.org</a></p>
+            <p><a href="tel:517-555-0123">(517) 555-0123</a></p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <div class="footer-legal">
+          <p>&copy; 2025 Lansing Tech Studio. All rights reserved.</p>
+          <p>Inspiring the next generation of innovators.</p>
+        </div>
+        <div class="footer-credits">
+          <p>Built with 💜 by our student developers</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile navigation toggle
+    const navToggle = document.getElementById('nav-toggle');
+    const navMenu = document.getElementById('nav-menu');
+    
+    navToggle.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+      navToggle.classList.toggle('active');
+    });
+    
+    // Close mobile menu when clicking on a link
+    document.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        navMenu.classList.remove('active');
+        navToggle.classList.remove('active');
+      });
+    });
+    
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
