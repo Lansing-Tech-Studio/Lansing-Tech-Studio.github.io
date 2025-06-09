@@ -5,6 +5,10 @@ gem "jekyll-feed", "~> 0.12"
 gem "jekyll-sitemap"
 gem "jekyll-seo-tag"
 
+# Add gems that will be removed from Ruby's default gems in future versions
+gem "bigdecimal"
+# Note: fiddle gem causes compilation issues on Windows, warning can be ignored for now
+
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 platforms :mingw, :x64_mingw, :mswin, :jruby do
