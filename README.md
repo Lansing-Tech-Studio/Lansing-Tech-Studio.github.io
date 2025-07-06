@@ -22,6 +22,7 @@ This site is built with Jekyll and hosted on GitHub Pages. Visit us at: [lansing
 2. Clone this repository
 3. Run `bundle install` to install dependencies
 4. Run `bundle exec jekyll serve` to start the development server
+  * Run `bundle exec jekyll serve --livereload` for live reloading
 5. Visit `http://localhost:4000` to view the site
 
 ### Deployment
