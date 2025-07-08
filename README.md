@@ -1,4 +1,4 @@
-# Lansing Tech Studio
+# [Lansing Tech Studio](https://lansingtechstudio.com)
 
 Welcome to the official website for Lansing Tech Studio - supporting youth in technology through FIRST LEGO League, coding bootcamps, and community service.
 
