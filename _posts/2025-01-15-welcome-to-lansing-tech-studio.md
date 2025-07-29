@@ -2,7 +2,7 @@
 layout: post
 title: "Welcome to Lansing Tech Studio!"
 date: 2025-01-15 10:00:00 -0500
-author: "Brendon Thompson"
+author: "Chelsea Thiede"
 categories: [announcements, welcome]
 tags: [fll, robotics, community, launch]
 excerpt: "We're excited to announce the official launch of Lansing Tech Studio's new website and share our vision for empowering youth through technology and community service."

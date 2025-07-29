@@ -178,6 +178,6 @@ permalink: /programs/
   <p>Spaces are limited and fill up quickly. Register early to secure your spot!</p>
   <div class="cta-buttons">
     <a href="/contact#registration" class="btn btn-primary">Register Now</a>
-    <a href="/resources#calendar" class="btn btn-secondary">View Calendar</a>
+    <a href="/resources#calendar" class="btn btn-primary">View Calendar</a>
   </div>
 </div>

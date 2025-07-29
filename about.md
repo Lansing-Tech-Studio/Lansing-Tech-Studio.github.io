@@ -61,10 +61,10 @@ FIRST LEGO League Challenge is a robotics program for students ages 9-16 that co
 <div class="leadership-grid">
   <div class="bio-card">
     <div class="bio-image">
-      <img src="/assets/images/brendon-bio.jpg" alt="Brendon Thompson">
+      <img src="/assets/images/brendon-bio.jpg" alt="Chelsea Thiede">
     </div>
     <div class="bio-content">
-      <h3>Brendon Thompson</h3>
+      <h3>Chelsea Thiede</h3>
       <p class="bio-title">Co-Founder & Lead Mentor</p>
       <p class="bio-description">
         Brendon brings over 10 years of experience in software development and education. 
@@ -123,6 +123,6 @@ Since our founding, we've:
   <p>Whether you're a student, parent, or community member, there are many ways to join our mission.</p>
   <div class="cta-buttons">
     <a href="/programs" class="btn btn-primary">Explore Programs</a>
-    <a href="/contact" class="btn btn-secondary">Contact Us</a>
+    <a href="/contact" class="btn btn-primary">Contact Us</a>
   </div>
 </div>

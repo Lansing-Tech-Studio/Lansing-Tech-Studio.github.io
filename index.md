@@ -8,11 +8,11 @@ layout: default
     <p class="hero-subtitle">{{ site.mission_statement }}</p>
     <div class="hero-actions">
       <a href="#programs" class="btn btn-primary">Explore Programs</a>
-      <a href="/contact" class="btn btn-secondary">Get Involved</a>
+      <a href="/contact" class="btn btn-primary">Get Involved</a>
     </div>
   </div>
   <div class="hero-image">
-    <img src="/assets/images/hero-robot.jpg" alt="FIRST LEGO League Robot" class="img-responsive">
+    <img src="/assets/images/logo.png" alt="FIRST LEGO League Robot" class="img-responsive">
   </div>
 </div>
 

@@ -252,6 +252,6 @@ permalink: /outreach/
   <p>Ready to use your skills to make a difference? We have volunteer opportunities for all ages and skill levels.</p>
   <div class="cta-buttons">
     <a href="/contact#volunteer" class="btn btn-primary">Volunteer With Us</a>
-    <a href="/programs" class="btn btn-secondary">Join a Team</a>
+    <a href="/programs" class="btn btn-primary">Join a Team</a>
   </div>
 </div>

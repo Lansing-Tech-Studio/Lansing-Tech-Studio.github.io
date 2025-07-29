@@ -113,7 +113,7 @@ permalink: /contact/
       <p>Ready to join a team or workshop? Registration is open for our current programs.</p>
       <div class="quick-actions">
         <a href="#" class="btn btn-primary">Register for FLL</a>
-        <a href="#" class="btn btn-secondary">Workshop Calendar</a>
+        <a href="#" class="btn btn-primary">Workshop Calendar</a>
       </div>
       <div class="registration-info">
         <h4>Registration Deadlines:</h4>
@@ -138,7 +138,7 @@ permalink: /contact/
           <li>Administrative support</li>
         </ul>
       </div>
-      <a href="mailto:volunteer@lansingtechstudio.org" class="btn btn-outline">Apply to Volunteer</a>
+      <a href="mailto:volunteer@lansingtechstudio.org" class="btn btn-primary">Apply to Volunteer</a>
     </div>
     
     <div class="quick-link-card" id="sponsorship">
@@ -273,7 +273,7 @@ permalink: /contact/
     </div>
     <div class="emergency-contact">
       <strong>Program Director:</strong><br>
-      Brendon Thompson: <a href="tel:517-555-0125">(517) 555-0125</a>
+      Chelsea Thiede
     </div>
   </div>
   
@@ -289,7 +289,7 @@ permalink: /contact/
   Together, we're building the future through technology, teamwork, and service.</p>
   <div class="cta-buttons">
     <a href="#contact-form" class="btn btn-primary">Send a Message</a>
-    <a href="/programs" class="btn btn-secondary">Explore Programs</a>
+    <a href="/programs" class="btn btn-primary">Explore Programs</a>
   </div>
 </div>
 

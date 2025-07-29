@@ -219,7 +219,7 @@ permalink: /resources/
     </article>
   </div>
   <div class="blog-cta">
-    <a href="/blog" class="btn btn-outline">View All Posts</a>
+    <a href="/blog" class="btn btn-primary">View All Posts</a>
   </div>
 </div>
 
@@ -360,6 +360,6 @@ permalink: /resources/
   <p>Have questions about our programs, resources, or how to get involved? We're here to help!</p>
   <div class="cta-buttons">
     <a href="/contact" class="btn btn-primary">Contact Us</a>
-    <a href="/about" class="btn btn-secondary">Learn More About Us</a>
+    <a href="/about" class="btn btn-primary">Learn More About Us</a>
   </div>
 </div>

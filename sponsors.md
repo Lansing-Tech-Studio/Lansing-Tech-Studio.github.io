@@ -373,7 +373,7 @@ permalink: /sponsors/
   </p>
   <div class="cta-buttons">
     <a href="/contact#sponsorship" class="btn btn-primary">Become a Sponsor</a>
-    <a href="/contact#volunteer" class="btn btn-secondary">Volunteer With Us</a>
-    <a href="#donation" class="btn btn-outline">Make a Donation</a>
+    <a href="/contact#volunteer" class="btn btn-primary">Volunteer With Us</a>
+    <a href="#donation" class="btn btn-primary">Make a Donation</a>
   </div>
 </div>
