@@ -15,12 +15,11 @@ permalink: /contact/
     <div class="info-card">
       <h3>Lansing Tech Studio</h3>
       <p>
-        123 Innovation Drive<br>
-        Lansing, MI 48933
+        129 Quail Run<br>
+        DeWitt, MI 48820
       </p>
       <p>
-        <strong>Email:</strong> <a href="mailto:info@lansingtechstudio.org">info@lansingtechstudio.org</a><br>
-        <strong>Phone:</strong> <a href="tel:517-555-0123">(517) 555-0123</a>
+        <strong>Email:</strong> <a href="mailto:contact@lansingtechstudio.com">contact@lansingtechstudio.com</a>
       </p>
     </div>
     
@@ -138,7 +137,7 @@ permalink: /contact/
           <li>Administrative support</li>
         </ul>
       </div>
-      <a href="mailto:volunteer@lansingtechstudio.org" class="btn btn-primary">Apply to Volunteer</a>
+      <a href="mailto:contact@lansingtechstudio.com?subject=Lansing%20Tech%20Studio%20Volunteering" class="btn btn-primary">Apply to Volunteer</a>
     </div>
     
     <div class="quick-link-card" id="sponsorship">
@@ -211,8 +210,7 @@ permalink: /contact/
       </div>
     </a>
     
-    <a href="mailto:newsletter@lansingtechstudio.org" class="social-link email">
-      <div class="social-icon">📧</div>
+    <a href="mailto:contact@lansingtechstudio.com?subject=Lansing%20Tech%20Studio%20Newsletter" class="social-link email">    <div class="social-icon">📧</div>
       <div class="social-info">
         <strong>Newsletter</strong>
         <span>Monthly updates delivered to your inbox</span>
@@ -263,14 +261,6 @@ permalink: /contact/
 <div class="emergency-section">
   <h2>🚨 Emergency Contacts</h2>
   <div class="emergency-info">
-    <div class="emergency-contact">
-      <strong>During Programs/Events:</strong><br>
-      Call main number: <a href="tel:517-555-0123">(517) 555-0123</a>
-    </div>
-    <div class="emergency-contact">
-      <strong>After Hours Emergency:</strong><br>
-      Text emergency line: <a href="sms:517-555-0124">(517) 555-0124</a>
-    </div>
     <div class="emergency-contact">
       <strong>Program Director:</strong><br>
       Chelsea Thiede

@@ -31,9 +31,8 @@ This site automatically deploys to GitHub Pages when changes are pushed to the m
 
 ## Contact
 
-- Email: info@lansingtechstudio.org
-- Phone: (517) 555-TECH
-- Address: 123 Innovation Drive, Lansing, MI 48910
+- Email: contact@lansingtechstudio.com
+- Address: 129 Quail Run, DeWitt, MI 48820
 
 ## Contributing
 
