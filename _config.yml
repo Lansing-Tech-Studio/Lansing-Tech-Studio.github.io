@@ -1,6 +1,6 @@
 # Site settings
 title: Lansing Tech Studio
-email: contact@lansingtechstudio.com
+email: contact@lansingtechstudio.org
 description: >-
   Empowering youth through technology, robotics, and community service.
   Supporting FIRST LEGO League teams, hosting coding bootcamps, and making a difference.
@@ -26,12 +26,12 @@ header_pages:
 
 # Social media
 github_username: Lansing-Tech-Studio
-facebook_username: lansingtechstudio
-youtube_username: lansingtechstudio
+facebook_username: 61572896006614
+youtube_username: "@LansingTechStudio"
 
 # Custom variables
 logo: /assets/images/logo.png
-mission_statement: "Inspiring the next generation of innovators through hands-on technology education and community engagement."
+mission_statement: "The Lansing Tech Studio empowers the next generation by igniting their passion for technology, innovation, leadership, and service, cultivating tomorrow’s leaders driven to shape a better future in their communities and the world."
 
 # Collections
 collections:

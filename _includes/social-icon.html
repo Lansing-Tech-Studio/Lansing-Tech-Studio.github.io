@@ -1,0 +1,18 @@
+{% comment %}
+  Usage: {% include social-icon.html icon="facebook" username=site.facebook_username label="Facebook" %}
+  Or: {% include social-icon.html icon="facebook" url="https://custom-url.com" label="Facebook" %}
+{% endcomment %}
+
+{% assign base_urls = '{"facebook":"https://facebook.com/","youtube":"https://youtube.com/","github":"https://github.com/","instagram":"https://instagram.com/","twitter":"https://twitter.com/","linkedin":"https://linkedin.com/company/"}' | parse_json %}
+
+{% if include.url %}
+  {% assign final_url = include.url %}
+{% elsif include.username %}
+  {% assign final_url = base_urls[include.icon] | append: include.username %}
+{% endif %}
+
+<a href="{{ final_url }}" class="social-icon" target="_blank" rel="noopener" aria-label="{{ include.label }}">
+  <svg width="24" height="24" fill="currentColor">
+    <use href="#{{ include.icon }}"></use>
+  </svg>
+</a>

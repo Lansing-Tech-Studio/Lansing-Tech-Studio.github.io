@@ -19,7 +19,7 @@ permalink: /contact/
         DeWitt, MI 48820
       </p>
       <p>
-        <strong>Email:</strong> <a href="mailto:contact@lansingtechstudio.com">contact@lansingtechstudio.com</a>
+        <strong>Email:</strong> <a href="mailto:contact@lansingtechstudio.org">contact@lansingtechstudio.org</a>
       </p>
     </div>
     
@@ -137,7 +137,7 @@ permalink: /contact/
           <li>Administrative support</li>
         </ul>
       </div>
-      <a href="mailto:contact@lansingtechstudio.com?subject=Lansing%20Tech%20Studio%20Volunteering" class="btn btn-primary">Apply to Volunteer</a>
+      <a href="mailto:contact@lansingtechstudio.org?subject=Lansing%20Tech%20Studio%20Volunteering" class="btn btn-primary">Apply to Volunteer</a>
     </div>
     
     <div class="quick-link-card" id="sponsorship">
@@ -186,31 +186,17 @@ permalink: /contact/
   <p>Stay connected with our community and see what our teams are up to!</p>
   
   <div class="social-links">
-    <a href="https://facebook.com/lansingtechstudio" class="social-link facebook" target="_blank">
-      <div class="social-icon">📘</div>
-      <div class="social-info">
-        <strong>Facebook</strong>
-        <span>Daily updates, photos, and event announcements</span>
-      </div>
-    </a>
+    {% capture facebook_url %}https://facebook.com/{{ site.facebook_username }}{% endcapture %}
+    {% include social-link-card.html platform='facebook' url=facebook_url description='Daily updates, photos, and event announcements' %}
+
+    {% capture youtube_url %}https://youtube.com/{{ site.youtube_username }}{% endcapture %}
+    {% include social-link-card.html platform='youtube' url=youtube_url description='Robot demonstrations, student projects, and competition highlights' %}
     
-    <a href="https://youtube.com/lansingtechstudio" class="social-link youtube" target="_blank">
-      <div class="social-icon">📺</div>
-      <div class="social-info">
-        <strong>YouTube</strong>
-        <span>Robot demonstrations, student projects, and competition highlights</span>
-      </div>
-    </a>
+    {% capture github_url %}https://github.com/{{ site.github_username }}{% endcapture %}
+    {% include social-link-card.html platform='github' url=github_url description='Open source projects and coding resources' %}
     
-    <a href="https://github.com/Lansing-Tech-Studio" class="social-link github" target="_blank">
-      <div class="social-icon">💻</div>
-      <div class="social-info">
-        <strong>GitHub</strong>
-        <span>Open source projects and coding resources</span>
-      </div>
-    </a>
-    
-    <a href="mailto:contact@lansingtechstudio.com?subject=Lansing%20Tech%20Studio%20Newsletter" class="social-link email">    <div class="social-icon">📧</div>
+    <a href="mailto:contact@lansingtechstudio.org?subject=Lansing%20Tech%20Studio%20Newsletter" class="social-link email">
+      <div class="social-icon">📧</div>
       <div class="social-info">
         <strong>Newsletter</strong>
         <span>Monthly updates delivered to your inbox</span>

@@ -1,0 +1,13 @@
+{% comment %}
+  Advanced social icon include that pulls SVG from data file
+  Usage: {% include social-icon-data.html platform="facebook" url="https://facebook.com/username" %}
+{% endcomment %}
+
+{% assign icon_data = site.data.social_icons[include.platform] %}
+{% if icon_data %}
+<a href="{{ include.url }}" class="social-icon" target="_blank" rel="noopener" aria-label="{{ icon_data.name }}">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+    {{ icon_data.svg }}
+  </svg>
+</a>
+{% endif %}

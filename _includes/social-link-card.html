@@ -1,0 +1,19 @@
+{% comment %}
+  Social link with description for contact page
+  Usage: {% include social-link-card.html platform="facebook" url="https://facebook.com/username" description="Daily updates, photos, and event announcements" %}
+{% endcomment %}
+
+{% assign icon_data = site.data.social_icons[include.platform] %}
+{% if icon_data %}
+<a href="{{ include.url }}" class="social-link {{ include.platform }}" target="_blank">
+  <div class="social-icon">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+      {{ icon_data.svg }}
+    </svg>
+  </div>
+  <div class="social-info">
+    <strong>{{ icon_data.name }}</strong>
+    <span>{{ include.description }}</span>
+  </div>
+</a>
+{% endif %}

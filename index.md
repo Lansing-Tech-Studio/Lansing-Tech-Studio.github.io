@@ -23,7 +23,7 @@ layout: default
       <div class="program-card">
         <div class="program-icon">🤖</div>
         <h3>FLL Challenge Teams</h3>
-        <p>Competitive robotics teams for youth ages 9-16, building problem-solving skills and STEM knowledge.</p>
+        <p>Competitive robotics teams for youth ages 9-14, building problem-solving skills and STEM knowledge.</p>
         <a href="/programs#fll" class="btn btn-outline">Learn More</a>
       </div>
       <div class="program-card">
@@ -41,8 +41,14 @@ layout: default
       <div class="program-card">
         <div class="program-icon">🤝</div>
         <h3>Community Outreach</h3>
-        <p>Service projects including homeless care packages, park cleanups, and community events.</p>
+        <p>Service projects include serving meals to the homeless, park cleanups, and community engagement events.</p>
         <a href="/outreach" class="btn btn-outline">Learn More</a>
+      </div>
+      <div class="program-card">
+        <div class="program-icon">💻</div>
+        <h3>Pybricks Summer Camp</h3>
+        <p>Go deep into the world of LEGO Spike Prime and Python with hands-on projects using Pybricks.</p>
+        <a href="/camps" class="btn btn-outline">Learn More</a>
       </div>
     </div>
   </div>
@@ -71,12 +77,9 @@ layout: default
 <section class="mission-section">
   <div class="container">
     <div class="mission-content">
-      <h2>Our Mission</h2>
+      <h2 style="color: #f8acacff;">Our Mission</h2>
       <p class="mission-text">
-        At Lansing Tech Studio, we believe in the power of technology to transform lives and communities. 
-        We provide hands-on learning experiences that inspire creativity, foster collaboration, and build 
-        confidence in young people. Through robotics, coding, and community service, we're preparing 
-        the next generation of innovators and leaders.
+        At Lansing Tech Studio, we believe in the power of technology to transform lives and communities. We provide hands-on learning experiences that inspire creativity, foster collaboration, and build confidence in young people. Through robotics, coding, and community service, we're preparing the next generation of innovators and leaders.
       </p>
       <div class="stats-grid">
         <div class="stat-item">

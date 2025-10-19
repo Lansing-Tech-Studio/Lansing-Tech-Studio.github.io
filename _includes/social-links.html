@@ -1,0 +1,32 @@
+{% comment %}
+  Complete social links component
+  Usage: {% include social-links.html %}
+  
+  This automatically includes all social platforms defined in _config.yml
+{% endcomment %}
+
+<div class="social-icons">
+  {% if site.facebook_username %}
+    {% include social-icon-data.html platform="facebook" url="https://facebook.com/{{ site.facebook_username }}" %}
+  {% endif %}
+  
+  {% if site.youtube_username %}
+    {% include social-icon-data.html platform="youtube" url="https://youtube.com/{{ site.youtube_username }}" %}
+  {% endif %}
+  
+  {% if site.github_username %}
+    {% include social-icon-data.html platform="github" url="https://github.com/{{ site.github_username }}" %}
+  {% endif %}
+  
+  {% if site.instagram_username %}
+    {% include social-icon-data.html platform="instagram" url="https://instagram.com/{{ site.instagram_username }}" %}
+  {% endif %}
+  
+  {% if site.twitter_username %}
+    {% include social-icon-data.html platform="twitter" url="https://twitter.com/{{ site.twitter_username }}" %}
+  {% endif %}
+  
+  {% if site.linkedin_username %}
+    {% include social-icon-data.html platform="linkedin" url="https://linkedin.com/company/{{ site.linkedin_username }}" %}
+  {% endif %}
+</div>

@@ -1,4 +1,4 @@
-# [Lansing Tech Studio](https://lansingtechstudio.com)
+# [Lansing Tech Studio](https://lansingtechstudio.org)
 
 Welcome to the official website for Lansing Tech Studio - supporting youth in technology through FIRST LEGO League, coding bootcamps, and community service.
 
@@ -31,7 +31,7 @@ This site automatically deploys to GitHub Pages when changes are pushed to the m
 
 ## Contact
 
-- Email: contact@lansingtechstudio.com
+- Email: contact@lansingtechstudio.org
 - Address: 129 Quail Run, DeWitt, MI 48820
 
 ## Contributing
