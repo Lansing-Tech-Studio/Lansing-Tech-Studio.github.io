@@ -14,6 +14,15 @@
     const navLinks = nav.querySelectorAll('.programs-nav-link');
     const sections = document.querySelectorAll('[id]');
     
+    // Open menu by default on mobile on initial page load
+    if (navToggle && window.innerWidth <= 768) {
+      // Small delay to ensure smooth animation on page load
+      setTimeout(function() {
+        navToggle.classList.add('active');
+        navContent.classList.add('active');
+      }, 500);
+    }
+    
     // Mobile toggle functionality
     if (navToggle) {
       navToggle.addEventListener('click', function(e) {
