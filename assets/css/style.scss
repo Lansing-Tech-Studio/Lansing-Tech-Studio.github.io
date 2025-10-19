@@ -1340,7 +1340,6 @@ h4 { font-size: 1.25rem; }
   color: var(--primary-color);
   background-color: var(--bg-light);
   border-left-color: var(--primary-color);
-  transform: translateX(4px);
 }
 
 .programs-nav-link:hover::before {
@@ -1384,7 +1383,6 @@ h4 { font-size: 1.25rem; }
 }
 
 .programs-nav-toggle:hover {
-  transform: scale(1.05);
   box-shadow: var(--shadow-xl);
 }
 
