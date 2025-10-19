@@ -4,6 +4,25 @@ title: Programs
 permalink: /programs/
 ---
 
+<!-- Floating Navigation -->
+<nav class="programs-nav">
+  <button class="programs-nav-toggle" aria-label="Toggle programs navigation">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <div class="programs-nav-content">
+    <h4>Programs</h4>
+    <ul class="programs-nav-list">
+      <li><a href="#fll" class="programs-nav-link">FLL Challenge</a></li>
+      <li><a href="#workshops" class="programs-nav-link">Tech Workshops</a></li>
+      <li><a href="#mentoring" class="programs-nav-link">Career Mentoring</a></li>
+      <li><a href="#events" class="programs-nav-link">Special Events</a></li>
+      <li><a href="#registration" class="programs-nav-link">Registration</a></li>
+    </ul>
+  </div>
+</nav>
+
 <div class="programs-hero">
   <h1>Our Programs</h1>
   <p class="lead">Comprehensive STEM education through hands-on learning, competition, and mentorship.</p>
@@ -132,7 +151,7 @@ permalink: /programs/
   </div>
 </div>
 
-## Special Events & Activities
+## Special Events & Activities {#events}
 
 <div class="events-grid">
   <div class="event-card">
@@ -153,7 +172,7 @@ permalink: /programs/
   </div>
 </div>
 
-## Program Requirements & Registration
+## Program Requirements & Registration {#registration}
 
 ### FLL Challenge Teams
 - **Age:** 9-16 years old
