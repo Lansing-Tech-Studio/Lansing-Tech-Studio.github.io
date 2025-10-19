@@ -1438,6 +1438,10 @@ h4 { font-size: 1.25rem; }
     transform: translateY(10px) scale(0.95);
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     pointer-events: none;
+    min-width: 220px;
+    max-width: calc(100vw - 3rem);
+    overflow: hidden;
+    padding: 1.5rem 1.25rem;
   }
   
   .programs-nav-content.active {
@@ -1448,8 +1452,26 @@ h4 { font-size: 1.25rem; }
   }
   
   .programs-nav-list {
-    max-height: 60vh;
+    max-height: 70vh;
     overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+  /* Only show scrollbar when actually needed */
+  .programs-nav-list:not(:hover) {
+    scrollbar-width: thin;
+  }
+  
+  /* Prevent horizontal scroll from active state */
+  .programs-nav-link {
+    padding-right: 1.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+  
+  .programs-nav-link:hover,
+  .programs-nav-link.active {
+    transform: none;
   }
   
   /* Smooth scrollbar for mobile */
@@ -1477,8 +1499,15 @@ h4 { font-size: 1.25rem; }
   
   .programs-nav-content {
     right: 0;
-    min-width: calc(100vw - 4rem);
-    max-width: 280px;
+    min-width: 240px;
+    max-width: calc(100vw - 2rem);
+    overflow: hidden;
+    padding: 1.25rem 1rem;
+  }
+  
+  .programs-nav-link {
+    font-size: 0.85rem;
+    padding: 0.625rem 1rem;
   }
 }
 
