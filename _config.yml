@@ -49,11 +49,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-  - scope:
-      path: ""
-      type: "team_bios"
-    values:
-      layout: "bio"
 
 # Exclude from processing
 exclude:

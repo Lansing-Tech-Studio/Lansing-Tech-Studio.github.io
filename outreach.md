@@ -212,17 +212,17 @@ permalink: /outreach/
     <div class="project-preview">
       <h3>🌱 Community Garden Tech Project</h3>
       <p>Building automated watering systems for local community gardens using Arduino and sensors.</p>
-      <strong>Start Date:</strong> Spring 2025
+      <strong>Start Date:</strong> Spring 2026
     </div>
     <div class="project-preview">
       <h3>📚 Digital Literacy Initiative</h3>
       <p>Expanding our computer education program to reach more seniors and underserved communities.</p>
-      <strong>Start Date:</strong> Summer 2025
+      <strong>Start Date:</strong> Summer 2026
     </div>
     <div class="project-preview">
       <h3>🎮 Accessible Gaming Workshop</h3>
       <p>Creating adaptive gaming controllers for individuals with disabilities.</p>
-      <strong>Start Date:</strong> Fall 2025
+      <strong>Start Date:</strong> Fall 2026
     </div>
   </div>
 </div>

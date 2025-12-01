@@ -44,10 +44,37 @@
           <div class="nav-links">
             <a href="{{ '/' | relative_url }}" class="nav-link {% if page.url == '/' %}active{% endif %}">Home</a>
             <a href="{{ '/about' | relative_url }}" class="nav-link {% if page.url contains '/about' %}active{% endif %}">About</a>
-            <a href="{{ '/programs' | relative_url }}" class="nav-link {% if page.url contains '/programs' %}active{% endif %}">Programs</a>
-            <a href="{{ '/outreach' | relative_url }}" class="nav-link {% if page.url contains '/outreach' %}active{% endif %}">Outreach</a>
-            <a href="{{ '/resources' | relative_url }}" class="nav-link {% if page.url contains '/resources' %}active{% endif %}">Resources</a>
-            <a href="{{ '/sponsors' | relative_url }}" class="nav-link {% if page.url contains '/sponsors' %}active{% endif %}">Sponsors</a>
+            <div class="nav-dropdown {% if page.url contains '/programs' or page.url contains '/camps' or page.url contains '/featured' %}active{% endif %}">
+              <button class="dropdown-trigger" aria-expanded="false" aria-haspopup="true">
+                Programs
+                <span class="chevron" aria-hidden="true"></span>
+              </button>
+              <div class="dropdown-menu" role="menu">
+                <a href="{{ '/programs' | relative_url }}" class="dropdown-item {% if page.url == '/programs/' %}active{% endif %}" role="menuitem">Programs</a>
+                <a href="{{ '/camps' | relative_url }}" class="dropdown-item {% if page.url == '/camps/' %}active{% endif %}" role="menuitem">Camps</a>
+                <a href="{{ '/featured' | relative_url }}" class="dropdown-item {% if page.url == '/featured/' %}active{% endif %}" role="menuitem">Featured</a>
+              </div>
+            </div>
+            <div class="nav-dropdown {% if page.url contains '/resources' or page.url contains '/blog' %}active{% endif %}">
+              <button class="dropdown-trigger" aria-expanded="false" aria-haspopup="true">
+                Learn
+                <span class="chevron" aria-hidden="true"></span>
+              </button>
+              <div class="dropdown-menu" role="menu">
+                <a href="{{ '/resources' | relative_url }}" class="dropdown-item {% if page.url == '/resources/' %}active{% endif %}" role="menuitem">Resources</a>
+                <a href="{{ '/blog' | relative_url }}" class="dropdown-item {% if page.url contains '/blog' %}active{% endif %}" role="menuitem">Blog</a>
+              </div>
+            </div>
+            <div class="nav-dropdown {% if page.url contains '/outreach' or page.url contains '/sponsors' %}active{% endif %}">
+              <button class="dropdown-trigger" aria-expanded="false" aria-haspopup="true">
+                Get Involved
+                <span class="chevron" aria-hidden="true"></span>
+              </button>
+              <div class="dropdown-menu" role="menu">
+                <a href="{{ '/outreach' | relative_url }}" class="dropdown-item {% if page.url == '/outreach/' %}active{% endif %}" role="menuitem">Outreach</a>
+                <a href="{{ '/sponsors' | relative_url }}" class="dropdown-item {% if page.url == '/sponsors/' %}active{% endif %}" role="menuitem">Sponsors</a>
+              </div>
+            </div>
             <a href="{{ '/contact' | relative_url }}" class="nav-link {% if page.url contains '/contact' %}active{% endif %}">Contact</a>
           </div>
           <div class="nav-actions">
@@ -94,9 +121,11 @@
           <h4>Quick Links</h4>
           <ul class="footer-links">
             <li><a href="{{ '/programs' | relative_url }}">Programs</a></li>
+            <li><a href="{{ '/camps' | relative_url }}">Camps</a></li>
+            <li><a href="{{ '/featured' | relative_url }}">Featured</a></li>
             <li><a href="{{ '/about' | relative_url }}">About Us</a></li>
-            <li><a href="{{ '/outreach' | relative_url }}">Community Service</a></li>
             <li><a href="{{ '/resources' | relative_url }}">Resources</a></li>
+            <li><a href="{{ '/blog' | relative_url }}">Blog</a></li>
           </ul>
         </div>
         
@@ -142,11 +171,110 @@
     });
     
     // Close mobile menu when clicking on a link
-    document.querySelectorAll('.nav-link').forEach(link => {
+    document.querySelectorAll('.nav-link, .dropdown-item').forEach(link => {
       link.addEventListener('click', () => {
         navMenu.classList.remove('active');
         navToggle.classList.remove('active');
       });
+    });
+    
+    // Dropdown menu functionality (supports multiple dropdowns)
+    const dropdowns = document.querySelectorAll('.nav-dropdown');
+    
+    function openDropdown(dropdown) {
+      // Close other dropdowns first
+      dropdowns.forEach(d => {
+        if (d !== dropdown) closeDropdown(d);
+      });
+      dropdown.classList.add('open');
+      dropdown.querySelector('.dropdown-trigger').setAttribute('aria-expanded', 'true');
+    }
+    
+    function closeDropdown(dropdown) {
+      dropdown.classList.remove('open');
+      dropdown.querySelector('.dropdown-trigger').setAttribute('aria-expanded', 'false');
+    }
+    
+    function closeAllDropdowns() {
+      dropdowns.forEach(d => closeDropdown(d));
+    }
+    
+    function toggleDropdown(dropdown) {
+      if (dropdown.classList.contains('open')) {
+        closeDropdown(dropdown);
+      } else {
+        openDropdown(dropdown);
+        // Focus first item on open
+        dropdown.querySelector('.dropdown-item')?.focus();
+      }
+    }
+    
+    // Set up each dropdown
+    dropdowns.forEach(dropdown => {
+      const trigger = dropdown.querySelector('.dropdown-trigger');
+      const items = dropdown.querySelectorAll('.dropdown-item');
+      
+      // Click handler
+      trigger.addEventListener('click', (e) => {
+        e.stopPropagation();
+        toggleDropdown(dropdown);
+      });
+      
+      // Keyboard navigation for trigger
+      trigger.addEventListener('keydown', (e) => {
+        switch (e.key) {
+          case 'Enter':
+          case ' ':
+            e.preventDefault();
+            toggleDropdown(dropdown);
+            break;
+          case 'ArrowDown':
+            e.preventDefault();
+            openDropdown(dropdown);
+            items[0]?.focus();
+            break;
+          case 'Escape':
+            closeDropdown(dropdown);
+            trigger.focus();
+            break;
+        }
+      });
+      
+      // Keyboard navigation for items
+      items.forEach((item, index) => {
+        item.addEventListener('keydown', (e) => {
+          switch (e.key) {
+            case 'ArrowDown':
+              e.preventDefault();
+              items[index + 1]?.focus() || items[0]?.focus();
+              break;
+            case 'ArrowUp':
+              e.preventDefault();
+              items[index - 1]?.focus() || items[items.length - 1]?.focus();
+              break;
+            case 'Escape':
+              closeDropdown(dropdown);
+              trigger.focus();
+              break;
+            case 'Tab':
+              // Close dropdown when tabbing out
+              if (!e.shiftKey && index === items.length - 1) {
+                closeDropdown(dropdown);
+              }
+              if (e.shiftKey && index === 0) {
+                closeDropdown(dropdown);
+              }
+              break;
+          }
+        });
+      });
+    });
+    
+    // Close on click outside
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('.nav-dropdown')) {
+        closeAllDropdowns();
+      }
     });
     
     // Smooth scrolling for anchor links

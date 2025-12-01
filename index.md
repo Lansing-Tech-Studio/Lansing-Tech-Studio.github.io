@@ -50,6 +50,12 @@ layout: default
         <p>Go deep into the world of LEGO Spike Prime and Python with hands-on projects using Pybricks.</p>
         <a href="/camps" class="btn btn-outline">Learn More</a>
       </div>
+      <div class="program-card">
+        <div class="program-icon">📅</div>
+          <h3>Additional Events</h3>
+          <p>So what else we have planned at the Lansing Tech Studio.</p>
+          <a href="/featured" class="btn btn-outline">Learn More</a>
+      </div>
     </div>
   </div>
 </section>

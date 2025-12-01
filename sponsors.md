@@ -206,7 +206,7 @@ permalink: /sponsors/
   <ul>
     <li>Laptop computers for student programming</li>
     <li>3D printers and filament for prototyping</li>
-    <li>Arduino kits and electronic components</li>
+    <li>Spike Prime kits and LEGO Technic components</li>
     <li>Professional development workshops for mentors</li>
     <li>Printing and graphic design services</li>
     <li>Event photography and videography</li>
@@ -288,6 +288,7 @@ permalink: /sponsors/
     <div class="wishlist-category">
       <h3>🔧 Equipment</h3>
       <ul>
+        <li>LEGO SPIKE Prime Base Sets ($400 each)</li>
         <li>LEGO SPIKE Prime Expansion Sets ($150 each)</li>
         <li>Laptop computers for programming ($500 each)</li>
         <li>3D printer filament ($30 per roll)</li>

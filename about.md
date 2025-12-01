@@ -61,43 +61,51 @@ FIRST LEGO League Challenge is a robotics program for students ages 9-16 that co
 <div class="leadership-grid">
   <div class="bio-card">
     <div class="bio-image">
-      <img src="/assets/images/brendon-bio.jpg" alt="Chelsea Thiede">
+      <img src="/assets/images/chelsea-bio.jpg" alt="Chelsea Thiede">
     </div>
     <div class="bio-content">
       <h3>Chelsea Thiede</h3>
-      <p class="bio-title">Co-Founder & Lead Mentor</p>
+      <p class="bio-title">Co-Founder & Program Director</p>
       <p class="bio-description">
-        Brendon brings over 10 years of experience in software development and education. 
-        He's passionate about inspiring young minds through hands-on technology learning. 
-        When not mentoring teams, he enjoys building Arduino projects and exploring new 
-        programming languages.
-      </p>
+As the Director of Operations at Lansing Tech Studio, I am at the forefront of bringing our core mission to life: cultivating the next generation of local tech leadership through dynamic, hands-on, project-based learning. My daily focus is centered on translating our business plan into an effective reality, overseeing our operational strategy, creating community partners, and ensuring our innovative programs are accessible, impactful, and deeply connected to the needs of the Lansing community.
+<br>&nbsp;<br>
+My academic foundation is built upon dual Master of Science degrees, providing the strategic expertise necessary to develop and scale our educational offerings with rigor. This academic background is enhanced by the values and practical experience I've gained as a hybrid homeschool mom. My personal experience in curriculum development and fostering engaged learning environments directly informs my work. I have a profound appreciation for personalized learning paths and the critical role a supportive community plays in a student's success.
+<br>&nbsp;<br>
+These insights are essential as I oversee our programs, which range from the FLL Robotics Competition and the Youth Leadership Track to our extensive service-learning initiatives. I am passionate about creating opportunities where technology is a catalyst for positive change, which is clearly demonstrated through our annual student Tech Demo Day, projects like HackerFest, and our community service work. Building and mentoring our dedicated leadership team is a significant joy in my role. I am dedicated to building a welcoming and empowering space for everyone at Lansing Tech Studio.
+<br>&nbsp;<br>
+<strong>Beyond the Studio:</strong> I cherish time spent with my husband and three children—my boys and my stepdaughter. I recharge through running, creative crafts, and, of course, seeking out good food!
+</p>
       <div class="bio-skills">
-        <span class="skill-tag">Python</span>
-        <span class="skill-tag">JavaScript</span>
-        <span class="skill-tag">Robotics</span>
-        <span class="skill-tag">Mentoring</span>
+        <span class="skill-tag">Education</span>
+        <span class="skill-tag">Program Management</span>
+        <span class="skill-tag">Community Outreach</span>
+        <span class="skill-tag">STEM</span>
       </div>
     </div>
   </div>
   
   <div class="bio-card">
     <div class="bio-image">
-      <img src="/assets/images/co-founder-bio.jpg" alt="Co-Founder">
+      <img src="/assets/images/brendon-bio.jpg" alt="Brendon Thiede">
     </div>
     <div class="bio-content">
-      <h3>[Your Name]</h3>
-      <p class="bio-title">Co-Founder & Program Director</p>
-      <p class="bio-description">
-        [Your bio description here - experience, passion for youth development, 
-        specific skills you bring to the organization, hobbies that relate to 
-        technology or education.]
-      </p>
+      <h3>Brendon Thiede</h3>
+      <p class="bio-title">Co-Founder & Technical Director</p>
+<p class="bio-description">
+As the Director of Technology at Lansing Tech Studio, I focus on turning curiosity into capability. I started writing software over 30 years ago, trying to get more out of my TI-85 calculator than the built-in functions allowed. Today, I lead the design and delivery of our hands-on, project-based technology programs, making sure students don’t just use tools, but truly understand how they work and how to build their own.
+<br>&nbsp;<br>
+Over the years, I’ve worked as a software engineer, architect, and Site Reliability Engineer across logistics, insurance, legal, healthcare, and government. No matter the role, I’ve always gravitated toward mentoring junior developers, simplifying complex systems, and creating pathways for others to grow. I’ve also been active in our regional tech community, serving on the steering committee for the Mid-Michigan Agile Group and leading the Lansing DevOps Meetup to help connect and equip local technology professionals.
+<br>&nbsp;<br>
+My journey into technology wasn’t straightforward. I didn’t have access to computers as a kid—just that one TI-85 in high school—so it took me years (and a few misfit careers) to realize that I kept using computers to improve every job I had. I wasn’t diagnosed as autistic until I was 40 and didn’t understand that I was dyslexic until 30. Those experiences deeply shape my commitment at Lansing Tech Studio: I want today’s youth to discover their strengths earlier, have access to the tools I didn’t, and learn in environments that embrace neurodiversity, different learning styles, and the power of personalized, project-based education.
+<br>&nbsp;<br>
+<strong>Beyond the Studio:</strong> I love spending time with my wife and our kids, playing board games, putting together puzzles, doing homework, or just hanging out. When I'm alone I enjoy running, listening to podcasts, and exploring new programming languages and technologies.
+</p>
+
       <div class="bio-skills">
-        <span class="skill-tag">Education</span>
-        <span class="skill-tag">Program Management</span>
-        <span class="skill-tag">Community Outreach</span>
-        <span class="skill-tag">STEM</span>
+        <span class="skill-tag">Python</span>
+        <span class="skill-tag">JavaScript</span>
+        <span class="skill-tag">Robotics</span>
+        <span class="skill-tag">Mentoring</span>
       </div>
     </div>
   </div>

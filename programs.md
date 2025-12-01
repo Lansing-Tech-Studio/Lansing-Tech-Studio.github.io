@@ -98,8 +98,8 @@ permalink: /programs/
           <p>Visual programming for younger students. Create animations, games, and stories.</p>
         </div>
         <div class="workshop-card">
-          <h5>Arduino Projects</h5>
-          <p>Hardware programming with sensors, LEDs, and motors. Build real electronic devices.</p>
+          <h5>Spike Prime Projects</h5>
+          <p>Hardware programming with sensors, LEDs, and motors. Connect software to the physical world.</p>
         </div>
         <div class="workshop-card">
           <h5>3D Design & Printing</h5>
