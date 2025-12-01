@@ -30,34 +30,25 @@ permalink: /outreach/
 
 ## Our Service Projects
 
-### Advent House Partnership
+### Advent House
 
 <div class="project-section">
   <div class="project-content">
     <p>
-      We partner with Advent House, a local homeless shelter, to provide technology 
-      support and educational opportunities. Our students help maintain computers, 
-      teach basic digital literacy, and create resources for residents.
+      Our members regularly volunteer at Advent House to help their mission by helping prepare and serve meals to 
+      individuals in need.
     </p>
     
-    <h4>What We Do:</h4>
+    <h4>Students who serve get to:</h4>
     <ul>
-      <li>Computer repair and maintenance</li>
-      <li>Digital literacy workshops for residents</li>
-      <li>Resume writing and job search assistance</li>
-      <li>Children's coding classes</li>
-      <li>Technology equipment donations</li>
+      <li>Create a meal plan and budget to serve 200-300 people</li>
+      <li>Shop for ingredients within budget constraints</li>
+      <li>Prepare and cook meals</li>
+      <li>Serve food and interact with community members</li>
     </ul>
-    
-    <blockquote>
-      "The young people from Lansing Tech Studio bring such energy and expertise. 
-      They've helped dozens of our residents gain valuable computer skills that 
-      have directly led to job opportunities."
-      <cite>- Maria Rodriguez, Advent House Director</cite>
-    </blockquote>
   </div>
   <div class="project-image">
-    <img src="/assets/images/advent-house.jpg" alt="Students teaching at Advent House">
+    <img src="/assets/images/advent-house.jpg" alt="Students serving at Advent House">
   </div>
 </div>
 
