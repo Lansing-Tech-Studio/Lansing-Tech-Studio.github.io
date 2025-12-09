@@ -67,9 +67,9 @@ layout: default
       <div class="gallery-item">
         <img src="/assets/images/gallery-1.jpg" alt="Students working on robots">
       </div>
-      <div class="gallery-item">
+      <!-- <div class="gallery-item">
         <img src="/assets/images/gallery-2.jpg" alt="Coding workshop in progress">
-      </div>
+      </div> -->
       <div class="gallery-item">
         <img src="/assets/images/gallery-3.jpg" alt="Community service project">
       </div>

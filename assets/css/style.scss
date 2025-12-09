@@ -263,6 +263,11 @@ h4 { font-size: 1.25rem; }
   letter-spacing: -1px;
 }
 
+.partner-logo img {
+  max-width: 150px;
+  transition: filter 0.3s ease, opacity 0.3s ease;
+}
+
 /* Cards */
 .card {
   background: var(--bg-white);

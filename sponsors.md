@@ -96,7 +96,7 @@ permalink: /sponsors/
   </div>
 </div>
 
-## Current Sponsors
+<!-- ## Current Sponsors
 
 <div class="current-sponsors">
   <h2>Platinum Sponsors</h2>
@@ -156,7 +156,7 @@ permalink: /sponsors/
       <span>Bean There Coffee Shop</span>
     </div>
   </div>
-</div>
+</div> -->
 
 ## Ways to Support
 

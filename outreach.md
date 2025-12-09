@@ -82,9 +82,9 @@ permalink: /outreach/
       </div>
     </div>
   </div>
-  <div class="project-image">
+  <!-- <div class="project-image">
     <img src="/assets/images/care-packages.jpg" alt="Team assembling care packages">
-  </div>
+  </div> -->
 </div>
 
 ### Park Cleanups
@@ -121,6 +121,9 @@ permalink: /outreach/
         <p>Trail maintenance and invasive species removal.</p>
       </div>
     </div>
+  </div>
+  <div class="project-image">
+    <img src="/assets/images/park-cleanup.jpg" alt="Team participating in park cleanup">
   </div>
 </div>
 
@@ -224,16 +227,13 @@ permalink: /outreach/
   <h2>Working Together</h2>
   <div class="partners-grid">
     <div class="partner-logo">
-      <img src="/assets/images/partner-advent-house.png" alt="Advent House">
+      <img src="/assets/images/partner-advent-house.jpg" alt="Advent House">
     </div>
     <div class="partner-logo">
-      <img src="/assets/images/partner-parks-dept.png" alt="Lansing Parks Department">
+      <img src="/assets/images/partner-parks-dept.png" alt="Lansing Parks & Recreation">
     </div>
     <div class="partner-logo">
-      <img src="/assets/images/partner-library.png" alt="Capital Area District Library">
-    </div>
-    <div class="partner-logo">
-      <img src="/assets/images/partner-schools.png" alt="Lansing School District">
+      <img src="/assets/images/partner-cadl.png" alt="Capital Area District Library">
     </div>
   </div>
 </div>
