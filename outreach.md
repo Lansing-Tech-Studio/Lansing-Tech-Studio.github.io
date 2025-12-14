@@ -82,9 +82,9 @@ permalink: /outreach/
       </div>
     </div>
   </div>
-  <!-- <div class="project-image">
+  <div class="project-image">
     <img src="/assets/images/care-packages.jpg" alt="Team assembling care packages">
-  </div> -->
+  </div>
 </div>
 
 ### Park Cleanups
