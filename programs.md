@@ -58,10 +58,10 @@ permalink: /programs/
           <strong>September-December:</strong> Weekly practices, robot building, research project
         </div>
         <div class="timeline-item">
-          <strong>January:</strong> Regional Competition
+          <strong>December:</strong> Regional Competition
         </div>
         <div class="timeline-item">
-          <strong>February:</strong> State Championship (qualifying teams)
+          <strong>December:</strong> State Championship (qualifying teams)
         </div>
       </div>
     </div>
@@ -72,6 +72,17 @@ permalink: /programs/
 </div>
 
 ## Tech Workshops {#workshops}
+<div class="program-section">
+  <div class="program-content">
+    <div class="program-details">
+      <div class="workshop-grid">
+        <div class="workshop-card">
+          <h3><a href="/workshops">Workshop content to get you ready</a></h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div class="program-section">
   <div class="program-content">
