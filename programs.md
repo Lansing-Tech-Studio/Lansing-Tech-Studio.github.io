@@ -77,7 +77,7 @@ permalink: /programs/
     <div class="program-details">
       <div class="workshop-grid">
         <div class="workshop-card">
-          <h3><a href="/workshops">Workshop content to get you ready</a></h3>
+          <h3><a href="/workshops/">Workshop content to get you ready</a></h3>
         </div>
       </div>
     </div>
