@@ -72,16 +72,11 @@ permalink: /programs/
 </div>
 
 ## Tech Workshops {#workshops}
-<div class="program-section">
-  <div class="program-content">
-    <div class="program-details">
-      <div class="workshop-grid">
-        <div class="workshop-card">
-          <h3><a href="/workshops/">Workshop content to get you ready</a></h3>
-        </div>
-      </div>
-    </div>
-  </div>
+
+<div class="featured-badge-dark">
+  <span class="badge-icon">✨</span>
+  <a href="/workshops/" class="badge-link">Workshop content to get you ready</a>
+  <span class="badge-arrow">→</span>
 </div>
 
 <div class="program-section">
