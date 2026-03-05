@@ -60,12 +60,12 @@ FIRST LEGO League Challenge is a robotics program for students ages 9-16 that co
 
 <div class="leadership-grid">
   <div class="bio-card">
-    <div class="bio-image">
+    <div class="bio-image bio-image-chelsea">
       <img src="/assets/images/chelsea-bio.jpg" alt="Chelsea Thiede">
     </div>
     <div class="bio-content">
       <h3>Chelsea Thiede</h3>
-      <p class="bio-title">Co-Founder & Program Director</p>
+      <p class="bio-title">Co-Founder & Director of Operations</p>
       <p class="bio-description">
 As the Director of Operations at Lansing Tech Studio, I am at the forefront of bringing our core mission to life: cultivating the next generation of local tech leadership through dynamic, hands-on, project-based learning. My daily focus is centered on translating our business plan into an effective reality, overseeing our operational strategy, creating community partners, and ensuring our innovative programs are accessible, impactful, and deeply connected to the needs of the Lansing community.
 <br>&nbsp;<br>

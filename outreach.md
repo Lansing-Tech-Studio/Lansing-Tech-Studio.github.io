@@ -57,9 +57,9 @@ permalink: /outreach/
 <div class="project-section">
   <div class="project-content">
     <p>
-      Every quarter, our teams assemble care packages for homeless individuals in 
-      our community. These packages include essential items, hygiene products, 
-      and information about local resources.
+      Once a month, our teams partner with Essential Blessings to assemble care 
+      packages for homeless individuals in our community. These packages include 
+      essential items, hygiene products, and information about local resources.
     </p>
     
     <h4>Package Contents:</h4>
@@ -77,7 +77,7 @@ permalink: /outreach/
         <span>Packages Distributed</span>
       </div>
       <div class="project-stat">
-        <strong>4x</strong>
+        <strong>12x</strong>
         <span>Per Year</span>
       </div>
     </div>
@@ -92,9 +92,9 @@ permalink: /outreach/
 <div class="project-section">
   <div class="project-content">
     <p>
-      We organize monthly park cleanup events, combining environmental stewardship 
-      with team building. Students learn about environmental impact while giving 
-      back to the community spaces we all enjoy.
+      We organize one annual park cleanup event on Earth Day, combining 
+      environmental stewardship with team building. Students learn about 
+      environmental impact while giving back to the community spaces we all enjoy.
     </p>
     
     <h4>Impact:</h4>
@@ -110,7 +110,7 @@ permalink: /outreach/
     <div class="parks-grid">
       <div class="park-card">
         <h5>River Trail Park</h5>
-        <p>Monthly cleanups along the river trail, focusing on waterway protection.</p>
+        <p>Our Earth Day cleanup focuses on waterway protection along the river trail.</p>
       </div>
       <div class="park-card">
         <h5>Community Recreation Center</h5>

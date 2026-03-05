@@ -6,11 +6,15 @@
 {% endcomment %}
 
 <div class="social-icons">
-  {% if site.facebook_username %}
+  {% if site.facebook_url %}
+    {% include social-icon-data.html platform="facebook" url=site.facebook_url %}
+  {% elsif site.facebook_username %}
     {% include social-icon-data.html platform="facebook" url="https://facebook.com/{{ site.facebook_username }}" %}
   {% endif %}
   
-  {% if site.youtube_username %}
+  {% if site.youtube_url %}
+    {% include social-icon-data.html platform="youtube" url=site.youtube_url %}
+  {% elsif site.youtube_username %}
     {% include social-icon-data.html platform="youtube" url="https://youtube.com/{{ site.youtube_username }}" %}
   {% endif %}
   

@@ -12,9 +12,10 @@ permalink: /camps/
 <section class="container my-5">
   <h2>About the Camp</h2>
   <p>Our interactive <b>PyBricks Summer Coding Camp</b> is designed for young builders and programmers. PyBricks is a modern, easy-to-use Python coding environment for LEGO® hubs. Kids will learn to bring their LEGO creations to life by writing code and experimenting with sensors and motors.</p>
+  <img src="/assets/images/summer-robotics-camp-2026.jpg" alt="Lansing Tech Studio Summer Robotics Camp 2026" class="img-responsive" style="margin: 1rem 0 1.5rem; border-radius: 12px;">
 
   <h3>☀️ Camp Structure & Schedule</h3>
-  <p>Join us for a fun and focused coding experience at the end of June or early July.</p>
+  <p>Join us for a fun and focused coding experience <strong>June 22-26, 2026</strong>.</p>
   <div class="table-container">
     <table class="table">
       <thead>
@@ -55,3 +56,7 @@ permalink: /camps/
   </div>
 
   <p>This structure ensures a balance of focused learning and playful, hands-on application, making coding fun and approachable!</p>
+  <div class="cta-buttons" style="margin-top: 1.5rem;">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdufMFPgtfBhadIeZFqeihCXb6uIwKEP3mJifueq5foduJCNg/viewform?fbclid=Iwb21leAQVxlZjbGNrBBXGRmV4dG4DYWVtAjExAHNydGMGYXBwX2lkDDM1MDY4NTUzMTcyOAABHhb6tlHjHH11B1bU0FMFarueElxixCA1jHApmi-r003VjUIKvmcQqqQTJZSp_aem_2QFj9_3WWEm4CgmhcugMLg" class="btn btn-primary" target="_blank" rel="noopener">Sign Up for Summer Camp</a>
+  </div>
+</section>
