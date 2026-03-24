@@ -12,11 +12,11 @@ The energy in our workshop has been electric these past few weeks! Our three FIR
 
 ## Team Progress Updates
 
-### Robo Sharks 🦈
+### Lansing Homeschool Hackers 🦈
 **Focus**: Coral Reef Restoration
 **Innovation Project**: Smart Coral Monitoring System
 
-The Robo Sharks have developed an incredible solution for monitoring coral reef health using underwater sensors and AI analysis. Their robot consistently scores 280+ points in practice runs, and their presentation skills have improved dramatically.
+The Lansing Homeschool Hackers have developed an incredible solution for monitoring coral reef health using underwater sensors and AI analysis. Their robot consistently scores 280+ points in practice runs, and their presentation skills have improved dramatically.
 
 **Recent Achievements:**
 - Completed their innovation project prototype
