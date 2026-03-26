@@ -42,7 +42,7 @@ permalink: /programs/
       
       <h4>What Students Learn:</h4>
       <ul>
-        <li>Robot design and programming using LEGO MINDSTORMS or SPIKE Prime</li>
+        <li>Robot design and programming using LEGO SPIKE Prime</li>
         <li>Research and presentation skills</li>
         <li>Project management and teamwork</li>
         <li>Problem-solving and critical thinking</li>
