@@ -73,7 +73,7 @@ My academic foundation is built upon dual Master of Science degrees, providing t
 <br>&nbsp;<br>
 These insights are essential as I oversee our programs, which range from the FLL Robotics Competition and the Youth Leadership Track to our extensive service-learning initiatives. I am passionate about creating opportunities where technology is a catalyst for positive change, which is clearly demonstrated through our annual student Tech Demo Day, projects like HackerFest, and our community service work. Building and mentoring our dedicated leadership team is a significant joy in my role. I am dedicated to building a welcoming and empowering space for everyone at Lansing Tech Studio.
 <br>&nbsp;<br>
-<strong>Beyond the Studio:</strong> I cherish time spent with my husband and three children—my boys and my stepdaughter. I recharge through running, creative crafts, and, of course, seeking out good food!
+<strong>Beyond the Studio:</strong> I cherish time spent with my husband and three children—my boys and my stepdaughter. I recharge through running, journaling and spending time with God, creative crafts, and, of course, seeking out good food!
 </p>
       <div class="bio-skills">
         <span class="skill-tag">Education</span>
@@ -98,7 +98,7 @@ Over the years, I’ve worked as a software engineer, architect, and Site Reliab
 <br>&nbsp;<br>
 My journey into technology wasn’t straightforward. I didn’t have access to computers as a kid—just that one TI-85 in high school—so it took me years (and a few misfit careers) to realize that I kept using computers to improve every job I had. I wasn’t diagnosed as autistic until I was 40 and didn’t understand that I was dyslexic until 30. Those experiences deeply shape my commitment at Lansing Tech Studio: I want today’s youth to discover their strengths earlier, have access to the tools I didn’t, and learn in environments that embrace neurodiversity, different learning styles, and the power of personalized, project-based education.
 <br>&nbsp;<br>
-<strong>Beyond the Studio:</strong> I love spending time with my wife and our kids, playing board games, putting together puzzles, doing homework, or just hanging out. When I'm alone I enjoy running, listening to podcasts, and exploring new programming languages and technologies.
+<strong>Beyond the Studio:</strong> I love spending time with my wife and our kids, playing board games, putting together puzzles, or just hanging out. When I'm alone I enjoy running, prayer, listening to podcasts, and exploring new programming languages and technologies.
 </p>
 
       <div class="bio-skills">
