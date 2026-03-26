@@ -52,10 +52,10 @@ permalink: /programs/
       <h4>Season Timeline:</h4>
       <div class="timeline">
         <div class="timeline-item">
-          <strong>August:</strong> Fall Info Night & Team Formation
+          <strong>August:</strong> Fall Info Night, Team Formation, Build Party, and Hack-a-thon
         </div>
         <div class="timeline-item">
-          <strong>September-December:</strong> Weekly practices, robot building, research project
+          <strong>September-December:</strong> Weekly practices, robot building, research project, and community demo
         </div>
         <div class="timeline-item">
           <strong>December:</strong> Regional Competition
