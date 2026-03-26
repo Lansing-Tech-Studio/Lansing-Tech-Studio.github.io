@@ -113,7 +113,7 @@ My journey into technology wasn’t straightforward. I didn’t have access to c
 
 ## Our Story
 
-Founded in 2020, Lansing Tech Studio began as a small group of passionate educators and technologists who saw the need for more hands-on STEM education in our community. What started as a single FIRST LEGO League team has grown into a comprehensive youth development program serving dozens of students across multiple programs.
+Founded in 2021, Lansing Tech Studio began as a small group of passionate educators and technologists who saw the need for more hands-on STEM education in our community. What started as a single FIRST LEGO League team has grown into a comprehensive youth development program serving dozens of students across multiple programs.
 
 We believe that every young person deserves the opportunity to explore technology, develop problem-solving skills, and discover their potential. Through our programs, students don't just learn to code or build robots – they learn to think critically, work collaboratively, and approach challenges with confidence and creativity.
 
