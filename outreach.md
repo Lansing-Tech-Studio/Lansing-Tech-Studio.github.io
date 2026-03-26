@@ -35,8 +35,8 @@ permalink: /outreach/
 <div class="project-section">
   <div class="project-content">
     <p>
-      Our members regularly volunteer at Advent House to help their mission by helping prepare and serve meals to 
-      individuals in need.
+      Our members regularly volunteer at Advent House on the 2nd Sunday every month to help their mission by helping prepare and serve meals to 
+      individuals in need. Our students select the meals, shop for ingredients, cook the meals, delegate tasks and say a prayer for the guests before the meal is served. 
     </p>
     
     <h4>Students who serve get to:</h4>
@@ -144,30 +144,33 @@ permalink: /outreach/
       <li>FIRST LEGO League information sessions</li>
       <li>Hands-on building activities</li>
       <li>Career exploration in STEM</li>
-    </ul>
+      <li>Lansing tech community networking events
+    
     
     <h4>Recent Events:</h4>
     <div class="events-timeline">
       <div class="timeline-item">
-        <strong>March 2024:</strong> Great Lakes STEM Expo - Reached 500+ families
+        <strong>May 2024:</strong> Michigan INCH Homeschool Conference Kids' Hands on Fair
       </div>
       <div class="timeline-item">
-        <strong>May 2024:</strong> Michigan Homeschool Conference - 15 workshops delivered
+        <strong>May 2025:</strong> Michigan INCH Homeschool Conference Kids' Hands on Fair
+        </div>
+      <div class="timeline-item">
+        <strong>June 2025:</strong> CHESS Homeschool Expo 
       </div>
       <div class="timeline-item">
-        <strong>October 2024:</strong> Lansing Maker Faire - Featured exhibitor
+        <strong>October 2025:</strong> Lansing Homeschool Hackers Community Demo
       </div>
       <div class="timeline-item">
-        <strong>December 2024:</strong> Holiday STEM Festival - Community favorite
+        <strong>December 2025:</strong> Demo Camp Lansing
       </div>
+      <div class="timeline-item">
+      <strong>April 2026:</strong> Hot Bytes & Open Spaces with Lansing Codes
     </div>
   </div>
   <div class="project-image">
     <img src="/assets/images/expo-demo.jpg" alt="Robot demonstration at expo">
   </div>
-</div>
-
-## Student Voices
 
 <div class="testimonials-grid">
   <div class="testimonial-card">
@@ -197,8 +200,6 @@ permalink: /outreach/
     <cite>- Sam, Age 13, Team Captain</cite>
   </div>
 </div>
-
-## Upcoming Projects
 
 <div class="upcoming-projects">
   <h2>Get Involved</h2>
