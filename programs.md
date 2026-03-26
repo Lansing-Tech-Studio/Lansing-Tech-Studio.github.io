@@ -82,7 +82,7 @@ permalink: /programs/
 <div class="program-section">
   <div class="program-content">
     <div class="program-details">
-      <h3>Ages 8+ • Year-round</h3>
+      <h3>Ages 10+ • Spring Series</h3>
       <p>
         Our coding bootcamps and tech workshops provide hands-on experience with programming, 
         web development, and emerging technologies. Designed for all skill levels, from 
@@ -182,13 +182,13 @@ permalink: /programs/
 
 ### FLL Challenge Teams
 - **Age:** 9-16 years old
-- **Commitment:** Weekly 2-hour practices (September-February)
+- **Commitment:** Weekly 2-hour practices (August-February)
 - **Cost:** $200 per student (scholarships available)
 - **Registration:** Opens in July for following season
 
 ### Tech Workshops
 - **Age:** 10+ (specific age requirements vary by workshop)
-- **Schedule:** Spring series
+- **Schedule:** Spring Series
 - **Cost:** Free (visit our YouTube channels to watch the recordings)
 - **Registration:** January 2026
 
