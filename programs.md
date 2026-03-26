@@ -161,20 +161,20 @@ permalink: /programs/
 
 <div class="events-grid">
   <div class="event-card">
-    <h3>🏗️ Build Parties</h3>
-    <p>Monthly hands-on building sessions where teams work together on robot designs and programming challenges.</p>
+    <h3>🏗️ Build Party</h3>
+    <p>Fall pre-season hands-on robot building sessions where teams work together on robot designs and programming challenges.</p>
   </div>
   <div class="event-card">
-    <h3>🎉 Spring Festival</h3>
-    <p>Annual celebration showcasing student projects, hosting mini-competitions, and bringing families together.</p>
+    <h3>🎉 Student Demo Day</h3>
+    <p>Annual spring student demo day showcasing student projects and bringing our students together with the local tech community.</p>
   </div>
   <div class="event-card">
     <h3>💻 Hack-a-thon</h3>
-    <p>24-hour coding marathon where students collaborate to create innovative solutions to real-world problems.</p>
+    <p>Coding marathon and team building exercises where students collaborate to create innovative solutions to real-world problems to kick off the robotics season.</p>
   </div>
   <div class="event-card">
     <h3>☀️ Summer Programs</h3>
-    <p>Optional summer camps and workshops for continued learning during the off-season.</p>
+    <p>Optional summer camp and workshops for continued learning during the off-season.</p>
   </div>
 </div>
 
@@ -183,14 +183,14 @@ permalink: /programs/
 ### FLL Challenge Teams
 - **Age:** 9-16 years old
 - **Commitment:** Weekly 2-hour practices (September-February)
-- **Cost:** $150 per student (scholarships available)
+- **Cost:** $200 per student (scholarships available)
 - **Registration:** Opens in July for following season
 
 ### Tech Workshops
-- **Age:** 8+ (specific age requirements vary by workshop)
-- **Schedule:** Various times throughout the year
-- **Cost:** $25-50 per workshop
-- **Registration:** Ongoing - check calendar for upcoming sessions
+- **Age:** 10+ (specific age requirements vary by workshop)
+- **Schedule:** Spring series
+- **Cost:** Free (visit our YouTube channels to watch the recordings)
+- **Registration:** January 2026
 
 ### Career Mentoring
 - **Age:** High school students (14-18)
