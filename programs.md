@@ -33,7 +33,7 @@ permalink: /programs/
 <div class="program-section">
   <div class="program-content">
     <div class="program-details">
-      <h3>Ages 9-16 • September - February</h3>
+      <h3>Ages 9-14 • August - February</h3>
       <p>
         Our FLL Challenge teams compete in the world's largest robotics competition for youth. 
         Students work together to research real-world problems, design and program autonomous 
