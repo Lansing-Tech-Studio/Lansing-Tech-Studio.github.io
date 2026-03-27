@@ -41,7 +41,7 @@ permalink: /outreach/
     
     <h4>Students who serve get to:</h4>
     <ul>
-      <li>Create a meal plan and budget to serve 200-300 people</li>
+      <li>Create a meal plan and budget to serve 100 people</li>
       <li>Shop for ingredients within budget constraints</li>
       <li>Prepare and cook meals</li>
       <li>Serve food and interact with community members</li>
