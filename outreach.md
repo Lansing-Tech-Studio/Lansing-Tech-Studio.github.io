@@ -99,11 +99,10 @@ permalink: /outreach/
     
     <h4>Impact:</h4>
     <ul>
-      <li>5 local parks regularly maintained</li>
+      <li>One local park cleaned up</li>
       <li>Tons of litter removed annually</li>
-      <li>Native plant restoration projects</li>
-      <li>Educational signage installation</li>
-      <li>Community awareness campaigns</li>
+      <li>Teaching students about environmental impact</li>
+      <li>Families, students, and siblings learning how simple tasks can make a difference</li>
     </ul>
     
     <h4>Featured Parks:</h4>
