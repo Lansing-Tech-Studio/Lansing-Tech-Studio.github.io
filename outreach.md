@@ -205,19 +205,19 @@ permalink: /outreach/
   <h2>Get Involved</h2>
   <div class="project-preview-grid">
     <div class="project-preview">
-      <h3>🌱 Community Garden Tech Project</h3>
-      <p>Building automated watering systems for local community gardens using Arduino and sensors.</p>
-      <strong>Start Date:</strong> Spring 2026
-    </div>
-    <div class="project-preview">
-      <h3>📚 Digital Literacy Initiative</h3>
-      <p>Expanding our computer education program to reach more seniors and underserved communities.</p>
-      <strong>Start Date:</strong> Summer 2026
-    </div>
-    <div class="project-preview">
-      <h3>🎮 Accessible Gaming Workshop</h3>
-      <p>Creating adaptive gaming controllers for individuals with disabilities.</p>
+      <h3>🌱 FIRST Lego League Coaches and Camp Counselors</h3>
+      <p>We run our practices in a station based format and need coaches for robot design, coding, presentation, and researching projects.</p>
       <strong>Start Date:</strong> Fall 2026
+    </div>
+    <div class="project-preview">
+      <h3>📚 Tech Workshop Leaders</h3>
+      <p>In the spring, we look for tech experts to teach our students about different industry topics and guide them through designing a tech project.</p>
+      <strong>Start Date:</strong> Spring 2027
+    </div>
+    <div class="project-preview">
+      <h3>🎮 Community Service Volunteers</h3>
+      <p>We believe it is just as important to teach our students about doing good in the world along with learning tech skills. Partner with us in putting together homeless care packages, serving meals, or finding new service opportunities!</p>
+      <strong>Start Date:</strong> Summer 2026
     </div>
   </div>
 </div>
