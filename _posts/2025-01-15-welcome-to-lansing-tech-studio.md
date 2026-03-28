@@ -17,7 +17,7 @@ At Lansing Tech Studio, we believe that technology education should be:
 - **Hands-on**: Students learn by building, coding, and creating real projects
 - **Collaborative**: Teamwork and peer learning are at the heart of everything we do  
 - **Community-focused**: We use our skills to make a positive impact in our local community
-- **Inclusive**: Everyone is welcome, regardless of experience level or background
+- **Inclusive**: We create opportunities for learning for students with our foundation being homeschoolers and students with different learning styles. 
 
 ## Current Season Update
 
