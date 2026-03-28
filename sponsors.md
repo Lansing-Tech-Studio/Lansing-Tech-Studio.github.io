@@ -296,7 +296,7 @@ permalink: /sponsors/
         <li>LEGO SPIKE Prime Expansion Sets ($150 each)</li>
         <li>Laptop computers for programming ($500 each)</li>
         <li>3D printer filament ($30 per roll)</li>
-        <li>Arduino starter kits ($75 each)</li>
+        <li>Presentation and poster supplies ($75 per team)</li>
         <li>Tablet computers for research ($300 each)</li>
       </ul>
     </div>
