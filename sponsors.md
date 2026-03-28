@@ -81,16 +81,16 @@ permalink: /sponsors/
   
   <div class="tier-card bronze">
     <div class="tier-header">
-      <h3>🥉 Bronze Sponsor</h3>
-      <div class="tier-amount">$500 - $999</div>
+      <h3>🥉 Innovator Sponsor</h3>
+      <div class="tier-amount">$100 – $499</div>
     </div>
     <div class="tier-benefits">
       <h4>Benefits Include:</h4>
       <ul>
-        <li>Name recognition on sponsor materials</li>
-        <li>Website sponsor page listing</li>
-        <li>Social media thank you posts</li>
-        <li>Annual summary of impact</li>
+        <li>Company logo on the Lansing Tech Studio website</li>
+        <li>Social media thank-you post</li>
+        <li>Handwritten thank-you card from students</li>
+        <li>Framed team photo</li>
       </ul>
     </div>
   </div>
@@ -228,7 +228,7 @@ permalink: /sponsors/
     <li>Career mentoring and guidance</li>
     <li>Technical skill workshops</li>
     <li>Competition judging</li>
-    <li>Project advisory support</li>
+    <li>Project and presentation advisory support</li>
     <li>Professional network connections</li>
   </ul>
 </div>
