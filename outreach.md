@@ -178,25 +178,24 @@ permalink: /outreach/
       just about building cool things - it's about using those skills to help 
       people and make our community better."
     </p>
-    <cite>- Alex, Age 14, FLL Team Member</cite>
+    <cite>- Gabe, age 13</cite>
   </div>
   
   <div class="testimonial-card">
     <p>
-      "Teaching kids to code at the homeless shelter was amazing. Seeing their 
-      excitement when they created their first program reminded me why I love 
-      technology so much."
+      "Serving meals at the homeless shelter was amazing. Seeing the guests 
+      excitement gratitude and hope has been really rewarding."
     </p>
-    <cite>- Jordan, Age 16, Workshop Volunteer</cite>
+    <cite>- Adam, Volunteer</cite>
   </div>
   
   <div class="testimonial-card">
     <p>
       "The park cleanups are actually really fun! We get to work as a team, 
-      help the environment, and then usually grab pizza afterward. It's a great 
+      help the environment, and then played at the park, while we ate lunch. It's a great 
       way to give back while hanging out with friends."
     </p>
-    <cite>- Sam, Age 13, Team Captain</cite>
+    <cite>- Noah, age 10</cite>
   </div>
 </div>
 
