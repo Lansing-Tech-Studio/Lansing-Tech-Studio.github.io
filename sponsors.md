@@ -352,20 +352,20 @@ permalink: /sponsors/
     
     <div class="recognition-item">
       <h3>📱 Social Media</h3>
-      <p>Regular features on our Facebook, Instagram, and YouTube channels 
-      reaching 2,000+ community members and families.</p>
+      <p>Regular features on our Facebook and YouTube channels 
+      reaching hundreds of community members and families.</p>
     </div>
     
     <div class="recognition-item">
       <h3>📧 Newsletter</h3>
-      <p>Monthly newsletter recognition sent to over 500 subscribers including 
+      <p>Weekly newsletter recognition sent to active participants including 
       parents, educators, and community leaders.</p>
     </div>
     
     <div class="recognition-item">
       <h3>🎪 Community Events</h3>
-      <p>Sponsor recognition at maker faires, STEM expos, and community 
-      presentations throughout the year.</p>
+      <p>Sponsor recognition at student demo days, STEM expos, and community 
+      service opportunities throughout the year.</p>
     </div>
   </div>
 </div>
