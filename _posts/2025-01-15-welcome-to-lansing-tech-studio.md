@@ -28,7 +28,7 @@ Our FIRST LEGO League teams are deep into preparation for the upcoming regional 
 - **Deep Sea Coders**: Developing underwater cleanup solutions
 - **Ocean Explorers**: Focusing on marine life protection initiatives
 
-Each team has been meeting every Saturday since September, and their dedication and creativity continue to amaze us.
+Each team has been meeting every Thursday since September, and their dedication and creativity continue to amaze us.
 
 ## Looking Ahead
 
