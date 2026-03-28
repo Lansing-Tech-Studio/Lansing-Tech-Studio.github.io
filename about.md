@@ -14,7 +14,7 @@ permalink: /about/
 FIRST (For Inspiration and Recognition of Science and Technology) is an international youth organization that operates robotics competitions to inspire young people's interest and participation in science and technology.
 
 ### FIRST LEGO League (FLL)
-FIRST LEGO League Challenge is a robotics program for students ages 9-16 that combines the excitement of sport with the rigor of science and technology. Teams research a real-world problem, develop a solution, and compete with LEGO-based robots.
+FIRST LEGO League Challenge is a robotics program for students ages 9-14 that combines the excitement of sport with the rigor of science and technology. Teams research a real-world problem, develop a solution, and compete with LEGO-based robots.
 
 **Key Components:**
 - **Robot Game**: Design and program a LEGO robot to complete missions
