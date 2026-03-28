@@ -24,9 +24,8 @@ At Lansing Tech Studio, we believe that technology education should be:
 Our FIRST LEGO League teams are deep into preparation for the upcoming regional tournament on January 25th. This year's challenge, "SUBMERGED℠," has pushed our students to think creatively about ocean exploration and conservation.
 
 ### Team Highlights:
-- **Robo Sharks**: Working on an innovative coral reef restoration project
-- **Deep Sea Coders**: Developing underwater cleanup solutions
-- **Ocean Explorers**: Focusing on marine life protection initiatives
+- **Team Python**: Lifeguard drone 
+- **Team Scratch**: Developing underwater cleanup solutions
 
 Each team has been meeting every Thursday since September, and their dedication and creativity continue to amaze us.
 
@@ -35,9 +34,8 @@ Each team has been meeting every Thursday since September, and their dedication 
 We have several exciting initiatives planned for 2025:
 
 ### Spring Programs
-- **Coding Bootcamp**: 8-week intensive Python programming course (March-April)
+- **Coding Bootcamp**: Robotics Camp with TinkrLab
 - **Web Development Workshop**: Build your first website (May)
-- **Arduino Adventures**: Hardware programming for beginners (June)
 
 ### Summer Opportunities
 - **STEM Summer Camp**: Week-long day camps for different age groups
@@ -46,8 +44,8 @@ We have several exciting initiatives planned for 2025:
 
 ### New Partnerships
 We're excited to announce new partnerships with:
-- Capital Area District Libraries for coding workshops
-- Lansing Community College for advanced mentoring
+- Eaton Rapids Family Fare
+- Recruitment Management Services (RMC)
 - Local engineering firms for career exploration
 
 ## How You Can Get Involved
