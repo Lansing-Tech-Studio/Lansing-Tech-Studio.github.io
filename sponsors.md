@@ -198,7 +198,7 @@ permalink: /sponsors/
   </div>
 </div>
 
-### 🎁 In-Kind Donations
+🎁 In-Kind Donations
 
 <div class="support-section">
   <p>
