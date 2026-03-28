@@ -358,7 +358,7 @@ permalink: /sponsors/
     
     <div class="recognition-item">
       <h3>📧 Newsletter</h3>
-      <p>Weekly newsletter recognition sent to active participants including 
+      <p>Weekly newsletter recognition sent to active participants each session including 
       parents, educators, and community leaders.</p>
     </div>
     
