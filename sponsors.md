@@ -24,39 +24,36 @@ permalink: /sponsors/
 <div class="sponsorship-tiers">
   <div class="tier-card platinum">
     <div class="tier-header">
-      <h3>🏆 Platinum Sponsor</h3>
-      <div class="tier-amount">$5,000+</div>
+      <h3>🏆 Visionary Partner</h3>
+      <div class="tier-amount">$2,500+</div>
     </div>
     <div class="tier-benefits">
-      <h4>Benefits Include:</h4>
+      <h4>All Catalyst Benefits Plus:</h4>
       <ul>
-        <li>Premium logo placement on team shirts and banners</li>
-        <li>Featured recognition at all events and competitions</li>
-        <li>Social media spotlight campaigns</li>
+        <li>Premier logo placement on our website</li>
+        <li>Season-long sponsor recognition</li>
+        <li>Recognition during Student Tech Demo Day & student presentations</li>
         <li>Named program or workshop opportunities</li>
         <li>VIP access to student showcases and demonstrations</li>
         <li>Quarterly impact reports with photos and stories</li>
-        <li>Recognition on all marketing materials</li>
-        <li>Website homepage feature</li>
+        <li>Opportunity to fund student scholarships or robotics equipment</li>
+        <li>Framed team photo signed by students</li>
       </ul>
     </div>
   </div>
   
   <div class="tier-card gold">
     <div class="tier-header">
-      <h3>🥇 Gold Sponsor</h3>
-      <div class="tier-amount">$2,500 - $4,999</div>
+      <h3>🥇 Catalyst Sponsor</h3>
+      <div class="tier-amount">$1,000 – $2,499</div>
     </div>
     <div class="tier-benefits">
-      <h4>Benefits Include:</h4>
+      <h4>All Pioneer Benefits Plus:</h4>
       <ul>
-        <li>Logo on team shirts and promotional materials</li>
-        <li>Recognition at competitions and events</li>
-        <li>Social media mentions and features</li>
-        <li>Invitation to annual sponsor appreciation event</li>
-        <li>Website sponsor page listing</li>
-        <li>Email newsletter recognition</li>
-        <li>Access to student project presentations</li>
+        <li>Multiple social media features during the season</li>
+        <li>Logo displayed at Student Tech Demo Day</li>
+        <li>Recognition during student presentations</li>
+        <li>Signed framed team photo from students</li>
       </ul>
     </div>
   </div>
@@ -67,7 +64,7 @@ permalink: /sponsors/
       <div class="tier-amount">$500 – $999</div>
     </div>
     <div class="tier-benefits">
-      <h4>Benefits Include:</h4>
+      <h4>All Innovator Benefits Plus:</h4>
       <ul>
         <li>Sponsor spotlight post on social media</li>
         <li>Larger logo placement on the website</li>
