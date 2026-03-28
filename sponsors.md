@@ -209,10 +209,10 @@ permalink: /sponsors/
   <h4>Needed Donations:</h4>
   <ul>
     <li>Laptop computers for student programming</li>
-    <li>3D printers and filament for prototyping</li>
+    <li>3D printer and filament for prototyping</li>
     <li>Spike Prime kits and LEGO Technic components</li>
     <li>Professional development workshops for mentors</li>
-    <li>Printing and graphic design services</li>
+    <li>Printing and presentation supplies</li>
     <li>Event photography and videography</li>
     <li>Catering for team events and workshops</li>
   </ul>
