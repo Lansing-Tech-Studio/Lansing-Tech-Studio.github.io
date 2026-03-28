@@ -104,11 +104,11 @@ permalink: /resources/
 
 ## Team Calendars {#calendar}
 
-### 2024-2025 Season Schedule
+### 2025-2026 Season Schedule
 
 <div class="calendar-section">
   <div class="season-timeline">
-    <h3>🍂 Fall 2024</h3>
+    <h3>🍂 Fall 2025</h3>
     <div class="timeline">
       <div class="timeline-item completed">
         <strong>August 15:</strong> Fall Info Night & Registration Opens
@@ -143,7 +143,7 @@ permalink: /resources/
       </div>
     </div>
     
-    <h3>🌸 Spring 2025</h3>
+    <h3>🌸 Spring 2026</h3>
     <div class="timeline">
       <div class="timeline-item upcoming">
         <strong>April 12:</strong> Spring Festival & Project Showcase
