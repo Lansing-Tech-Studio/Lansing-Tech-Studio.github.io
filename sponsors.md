@@ -170,9 +170,16 @@ permalink: /sponsors/
   <div class="funding-grid">
     <div class="funding-item">
       <div class="funding-icon">🤖</div>
-      <h5>LEGO Robot Kits</h5>
-      <p>$400 each - Complete robotics kits for hands-on learning</p>
-    </div>
+      <h5>Sponsor a Robot</h5>
+      <p>$800 each - Complete robotics kits for hands-on learning</p>
+      Recognition includes:
+<ul>
+        <li>Recognition as a Robot Sponsor</li>
+        <li>Social media feature post</li>
+        <li>Website sponsor recognition</li>
+        <li>Framed team photo</li>
+  </ul>
+   <div class="funding-grid">
     <div class="funding-item">
       <div class="funding-icon">🏆</div>
       <h5>Competition Registration</h5>
@@ -180,8 +187,8 @@ permalink: /sponsors/
     </div>
     <div class="funding-item">
       <div class="funding-icon">🚌</div>
-      <h5>Transportation</h5>
-      <p>$300 per event - Bus rental for competitions</p>
+      <h5>Sponsor a Team</h5>
+      <p>$2,000 per team</p>
     </div>
     <div class="funding-item">
       <div class="funding-icon">💻</div>
