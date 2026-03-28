@@ -145,10 +145,8 @@ permalink: /programs/
       
       <h4>Success Stories:</h4>
       <blockquote>
-        "Thanks to my mentor at Lansing Tech Studio, I discovered my passion for cybersecurity 
-        and received a full scholarship to study computer science. The guidance I received 
-        was invaluable in shaping my career path."
-        <cite>- Sarah M., Alumni</cite>
+        "I love coding because I love testing things when a mission doesn't work and figuring out how to test and solve it."
+        <cite>- Ed</cite>
       </blockquote>
     </div>
     <div class="program-image">
@@ -181,7 +179,7 @@ permalink: /programs/
 ## Program Requirements & Registration {#registration}
 
 ### FLL Challenge Teams
-- **Age:** 9-16 years old
+- **Age:** 9-14 years old
 - **Commitment:** Weekly 2-hour practices (August-February)
 - **Cost:** $200 per student (scholarships available)
 - **Registration:** Opens in July for following season
