@@ -193,7 +193,7 @@ permalink: /sponsors/
     <div class="funding-item">
       <div class="funding-icon">💻</div>
       <h5>Workshop Materials</h5>
-      <p>$50 per student - Supplies for coding bootcamps</p>
+      <p>$200 per month - space rental and scholarships</p>
     </div>
   </div>
 </div>
