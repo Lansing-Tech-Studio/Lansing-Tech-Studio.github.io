@@ -373,8 +373,9 @@ permalink: /sponsors/
 <div class="become-sponsor-cta">
   <h2>Become a Sponsor</h2>
   <p>
-    Ready to invest in the future? Join our community of sponsors supporting 
-    the next generation of innovators and problem-solvers.
+    By supporting Lansing Tech Studio robotics teams, you are investing in the next generation of engineers, innovators, and technology leaders in our community.
+To become a sponsor or discuss a partnership:
+contact@lansingtechstudio.org
   </p>
   <div class="cta-buttons">
     <a href="/contact#sponsorship" class="btn btn-primary">Become a Sponsor</a>
