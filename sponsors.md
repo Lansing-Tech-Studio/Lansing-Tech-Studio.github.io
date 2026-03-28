@@ -338,7 +338,7 @@ permalink: /sponsors/
   </div>
 </div>
 
-## Sponsor Benefits & Recognition
+##Sponsor Benefits & Recognition
 
 <div class="recognition-section">
   <h2>🌟 How We Recognize Our Partners</h2>
