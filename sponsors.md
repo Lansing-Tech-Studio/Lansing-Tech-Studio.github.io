@@ -184,16 +184,33 @@ permalink: /sponsors/
       <div class="funding-icon">🏆</div>
       <h5>Competition Registration</h5>
       <p>$150 per team - Tournament fees and materials</p>
+      <ul>
+        <li>Recognition as a Competition Sponsor</li>
+        <li>Social media feature post</li>
+        <li>Website sponsor recognition</li>
+        <li>Framed team photo</li>
+  </ul>
     </div>
     <div class="funding-item">
       <div class="funding-icon">🚌</div>
       <h5>Sponsor a Team</h5>
       <p>$2,000 per team</p>
+      <ul>
+        <li>Recognition as a Team Sponsor</li>
+        <li>Social media feature post</li>
+        <li>Website sponsor recognition</li>
+        <li>Framed team photo</li>
+  </ul>
     </div>
     <div class="funding-item">
       <div class="funding-icon">💻</div>
       <h5>Workshop Materials</h5>
       <p>$200 per month - space rental and scholarships</p>
+      <ul>
+        <li>Recognition as a Workshop Sponsor</li>
+        <li>Social media feature post</li>
+        <li>Website sponsor recognition</li>
+  </ul>
     </div>
   </div>
 </div>
