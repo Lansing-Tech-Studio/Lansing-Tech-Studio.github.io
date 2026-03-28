@@ -63,18 +63,18 @@ permalink: /sponsors/
   
   <div class="tier-card silver">
     <div class="tier-header">
-      <h3>🥈 Silver Sponsor</h3>
-      <div class="tier-amount">$1,000 - $2,499</div>
+      <h3>🥈 Pioneer Sponsor</h3>
+      <div class="tier-amount">$500 – $999</div>
     </div>
     <div class="tier-benefits">
       <h4>Benefits Include:</h4>
       <ul>
-        <li>Logo on team banners and displays</li>
-        <li>Social media recognition</li>
-        <li>Website listing on sponsor page</li>
-        <li>Thank you recognition at events</li>
+        <li>Sponsor spotlight post on social media</li>
+        <li>Larger logo placement on the website</li>
+        <li>Recognition during Student Tech Demo Day</li>
+        <li>Student-made robotics thank-you gift</li>
         <li>Annual impact summary</li>
-        <li>Invitation to spring showcase</li>
+        <li>Framed team photo</li>
       </ul>
     </div>
   </div>
