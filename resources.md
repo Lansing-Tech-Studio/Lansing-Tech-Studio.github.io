@@ -232,7 +232,7 @@ permalink: /resources/
     <h4>🤝 Respect & Inclusion</h4>
     <ul>
       <li>Treat all team members, coaches, and community members with respect</li>
-      <li>Embrace diversity and create an inclusive environment for everyone</li>
+      <li>Wear modest clothes - no crop tops or tight leggings</li>
       <li>Use appropriate language and behavior at all times</li>
       <li>Listen actively and value different perspectives</li>
     </ul>
