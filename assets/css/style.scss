@@ -1278,6 +1278,7 @@ h4 { font-size: 1.25rem; }
   margin-top: 4rem;
   position: relative;
   overflow: hidden;
+  clear: both; /* Added this line */
 }
 
 .footer-content {
@@ -1685,14 +1686,6 @@ h4 { font-size: 1.25rem; }
   transition: all 0.3s ease;
 }
 
-.programs-nav-toggle span {
-  width: 20px;
-  height: 2px;
-  background: var(--text-white);
-  border-radius: 1px;
-  transition: all 0.3s ease;
-}
-
 .programs-nav-toggle:hover {
   box-shadow: var(--shadow-xl);
 }
@@ -2005,5 +1998,25 @@ html {
   
   .table-responsive .table {
     min-width: 600px;
+  }
+}
+
+/* Blog Posts */
+.blog-content .post-image-right {
+  float: right;
+  width: 40%; /* Adjust as needed */
+  max-width: 400px; /* Prevent it from getting too large */
+  margin: 0.5rem 0 1.5rem 2rem; /* Top, Right, Bottom, Left */
+  border-radius: 1rem;
+  box-shadow: var(--shadow-md);
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .blog-content .post-image-right {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    margin: 1.5rem 0; /* Center it with top/bottom margin */
   }
 }
