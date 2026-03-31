@@ -117,7 +117,7 @@ permalink: /contact/
       <div class="registration-info">
         <h4>Registration Deadlines:</h4>
         <ul>
-          <li><strong>FLL Teams:</strong> August 31st (for following season)</li>
+          <li><strong>FLL Teams:</strong> July 31st (for following season)</li>
           <li><strong>Workshops:</strong> 48 hours before session</li>
           <li><strong>Mentoring:</strong> Rolling admissions</li>
         </ul>
@@ -199,7 +199,7 @@ permalink: /contact/
       <div class="social-icon">📧</div>
       <div class="social-info">
         <strong>Newsletter</strong>
-        <span>Monthly updates delivered to your inbox</span>
+        <span>Weekly updates delivered to your inbox of current participants</span>
       </div>
     </a>
   </div>
@@ -212,7 +212,7 @@ permalink: /contact/
   <div class="faq-grid">
     <div class="faq-item">
       <h3>What ages do you serve?</h3>
-      <p>Our main FLL Challenge program is for ages 9-16. We also offer workshops for ages 8+ and career mentoring for high school students (14-18).</p>
+      <p>Our main FLL Challenge program is for ages 9-14. We also offer workshops for ages 10+ and career mentoring for high school students (14-18).</p>
     </div>
     
     <div class="faq-item">
@@ -222,17 +222,17 @@ permalink: /contact/
     
     <div class="faq-item">
       <h3>What does participation cost?</h3>
-      <p>FLL teams are $150 per student per season (scholarships available). Workshops range from $25-50. Career mentoring is free. We never want cost to be a barrier.</p>
+      <p>FLL teams are $200 per student per season (scholarships available). Workshops are currently free and recordings can be found on our YouTube. Career mentoring is free. We never want cost to be a barrier.</p>
     </div>
     
     <div class="faq-item">
       <h3>When do programs meet?</h3>
-      <p>FLL teams meet Saturdays 9am-12pm during competition season (Sept-Feb). Workshops are scheduled throughout the year. Mentoring is by appointment.</p>
+      <p>FLL teams meet Thursdays 6:30 - 8:30pm during competition season (Aug-Feb). Workshops are scheduled throughout the year. Mentoring is by appointment.</p>
     </div>
     
     <div class="faq-item">
       <h3>Where are you located?</h3>
-      <p>We meet at our facility at 123 Innovation Drive in Lansing. We also host some workshops at partner locations like libraries and community centers.</p>
+      <p>We meet at our rented facilities in Lansing. We also host some workshops at partner locations like libraries and community centers.</p>
     </div>
     
     <div class="faq-item">
@@ -255,7 +255,7 @@ permalink: /contact/
   
   <p class="emergency-note">
     <small>For medical emergencies, always call 911 first, then notify us. 
-    All mentors are trained in basic first aid and emergency procedures.</small>
+    </small>
   </p>
 </div>
 
