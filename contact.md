@@ -19,7 +19,7 @@ permalink: /contact/
         DeWitt, MI 48820
       </p>
       <p>
-        <strong>Email:</strong> <a href="mailto:contact@lansingtechstudio.org">contact@lansingtechstudio.org</a>
+        <strong>Email:contact@lansingtechstudio.org</strong> <a href="mailto:contact@lansingtechstudio.org">contact@lansingtechstudio.org</a>
       </p>
     </div>
     
@@ -27,19 +27,19 @@ permalink: /contact/
       <h3>📅 Hours</h3>
       <div class="hours-grid">
         <div class="day-hours">
-          <strong>Saturday</strong><br>
-          <span>9:00 AM - 3:00 PM</span><br>
-          <small>(Main program days)</small>
+          <strong>Thursdays</strong><br>
+          <span>6:30 -8:30 PM</span><br>
+          <small>(Main Program Days)</small>
         </div>
         <div class="day-hours">
-          <strong>Weekday Evenings</strong><br>
+          <strong>Wednesday Evenings</strong><br>
           <span>6:00 PM - 8:00 PM</span><br>
-          <small>(Workshops & mentoring)</small>
+          <small>(Mentoring)</small>
         </div>
         <div class="day-hours">
           <strong>Sunday</strong><br>
           <span>By Appointment</span><br>
-          <small>(Special events)</small>
+          <small>(Special Events)</small>
         </div>
       </div>
     </div>
