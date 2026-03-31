@@ -15,8 +15,7 @@ permalink: /contact/
     <div class="info-card">
       <h3>Lansing Tech Studio</h3>
       <p>
-        129 Quail Run<br>
-        DeWitt, MI 48820
+        
       </p>
       <p>
         <strong>Email:contact@lansingtechstudio.org</strong> <a href="mailto:contact@lansingtechstudio.org">contact@lansingtechstudio.org</a>
