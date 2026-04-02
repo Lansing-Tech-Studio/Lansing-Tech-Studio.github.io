@@ -2020,3 +2020,32 @@ html {
     margin: 1.5rem 0; /* Center it with top/bottom margin */
   }
 }
+
+/* Registration Steps */
+.registration-steps .step {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.registration-steps .step-number {
+  flex-shrink: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  background: var(--gradient-tech);
+  color: var(--text-white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-top: 0rem;
+}
+
+.registration-steps .step-content h4 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
