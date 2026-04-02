@@ -2049,3 +2049,30 @@ html {
   margin-bottom: 0.5rem;
   line-height: 1.2;
 }
+
+/* Blog Hashtags */
+.blog-hashtags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.blog-hashtags span {
+  background: var(--bg-light);
+  color: var(--primary-color);
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  border: 1px solid var(--border-light);
+  transition: all 0.2s ease;
+}
+
+.blog-hashtags span:hover {
+  background: var(--primary-color);
+  color: var(--text-white);
+  border-color: var(--primary-color);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
+}

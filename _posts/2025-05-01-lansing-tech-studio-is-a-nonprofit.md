@@ -45,5 +45,14 @@ Your involvement, no matter how big or small, will make a tangible difference in
 
 **Ready to learn more or get involved?** [Contact us today](/contact)! Let’s build something truly amazing—for our kids, our city, and the future.
 
-#LansingTechStudio #501c3Approved #STEMEducation #YouthLeadership #TechForGood #NeurodiversityInTech #FIRSTLegoLeague #CommunityImpact #InnovationStartsHere
----
+<div class="blog-hashtags">
+  <span>#LansingTechStudio</span>
+  <span>#501c3Approved</span>
+  <span>#STEMEducation</span>
+  <span>#YouthLeadership</span>
+  <span>#TechForGood</span>
+  <span>#NeurodiversityInTech</span>
+  <span>#FIRSTLegoLeague</span>
+  <span>#CommunityImpact</span>
+  <span>#InnovationStartsHere</span>
+</div>
