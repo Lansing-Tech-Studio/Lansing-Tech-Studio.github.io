@@ -12,6 +12,12 @@ permalink: /contact/
 <div class="contact-section">
   <div class="contact-info">
     <h2>📍 Visit Us</h2>
+     <p>
+       
+      </p>
+      <p>
+        <strong>3003 East Michigan Ave. #1137 
+    Lansing, MI 48912
     <div class="info-card">
       <h3>Lansing Tech Studio</h3>
       <p>
