@@ -32,7 +32,7 @@ This site automatically deploys to GitHub Pages when changes are pushed to the m
 ## Contact
 
 - Email: contact@lansingtechstudio.org
-- Address: 129 Quail Run, DeWitt, MI 48820
+- Address: 3003 East Michigan Ave #1137 Lansing, MI 48912
 
 ## Contributing
 
