@@ -25,7 +25,7 @@ The Lansing Homeschool Hackers have developed an incredible solution for monitor
 
 **Quote from Team Captain Emma (age 14):** "Learning about coral bleaching made us realize how important our oceans are. Our monitoring system could help marine biologists track reef health in real-time and respond faster to threats."
 
-### Deep Sea Coders 💻
+### Team Scratch 💻
 **Focus**: Ocean Plastic Cleanup
 **Innovation Project**: Autonomous Cleanup Drone Network
 
@@ -38,9 +38,9 @@ This team has blown us away with their ambitious project to create a network of 
 
 **Quote from Team Member Alex (age 13):** "We started this season barely knowing how to program a motor. Now we're building autonomous systems! It shows what you can accomplish when you work together and don't give up."
 
-### Ocean Explorers 🌊
-**Focus**: Marine Life Protection
-**Innovation Project**: Smart Fishing Net Technology
+### Team Python 🌊
+**Focus**: Lifeguard Support
+**Innovation Project**: Lifesaving drone in water
 
 The Ocean Explorers have tackled the problem of bycatch in commercial fishing with their smart net design that can selectively release non-target species. Their solution combines engineering creativity with environmental awareness.
 
@@ -77,9 +77,8 @@ The regional tournament includes four main components:
 ### Mentor Spotlight
 Our volunteer mentors have been incredible this season:
 
-- **Dr. Lisa Chen** (Software Engineer): "Watching these kids debug code and iterate on designs teaches me new ways to approach problems in my own work."
-- **Mike Rodriguez** (Mechanical Engineer): "Their creativity is unlimited. They come up with solutions I never would have thought of."
-- **Jessica Park** (High School CS Teacher): "The growth in their confidence and technical skills over just a few months is remarkable."
+- **Coach Brendon** (Software Engineer): "Watching these kids debug code and iterate on designs teaches me new ways to approach problems in my own work."
+- **Coach Adam** (Launch Manager at GM): "Their creativity is unlimited. They come up with solutions I never would have thought of."
 
 ### Student Leadership
 We're particularly proud of how our older students have stepped up as peer mentors:
