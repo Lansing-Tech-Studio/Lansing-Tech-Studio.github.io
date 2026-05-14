@@ -4,12 +4,12 @@ layout: default
 
 <div class="hero-section">
   <div class="hero-content">
-    <div class="featured-badge">
+    <a href="/workshops/ai-builder-series/" class="featured-badge">
       <span class="badge-icon">✨</span>
       <span class="badge-text">Featured:</span>
-      <a href="/workshops/ai-builder-series/" class="badge-link">AI Builder Series</a>
+      <span class="badge-link">AI Builder Series</span>
       <span class="badge-arrow">→</span>
-    </div>
+    </a>
     <h1 class="hero-title">Welcome to {{ site.title }}</h1>
     <p class="hero-subtitle">{{ site.mission_statement }}</p>
     <div class="hero-actions">

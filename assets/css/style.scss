@@ -195,6 +195,8 @@ h4 { font-size: 1.25rem; }
 
 /* Featured Badge */
 .featured-badge {
+  cursor: pointer;
+  text-decoration: none;
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
