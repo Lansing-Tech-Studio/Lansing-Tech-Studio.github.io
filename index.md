@@ -7,7 +7,7 @@ layout: default
     <div class="featured-badge">
       <span class="badge-icon">✨</span>
       <span class="badge-text">Featured:</span>
-      <a href="/workshops/demo-day/" class="badge-link">Student Demo Day</a>
+      <a href="/workshops/ai-builder-series/" class="badge-link">AI Builder Series</a>
       <span class="badge-arrow">→</span>
     </div>
     <h1 class="hero-title">Welcome to {{ site.title }}</h1>
