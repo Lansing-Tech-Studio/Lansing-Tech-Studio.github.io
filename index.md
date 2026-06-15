@@ -4,10 +4,10 @@ layout: default
 
 <div class="hero-section">
   <div class="hero-content">
-    <a href="/workshops/ai-builder-series/" class="featured-badge">
+    <a href="/workshops/home-automation/" class="featured-badge">
       <span class="badge-icon">✨</span>
       <span class="badge-text">Featured:</span>
-      <span class="badge-link">AI Builder Series</span>
+      <span class="badge-link">Home Automation Camp</span>
       <span class="badge-arrow">→</span>
     </a>
     <h1 class="hero-title">Welcome to {{ site.title }}</h1>
