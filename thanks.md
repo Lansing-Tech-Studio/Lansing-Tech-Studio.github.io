@@ -6,7 +6,7 @@ sitemap: false
 ---
 
 <div class="contact-hero">
-  <h1>Message Sent! 🎉</h1>
+  <h1>Message Sent!</h1>
   <p class="lead">Thanks for reaching out to Lansing Tech Studio. We'll get back to you as soon as we can — usually within a few days.</p>
 </div>
 
@@ -15,6 +15,6 @@ sitemap: false
   <p>Take a look at our programs or follow along with what our teams are building.</p>
   <div class="cta-buttons">
     <a href="/programs" class="btn btn-primary">Explore Programs</a>
-    <a href="/blog" class="btn btn-outline">Read Our Blog</a>
+    <a href="/blog" class="btn btn-secondary">Read Our Blog</a>
   </div>
 </div>
