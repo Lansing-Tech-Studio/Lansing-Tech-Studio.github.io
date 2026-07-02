@@ -12,20 +12,10 @@ permalink: /contact/
 <div class="contact-section">
   <div class="contact-info">
     <h2>📍 Visit Us</h2>
-     <p>
-       
-      </p>
-      <p>
-        <strong>3003 East Michigan Ave. #1137 
-    Lansing, MI 48912
+    <p><strong>3003 East Michigan Ave #1137<br>Lansing, MI 48912</strong></p>
     <div class="info-card">
       <h3>Lansing Tech Studio</h3>
-      <p>
-        
-      </p>
-      <p>
-        <strong>Email:contact@lansingtechstudio.org</strong> <a href="mailto:contact@lansingtechstudio.org">contact@lansingtechstudio.org</a>
-      </p>
+      <p><strong>Email:</strong> <a href="mailto:contact@lansingtechstudio.org">contact@lansingtechstudio.org</a></p>
     </div>
     
     <div class="hours-card">
@@ -179,7 +169,7 @@ permalink: /contact/
           <small>$50 sponsors workshop materials for one student for a full year</small>
         </p>
       </div>
-      <a href="/sponsors#donation" class="btn btn-primary">Donate Now</a>
+      <a href="{{ site.donate_url }}" target="_blank" rel="noopener" class="btn btn-primary">Donate Now</a>
     </div>
   </div>
 </div>
@@ -276,11 +266,6 @@ permalink: /contact/
 
 <script>
 function donate(amount) {
-  // This would integrate with your donation processing system
-  if (amount === 'other') {
-    window.open('/sponsors#donation', '_blank');
-  } else {
-    window.open(`/sponsors#donation?amount=${amount}`, '_blank');
-  }
+  window.open('{{ site.donate_url }}', '_blank');
 }
 </script>

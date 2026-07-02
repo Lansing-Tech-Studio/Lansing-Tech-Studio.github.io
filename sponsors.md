@@ -267,14 +267,7 @@ permalink: /sponsors/
     <div class="donation-card">
       <h3>One-Time Donation</h3>
       <p>Make a single contribution at any amount.</p>
-      <div class="donation-amounts">
-        <button class="amount-btn">$25</button>
-        <button class="amount-btn">$50</button>
-        <button class="amount-btn">$100</button>
-        <button class="amount-btn">$250</button>
-        <button class="amount-btn">Other</button>
-      </div>
-      <a href="#" class="btn btn-primary">Donate Now</a>
+      <a href="{{ site.donate_url }}" target="_blank" rel="noopener" class="btn btn-primary">Donate Now</a>
     </div>
     
     <div class="donation-card featured">
@@ -291,7 +284,7 @@ permalink: /sponsors/
           <strong>$100/month</strong> = Workshop materials for 24 students
         </div>
       </div>
-      <a href="#" class="btn btn-primary">Start Monthly Gift</a>
+      <a href="{{ site.donate_url }}" target="_blank" rel="noopener" class="btn btn-primary">Start Monthly Gift</a>
     </div>
   </div>
 </div>
@@ -397,6 +390,6 @@ contact@lansingtechstudio.org
   <div class="cta-buttons">
     <a href="/contact#sponsorship" class="btn btn-primary">Become a Sponsor</a>
     <a href="/contact#volunteer" class="btn btn-primary">Volunteer With Us</a>
-    <a href="#donation" class="btn btn-primary">Make a Donation</a>
+    <a href="{{ site.donate_url }}" target="_blank" rel="noopener" class="btn btn-primary">Make a Donation</a>
   </div>
 </div>
