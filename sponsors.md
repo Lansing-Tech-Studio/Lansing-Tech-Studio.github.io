@@ -171,51 +171,50 @@ permalink: /sponsors/
     <div class="funding-item">
       <div class="funding-icon">🤖</div>
       <h5>Sponsor a Robot</h5>
-      <p>$800 each - Complete robotics kits for hands-on learning</p>
-      Recognition includes:
-<ul>
+      <p class="funding-price"><strong>$800 each</strong> — Complete robotics kits for hands-on learning</p>
+      <ul>
         <li>Recognition as a Robot Sponsor</li>
         <li>Social media feature post</li>
         <li>Website sponsor recognition</li>
         <li>Framed team photo</li>
-  </ul>
-   <div class="funding-grid">
+      </ul>
+    </div>
     <div class="funding-item">
       <div class="funding-icon">🏆</div>
       <h5>Competition Registration</h5>
-      <p>$150 per team - Tournament fees and materials</p>
+      <p class="funding-price"><strong>$150 per team</strong> — Tournament fees and materials</p>
       <ul>
         <li>Recognition as a Competition Sponsor</li>
         <li>Social media feature post</li>
         <li>Website sponsor recognition</li>
         <li>Framed team photo</li>
-  </ul>
+      </ul>
     </div>
     <div class="funding-item">
       <div class="funding-icon">🚌</div>
       <h5>Sponsor a Team</h5>
-      <p>$2,000 per team</p>
+      <p class="funding-price"><strong>$2,000 per team</strong> — A full season for one team</p>
       <ul>
         <li>Recognition as a Team Sponsor</li>
         <li>Social media feature post</li>
         <li>Website sponsor recognition</li>
         <li>Framed team photo</li>
-  </ul>
+      </ul>
     </div>
     <div class="funding-item">
       <div class="funding-icon">💻</div>
       <h5>Workshop Materials</h5>
-      <p>$200 per month - space rental and scholarships</p>
+      <p class="funding-price"><strong>$200 per month</strong> — Space rental and scholarships</p>
       <ul>
         <li>Recognition as a Workshop Sponsor</li>
         <li>Social media feature post</li>
         <li>Website sponsor recognition</li>
-  </ul>
+      </ul>
     </div>
   </div>
 </div>
 
-🎁 In-Kind Donations
+<h3>🎁 In-Kind Donations</h3>
 
 <div class="support-section">
   <p>
@@ -254,10 +253,9 @@ permalink: /sponsors/
   </ul>
 </div>
 
-<h2>Donation Options</h2>
+<h2>💝 Direct Donations</h2>
 
 <div class="donation-section">
-  <h2>💝 Direct Donations</h2>
   <p>
     Support our mission with a direct contribution. All donations are tax-deductible 
     and go directly to supporting student programs and opportunities.
@@ -289,10 +287,9 @@ permalink: /sponsors/
   </div>
 </div>
 
-<h2>Wishlist</h2>
+<h2>🎯 Wishlist: Current Needs</h2>
 
 <div class="wishlist-section">
-  <h2>🎯 Current Needs</h2>
   <p>
     These specific items would make an immediate impact on our programs. 
     Perfect for individual donors or smaller businesses looking to contribute.
@@ -348,10 +345,9 @@ permalink: /sponsors/
   </div>
 </div>
 
-<h2>Sponsor Benefits & Recognition</h2>
+<h2>🌟 How We Recognize Our Partners</h2>
 
 <div class="recognition-section">
-  <h2>🌟 How We Recognize Our Partners</h2>
   
   <div class="recognition-grid">
     <div class="recognition-item">
@@ -384,8 +380,10 @@ permalink: /sponsors/
   <h2>Become a Sponsor</h2>
   <p>
     By supporting Lansing Tech Studio robotics teams, you are investing in the next generation of engineers, innovators, and technology leaders in our community.
-To become a sponsor or discuss a partnership:
-contact@lansingtechstudio.org
+  </p>
+  <p>
+    To become a sponsor or discuss a partnership, email
+    <a href="mailto:contact@lansingtechstudio.org">contact@lansingtechstudio.org</a>.
   </p>
   <div class="cta-buttons">
     <a href="/contact#sponsorship" class="btn btn-primary">Become a Sponsor</a>
