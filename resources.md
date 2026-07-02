@@ -164,10 +164,10 @@ permalink: /resources/
   <div class="schedule-card">
     <h4>FLL Challenge Teams</h4>
     <div class="meeting-time">
-      <strong>Saturdays</strong><br>
-      9:00 AM - 12:00 PM
+      <strong>Thursdays</strong><br>
+      6:30 PM - 8:30 PM
     </div>
-    <p>Main practice sessions during competition season (September - February)</p>
+    <p>Main practice sessions during competition season (August - February)</p>
   </div>
   <div class="schedule-card">
     <h4>Tech Workshops</h4>
@@ -200,23 +200,13 @@ permalink: /resources/
 <div class="blog-section">
   <h3>📝 Latest Posts</h3>
   <div class="blog-preview-grid">
+    {% for post in site.posts limit: 3 %}
     <article class="blog-preview">
-      <h4><a href="/blog/2024/12/15/regionals-prep">Getting Ready for Regionals: Team Updates</a></h4>
-      <p class="blog-meta">December 15, 2024 • By Coach Sarah</p>
-      <p>Our teams have been working hard preparing for the upcoming regional tournament. Here's what they've been up to...</p>
+      <h4><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
+      <p class="blog-meta">{{ post.date | date: "%B %d, %Y" }}{% if post.author %} • By {{ post.author }}{% endif %}</p>
+      <p>{{ post.excerpt | strip_html | normalize_whitespace | truncate: 160 }}</p>
     </article>
-    
-    <article class="blog-preview">
-      <h4><a href="/blog/2024/11/28/thanksgiving-service">Thanksgiving Community Service Wrap-up</a></h4>
-      <p class="blog-meta">November 28, 2024 • By Team Captain Alex</p>
-      <p>This month we packaged 150 care packages for local homeless shelters. Here's how our teams made a difference...</p>
-    </article>
-    
-    <article class="blog-preview">
-      <h4><a href="/blog/2024/11/10/new-challenge-season">New Challenge Season: Submerged!</a></h4>
-      <p class="blog-meta">November 10, 2024 • By Brendon</p>
-      <p>The 2024-2025 FIRST LEGO League Challenge has been revealed! Our teams are diving deep into this year's ocean-themed...</p>
-    </article>
+    {% endfor %}
   </div>
   <div class="blog-cta">
     <a href="/blog" class="btn btn-primary">View All Posts</a>

@@ -165,6 +165,7 @@ permalink: /programs/
   <div class="event-card">
     <h3>🎉 Student Demo Day</h3>
     <p>Annual spring student demo day showcasing student projects and bringing our students together with the local tech community.</p>
+    <a href="/workshops/demo-day/" class="btn btn-outline btn-small">Demo Day Details</a>
   </div>
   <div class="event-card">
     <h3>💻 Hack-a-thon</h3>
@@ -173,6 +174,7 @@ permalink: /programs/
   <div class="event-card">
     <h3>☀️ Summer Programs</h3>
     <p>Optional summer camp and workshops for continued learning during the off-season.</p>
+    <a href="/camps/" class="btn btn-outline btn-small">Camp Info</a>
   </div>
 </div>
 

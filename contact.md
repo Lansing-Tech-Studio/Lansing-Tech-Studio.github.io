@@ -120,7 +120,7 @@ permalink: /contact/
       <p>Ready to join a team or workshop? Registration is open for our current programs.</p>
       <div class="quick-actions">
         <a href="#" class="btn btn-primary">Register for FLL</a>
-        <a href="#" class="btn btn-primary">Workshop Calendar</a>
+        <a href="/workshops/" class="btn btn-primary">Workshop Calendar</a>
       </div>
       <div class="registration-info">
         <h4>Registration Deadlines:</h4>
@@ -194,11 +194,9 @@ permalink: /contact/
   <p>Stay connected with our community and see what our teams are up to!</p>
   
   <div class="social-links">
-    {% capture facebook_url %}https://facebook.com/{{ site.facebook_username }}{% endcapture %}
-    {% include social-link-card.html platform='facebook' url=facebook_url description='Daily updates, photos, and event announcements' %}
+    {% include social-link-card.html platform='facebook' url=site.facebook_url description='Daily updates, photos, and event announcements' %}
 
-    {% capture youtube_url %}https://youtube.com/{{ site.youtube_username }}{% endcapture %}
-    {% include social-link-card.html platform='youtube' url=youtube_url description='Robot demonstrations, student projects, and competition highlights' %}
+    {% include social-link-card.html platform='youtube' url=site.youtube_url description='Robot demonstrations, student projects, and competition highlights' %}
     
     {% capture github_url %}https://github.com/{{ site.github_username }}{% endcapture %}
     {% include social-link-card.html platform='github' url=github_url description='Open source projects and coding resources' %}
@@ -256,7 +254,7 @@ permalink: /contact/
   <h2>🚨 Emergency Contacts</h2>
   <div class="emergency-info">
     <div class="emergency-contact">
-      <strong>Program Director:</strong><br>
+      <strong>Director of Operations:</strong><br>
       Chelsea Thiede
     </div>
   </div>

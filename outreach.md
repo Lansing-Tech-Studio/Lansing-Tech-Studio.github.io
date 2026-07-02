@@ -143,9 +143,9 @@ permalink: /outreach/
       <li>FIRST LEGO League information sessions</li>
       <li>Hands-on building activities</li>
       <li>Career exploration in STEM</li>
-      <li>Lansing tech community networking events
-    
-    
+      <li>Lansing tech community networking events</li>
+    </ul>
+
     <h4>Recent Events:</h4>
     <div class="events-timeline">
       <div class="timeline-item">
@@ -164,12 +164,14 @@ permalink: /outreach/
         <strong>December 2025:</strong> Demo Camp Lansing
       </div>
       <div class="timeline-item">
-      <strong>April 2026:</strong> Hot Bytes & Open Spaces with Lansing Codes
+        <strong>April 2026:</strong> Hot Bytes & Open Spaces with Lansing Codes
+      </div>
     </div>
   </div>
   <div class="project-image">
     <img src="/assets/images/expo-demo.jpg" alt="Robot demonstration at expo">
   </div>
+</div>
 
 <div class="testimonials-grid">
   <div class="testimonial-card">
