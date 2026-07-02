@@ -19,7 +19,7 @@ permalink: /sponsors/
   </p>
 </div>
 
-## Sponsorship Levels
+<h2>Sponsorship Levels</h2>
 
 <div class="sponsorship-tiers">
   <div class="tier-card platinum">
@@ -155,9 +155,9 @@ permalink: /sponsors/
   </div>
 </div> -->
 
-## Ways to Support
+<h2>Ways to Support</h2>
 
-### 💰 Financial Sponsorship
+<h3>💰 Financial Sponsorship</h3>
 
 <div class="support-section">
   <p>
@@ -235,7 +235,7 @@ permalink: /sponsors/
   </ul>
 </div>
 
-### 👥 Volunteer Expertise
+<h3>👥 Volunteer Expertise</h3>
 
 <div class="support-section">
   <p>
@@ -254,7 +254,7 @@ permalink: /sponsors/
   </ul>
 </div>
 
-## Donation Options
+<h2>Donation Options</h2>
 
 <div class="donation-section">
   <h2>💝 Direct Donations</h2>
@@ -289,7 +289,7 @@ permalink: /sponsors/
   </div>
 </div>
 
-## Wishlist
+<h2>Wishlist</h2>
 
 <div class="wishlist-section">
   <h2>🎯 Current Needs</h2>
@@ -348,7 +348,7 @@ permalink: /sponsors/
   </div>
 </div>
 
-## Sponsor Benefits & Recognition
+<h2>Sponsor Benefits & Recognition</h2>
 
 <div class="recognition-section">
   <h2>🌟 How We Recognize Our Partners</h2>
