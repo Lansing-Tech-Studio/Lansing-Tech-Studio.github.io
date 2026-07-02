@@ -4,10 +4,10 @@ layout: default
 
 <div class="hero-section">
   <div class="hero-content">
-    <a href="/workshops/robotics-camp/" class="featured-badge">
+    <a href="https://www.youtube.com/watch?v=wfOlDhaeIko&list=PLcAS4Bap4HT8DZ1lDmJ0DKuGTKCSlsq8k" class="featured-badge">
       <span class="badge-icon">✨</span>
       <span class="badge-text">Featured:</span>
-      <span class="badge-link">Robotics Camp</span>
+      <span class="badge-link">Workshop Recordings</span>
       <span class="badge-arrow">→</span>
     </a>
     <h1 class="hero-title">Welcome to {{ site.title }}</h1>
