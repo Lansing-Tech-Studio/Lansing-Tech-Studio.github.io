@@ -136,19 +136,33 @@ h4 { font-size: 1.25rem; }
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  border: 2px solid;
-  border-image: var(--gradient-tech) 1;
+  border: 2px solid transparent;
   position: relative;
-  overflow: hidden;
+  z-index: 1;
+}
+
+/* border-image ignores border-radius, so the gradient ring is drawn by a
+   masked pseudo-element to keep the rounded corners from .btn */
+.btn-outline::after {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border: 2px solid transparent;
+  border-radius: inherit;
+  background: var(--gradient-tech) border-box;
+  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: -1;
 }
 
 .btn-outline::before {
   content: '';
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  inset: -2px;
+  border-radius: inherit;
   background: var(--gradient-tech);
   opacity: 0;
   transition: opacity 0.3s ease;
