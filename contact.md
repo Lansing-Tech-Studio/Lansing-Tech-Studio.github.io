@@ -40,9 +40,16 @@ permalink: /contact/
     </div>
   </div>
   
-  <div class="contact-form">
+  <div class="contact-form" id="contact-form">
     <h2>💬 Send Us a Message</h2>
-    <form class="contact-form-container" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <form class="contact-form-container" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="{{ site.web3forms_access_key }}">
+      <input type="hidden" name="subject" value="New message from the Lansing Tech Studio website">
+      <input type="hidden" name="from_name" value="Lansing Tech Studio Contact Form">
+      <input type="hidden" name="redirect" value="https://lansingtechstudio.org/thanks/">
+      <!-- Honeypot: hidden from humans, bots that fill it are rejected by Web3Forms -->
+      <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" style="display: none;">
+
       <div class="form-group">
         <label for="name">Name *</label>
         <input type="text" id="name" name="name" required>
@@ -92,9 +99,15 @@ permalink: /contact/
         <input type="checkbox" id="newsletter" name="newsletter" value="yes">
         <label for="newsletter">I'd like to receive updates about programs and events</label>
       </div>
-      
+
+      <!-- hCaptcha via Web3Forms' shared key (data-captcha="true") — no separate hCaptcha account needed -->
+      <div class="form-group">
+        <div class="h-captcha" data-captcha="true"></div>
+      </div>
+
       <button type="submit" class="btn btn-primary">Send Message</button>
     </form>
+    <script src="https://web3forms.com/client/script/hcaptcha/v1.js" async defer></script>
   </div>
 </div>
 

@@ -35,6 +35,8 @@ youtube_url: "https://www.youtube.com/@lansingtechstudio"
 # Custom variables
 logo: /assets/images/logo.png
 donate_url: "https://www.zeffy.com/en-US/donation-form/general-giving-15"
+# Web3Forms access key for the contact form (safe to expose publicly; get one at https://web3forms.com)
+web3forms_access_key: "bd52f61f-8931-4882-9f74-b6074e2d1d2a"
 mission_statement: "The Lansing Tech Studio empowers the next generation by igniting their passion for technology, innovation, leadership, and service, cultivating tomorrow’s leaders driven to shape a better future in their communities and the world."
 
 # Collections

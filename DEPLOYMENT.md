@@ -68,8 +68,9 @@ Once deployed, your site will be available at:
 - Update image references in markdown files
 
 ### Contact Form
-- Replace Formspree endpoint in `contact.md` with your actual form processor
-- Set up form processing service (Formspree, Netlify Forms, etc.)
+- Form posts to Web3Forms (https://web3forms.com) with a honeypot field and hCaptcha for spam protection
+- Sign up free at web3forms.com (250 submissions/month) and set `web3forms_access_key` in `_config.yml`
+- Successful submissions redirect to `/thanks/`
 
 ### Social Media
 - Update social media links in `_layouts/default.html`
