@@ -4,6 +4,8 @@
 
 **Jekyll static site** for Lansing Tech Studio, a youth STEM education nonprofit. Hosted on **GitHub Pages** at `lansing-tech-studio.github.io`.
 
+**`/workshops/` is a separate repository**, also served via GitHub Pages under the same domain — links to `/workshops/` and `/workshops/demo-day/` are valid cross-repo links; never "fix" or remove them.
+
 ## Architecture
 
 ### Key Directories
@@ -11,6 +13,7 @@
 - `_includes/` - Reusable components (social icons: `social-icon.html`, `social-icons.svg`)
 - `_posts/` - Blog posts: `YYYY-MM-DD-title-slug.md`
 - `_data/social_icons.yml` - SVG icon definitions
+- `_data/facts.yml` / `_data/season.yml` - Single source of truth for facts used on multiple pages (stats, ages, costs, schedules, competition dates) — reference via `{{ site.data.facts.* }}`, never hard-code
 - `assets/css/style.scss` - Single stylesheet with CSS custom properties
 - `assets/images/` - Site images
 
@@ -67,7 +70,8 @@ Icons defined in `_data/social_icons.yml`.
 
 ## Site Configuration (`_config.yml`)
 
-- `header_pages` - Navigation order
+- Navigation is hard-coded in `_layouts/default.html` (there is no `header_pages` config)
+- `disqus_shortname` - Blog comments (empty string = disabled; posts can opt out with `comments: false`)
 - Social usernames: `github_username`, `facebook_username`, `youtube_username`
 - `mission_statement` - Reused across pages
 
