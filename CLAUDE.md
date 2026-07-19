@@ -44,8 +44,11 @@ Standard Jekyll layout, with a few non-obvious points worth knowing before editi
 
 - **Registration/signup CTAs** always link to the contact page or `#contact-form` — never to external registration URLs.
 
+- **Audience / tone**: youth (FLL ages 9–14, workshops 10+, mentoring 14–18), parents, and sponsors. Welcoming and enthusiastic about STEM.
+
+- **Style**: 2-space indentation in HTML/Liquid and SCSS; ATX-style markdown headers.
+
 ## Reference docs in repo
 
 - `SiteLayout.md` — planned IA / sitemap (excluded from build via `_config.yml`).
 - `TODO.md` — work-in-progress notes (untracked).
-- `.github/copilot-instructions.md` — overlapping Copilot-targeted version of these notes; keep in sync if you change conventions here.
