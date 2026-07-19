@@ -27,9 +27,9 @@ permalink: /contact/
           <small>(Main Program Days)</small>
         </div>
         <div class="day-hours">
-          <strong>Wednesday Evenings</strong><br>
-          <span>6:00 PM - 8:00 PM</span><br>
-          <small>(Mentoring)</small>
+          <strong>Mentoring</strong><br>
+          <span>{{ site.data.facts.mentoring.schedule }}</span><br>
+          <small>(Career Mentoring)</small>
         </div>
         <div class="day-hours">
           <strong>Sunday</strong><br>
@@ -119,13 +119,13 @@ permalink: /contact/
       <h3>🎓 Student Registration</h3>
       <p>Ready to join a team or workshop? Registration is open for our current programs.</p>
       <div class="quick-actions">
-        <a href="#" class="btn btn-primary">Register for FLL</a>
+        <a href="#contact-form" class="btn btn-primary">Contact Us to Register</a>
         <a href="/workshops/" class="btn btn-primary">Workshop Calendar</a>
       </div>
       <div class="registration-info">
         <h4>Registration Deadlines:</h4>
         <ul>
-          <li><strong>FLL Teams:</strong> July 31st (for following season)</li>
+          <li><strong>FLL Teams:</strong> {{ site.data.facts.fll.registration_deadline }} (for following season)</li>
           <li><strong>Workshops:</strong> 48 hours before session</li>
           <li><strong>Mentoring:</strong> Rolling admissions</li>
         </ul>
@@ -145,7 +145,7 @@ permalink: /contact/
           <li>Administrative support</li>
         </ul>
       </div>
-      <a href="mailto:contact@lansingtechstudio.org?subject=Lansing%20Tech%20Studio%20Volunteering" class="btn btn-primary">Apply to Volunteer</a>
+      <a href="#contact-form" class="btn btn-primary">Apply to Volunteer</a>
     </div>
     
     <div class="quick-link-card" id="sponsorship">
@@ -154,7 +154,7 @@ permalink: /contact/
       <div class="partnership-options">
         <div class="partnership-option">
           <strong>Financial Sponsorship</strong><br>
-          <span>$500 - $5,000+ annual support</span>
+          <span>{{ site.data.facts.sponsorship.range }} annual support</span>
         </div>
         <div class="partnership-option">
           <strong>In-Kind Donations</strong><br>
@@ -172,12 +172,6 @@ permalink: /contact/
       <h3>💝 Make a Donation</h3>
       <p>Every contribution helps us provide opportunities for more students in our community.</p>
       <div class="donation-quick">
-        <div class="donation-amounts">
-          <button class="amount-btn" onclick="donate(25)">$25</button>
-          <button class="amount-btn" onclick="donate(50)">$50</button>
-          <button class="amount-btn" onclick="donate(100)">$100</button>
-          <button class="amount-btn" onclick="donate('other')">Other</button>
-        </div>
         <p class="donation-impact">
           <small>$50 sponsors workshop materials for one student for a full year</small>
         </p>
@@ -200,14 +194,6 @@ permalink: /contact/
     
     {% capture github_url %}https://github.com/{{ site.github_username }}{% endcapture %}
     {% include social-link-card.html platform='github' url=github_url description='Open source projects and coding resources' %}
-    
-    <a href="mailto:contact@lansingtechstudio.org?subject=Lansing%20Tech%20Studio%20Newsletter" class="social-link email">
-      <div class="social-icon">📧</div>
-      <div class="social-info">
-        <strong>Newsletter</strong>
-        <span>Weekly updates delivered to your inbox of current participants</span>
-      </div>
-    </a>
   </div>
 </div>
 
@@ -218,7 +204,7 @@ permalink: /contact/
   <div class="faq-grid">
     <div class="faq-item">
       <h3>What ages do you serve?</h3>
-      <p>Our main FLL Challenge program is for ages 9-14. We also offer workshops for ages 10+ and career mentoring for high school students (14-18).</p>
+      <p>Our main FLL Challenge program is for ages {{ site.data.facts.fll.ages }}. We also offer workshops for ages 10+ and career mentoring for high school students (14-18).</p>
     </div>
     
     <div class="faq-item">
@@ -228,12 +214,12 @@ permalink: /contact/
     
     <div class="faq-item">
       <h3>What does participation cost?</h3>
-      <p>FLL teams are $200 per student per season (scholarships available). Workshops are currently free and recordings can be found on our YouTube. Career mentoring is free. We never want cost to be a barrier.</p>
+      <p>FLL teams are {{ site.data.facts.fll.cost }} per season (scholarships available). Workshops are currently free and recordings can be found on our YouTube. Career mentoring is free. We never want cost to be a barrier.</p>
     </div>
     
     <div class="faq-item">
       <h3>When do programs meet?</h3>
-      <p>FLL teams meet Thursdays 6:30 - 8:30pm during competition season (Aug-Feb). Workshops are scheduled throughout the year. Mentoring is by appointment.</p>
+      <p>FLL teams meet {{ site.data.facts.fll.meeting }} during competition season (Aug-Feb). Workshops are scheduled throughout the year. Mentoring is by appointment.</p>
     </div>
     
     <div class="faq-item">
@@ -275,8 +261,3 @@ permalink: /contact/
   </div>
 </div>
 
-<script>
-function donate(amount) {
-  window.open('{{ site.donate_url }}', '_blank');
-}
-</script>
