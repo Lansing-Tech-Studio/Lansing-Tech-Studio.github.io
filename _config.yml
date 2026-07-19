@@ -51,5 +51,6 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - SiteLayout.md
+  - CLAUDE.md
   - TODO.md
   - docs/
