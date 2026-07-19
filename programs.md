@@ -172,6 +172,14 @@ permalink: /programs/
     <p>Coding marathon and team building exercises where students collaborate to create innovative solutions to real-world problems to kick off the robotics season.</p>
   </div>
   <div class="event-card">
+    <h3>🚀 HackerFest</h3>
+    <p>A pre-season coding pump-up: one week in early August with an hour each evening of deep dives, collaborative coding, and tougher programming challenges.</p>
+  </div>
+  <div class="event-card">
+    <h3>🥳 Volunteer Appreciation Picnic</h3>
+    <p>A summer lakeside picnic to thank the volunteers who make our programs possible.</p>
+  </div>
+  <div class="event-card">
     <h3>☀️ Summer Programs</h3>
     <p>Optional summer camp and workshops for continued learning during the off-season.</p>
     <a href="/camps/" class="btn btn-outline btn-small">Camp Info</a>
