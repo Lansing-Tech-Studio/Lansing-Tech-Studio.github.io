@@ -22,8 +22,8 @@ permalink: /contact/
       <h3>📅 Hours</h3>
       <div class="hours-grid">
         <div class="day-hours">
-          <strong>Thursdays</strong><br>
-          <span>6:30 -8:30 PM</span><br>
+          <strong>FLL Teams</strong><br>
+          <span>{{ site.data.facts.fll.meeting }}</span><br>
           <small>(Main Program Days)</small>
         </div>
         <div class="day-hours">

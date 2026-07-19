@@ -78,6 +78,6 @@ Icons defined in `_data/social_icons.yml`.
 ## Content Guidelines
 
 - Focus: FIRST LEGO League, coding bootcamps, community service
-- Audience: Youth ages 8-16, parents, sponsors
+- Audience: Youth (FLL ages 9-14, workshops 10+, mentoring 14-18), parents, sponsors
 - Tone: Welcoming, enthusiastic about STEM
 - See `SiteLayout.md` for site structure and planned sections

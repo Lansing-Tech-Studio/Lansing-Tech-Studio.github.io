@@ -166,8 +166,7 @@ permalink: /resources/
   <div class="schedule-card">
     <h4>FLL Challenge Teams</h4>
     <div class="meeting-time">
-      <strong>Thursdays</strong><br>
-      6:30 PM - 8:30 PM
+      <strong>{{ site.data.facts.fll.meeting }}</strong>
     </div>
     <p>Main practice sessions during competition season (August - February)</p>
   </div>

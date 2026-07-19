@@ -29,7 +29,7 @@ layout: default
       <div class="program-card">
         <div class="program-icon">🤖</div>
         <h3>FLL Challenge Teams</h3>
-        <p>Competitive robotics teams for youth ages 9-14, building problem-solving skills and STEM knowledge.</p>
+        <p>Competitive robotics teams for youth ages {{ site.data.facts.fll.ages }}, building problem-solving skills and STEM knowledge.</p>
         <a href="/programs#fll" class="btn btn-outline">Learn More</a>
       </div>
       <div class="program-card">
