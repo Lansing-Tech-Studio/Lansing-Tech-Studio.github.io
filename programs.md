@@ -58,10 +58,10 @@ permalink: /programs/
           <strong>September-December:</strong> Weekly practices, robot building, research project, and community demo
         </div>
         <div class="timeline-item">
-          <strong>December:</strong> Regional Competition
+          <strong>{{ site.data.season.regional_date }}:</strong> Regional Qualifying Tournament
         </div>
         <div class="timeline-item">
-          <strong>December:</strong> State Championship (qualifying teams)
+          <strong>{{ site.data.season.state_date }}:</strong> State Championship (qualifying teams)
         </div>
       </div>
     </div>
@@ -181,16 +181,16 @@ permalink: /programs/
 ## Program Requirements & Registration {#registration}
 
 ### FLL Challenge Teams
-- **Age:** 9-14 years old
+- **Age:** {{ site.data.facts.fll.ages }} years old
 - **Commitment:** Weekly 2-hour practices (August-February)
-- **Cost:** $200 per student (scholarships available)
-- **Registration:** Opens in July for following season
+- **Cost:** {{ site.data.facts.fll.cost }} (scholarships available)
+- **Registration:** Contact us by {{ site.data.facts.fll.registration_deadline }} for the following season
 
 ### Tech Workshops
 - **Age:** 10+ (specific age requirements vary by workshop)
 - **Schedule:** Spring Series
 - **Cost:** Free (visit our YouTube channels to watch the recordings)
-- **Registration:** January 2026
+- **Registration:** Contact us for the current workshop schedule
 
 ### Career Mentoring
 - **Age:** High school students (14-18)
