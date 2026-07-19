@@ -5,7 +5,7 @@ description: >-
   Empowering youth through technology, robotics, and community service.
   Supporting FIRST LEGO League teams, hosting coding bootcamps, and making a difference.
 baseurl: ""
-url: "https://lansing-tech-studio.github.io"
+url: "https://lansingtechstudio.org"
 
 # Build settings
 markdown: kramdown
@@ -15,15 +15,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-redirect-from
-
-# Navigation
-header_pages:
-  - about.md
-  - programs.md
-  - outreach.md
-  - resources.md
-  - sponsors.md
-  - contact.md
 
 # Social media
 github_username: Lansing-Tech-Studio
@@ -37,16 +28,10 @@ logo: /assets/images/logo.png
 donate_url: "https://www.zeffy.com/en-US/donation-form/general-giving-15"
 # Web3Forms access key for the contact form (safe to expose publicly; get one at https://web3forms.com)
 web3forms_access_key: "bd52f61f-8931-4882-9f74-b6074e2d1d2a"
+# Disqus comments on blog posts. Register the site at https://disqus.com/admin/create/
+# and put the shortname here. Empty string = comments disabled site-wide.
+disqus_shortname: ""
 mission_statement: "The Lansing Tech Studio empowers the next generation by igniting their passion for technology, innovation, leadership, and service, cultivating tomorrow’s leaders driven to shape a better future in their communities and the world."
-
-# Collections
-collections:
-  team_bios:
-    output: true
-    permalink: /:collection/:name/
-  blog_posts:
-    output: true
-    permalink: /blog/:year/:month/:day/:title/
 
 # Defaults
 defaults:
@@ -66,3 +51,6 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - SiteLayout.md
+  - CLAUDE.md
+  - TODO.md
+  - docs/

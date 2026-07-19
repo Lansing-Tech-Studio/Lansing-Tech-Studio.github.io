@@ -29,7 +29,7 @@ layout: default
       <div class="program-card">
         <div class="program-icon">🤖</div>
         <h3>FLL Challenge Teams</h3>
-        <p>Competitive robotics teams for youth ages 9-14, building problem-solving skills and STEM knowledge.</p>
+        <p>Competitive robotics teams for youth ages {{ site.data.facts.fll.ages }}, building problem-solving skills and STEM knowledge.</p>
         <a href="/programs#fll" class="btn btn-outline">Learn More</a>
       </div>
       <div class="program-card">
@@ -51,16 +51,10 @@ layout: default
         <a href="/outreach" class="btn btn-outline">Learn More</a>
       </div>
       <div class="program-card">
-        <div class="program-icon">💻</div>
-        <h3>Pybricks Summer Camp</h3>
-        <p>Go deep into the world of LEGO Spike Prime and Python with hands-on projects using Pybricks.</p>
-        <a href="/camps" class="btn btn-outline">Learn More</a>
-      </div>
-      <div class="program-card">
         <div class="program-icon">📅</div>
-          <h3>Additional Events</h3>
-          <p>So what else we have planned at the Lansing Tech Studio.</p>
-          <a href="/featured" class="btn btn-outline">Learn More</a>
+        <h3>Special Events & Camps</h3>
+        <p>Build parties, Demo Day, Hack-a-thons, and summer camps throughout the year.</p>
+        <a href="/programs#events" class="btn btn-outline">Learn More</a>
       </div>
     </div>
   </div>
@@ -89,25 +83,25 @@ layout: default
 <section class="mission-section">
   <div class="container">
     <div class="mission-content">
-      <h2 style="color: #f8acacff;">Our Mission</h2>
+      <h2>Our Mission</h2>
       <p class="mission-text">
-        At Lansing Tech Studio, we believe in the power of technology to transform lives and communities. We provide hands-on learning experiences that inspire creativity, foster collaboration, and build confidence in young people. Through robotics, coding, and community service, we're preparing the next generation of innovators and leaders.
+        {{ site.mission_statement }}
       </p>
       <div class="stats-grid">
         <div class="stat-item">
-          <div class="stat-number">50+</div>
+          <div class="stat-number">{{ site.data.facts.stats.students }}</div>
           <div class="stat-label">Students Served</div>
         </div>
         <div class="stat-item">
-          <div class="stat-number">5</div>
+          <div class="stat-number">{{ site.data.facts.stats.teams }}</div>
           <div class="stat-label">Active Teams</div>
         </div>
         <div class="stat-item">
-          <div class="stat-number">100+</div>
+          <div class="stat-number">{{ site.data.facts.stats.workshop_hours }}</div>
           <div class="stat-label">Workshop Hours</div>
         </div>
         <div class="stat-item">
-          <div class="stat-number">25+</div>
+          <div class="stat-number">{{ site.data.facts.stats.community_events }}</div>
           <div class="stat-label">Community Events</div>
         </div>
       </div>

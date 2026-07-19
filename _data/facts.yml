@@ -1,0 +1,19 @@
+# Single source of truth for facts that appear on more than one page.
+# Change values HERE, never inline in pages. Rendered via
+# {{ site.data.facts.<section>.<key> }}.
+founded: 2021
+stats:
+  students: "50+"
+  teams: "5"
+  workshop_hours: "100+"
+  community_events: "25+"
+fll:
+  ages: "9-14"
+  cost: "$200 per student"
+  meeting: "Thursdays 6:30 - 8:30 PM"
+  # UNCONFIRMED (see TODO.md): contact page said July 31, resources said Aug 15.
+  registration_deadline: "July 31"
+mentoring:
+  schedule: "By Appointment"
+sponsorship:
+  range: "$100 - $2,500+"

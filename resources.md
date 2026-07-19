@@ -104,54 +104,56 @@ permalink: /resources/
 
 ## Team Calendars {#calendar}
 
-### 2025-2026 Season Schedule
+### {{ site.data.season.name }} Season Schedule
+
+*Dates are from the most recent season — [contact us](/contact#contact-form) to confirm current-season dates.*
 
 <div class="calendar-section">
   <div class="season-timeline">
     <h3>🍂 Fall 2025</h3>
     <div class="timeline">
-      <div class="timeline-item completed">
+      <div class="timeline-item">
         <strong>August 15:</strong> Fall Info Night & Registration Opens
       </div>
-      <div class="timeline-item completed">
+      <div class="timeline-item">
         <strong>September 7:</strong> Challenge Release & Season Kickoff
       </div>
-      <div class="timeline-item completed">
+      <div class="timeline-item">
         <strong>September 14:</strong> Team Formation & First Practices Begin
       </div>
-      <div class="timeline-item completed">
+      <div class="timeline-item">
         <strong>October 12:</strong> First Build Party
       </div>
-      <div class="timeline-item completed">
+      <div class="timeline-item">
         <strong>November 9:</strong> Mid-Season Scrimmage
       </div>
-      <div class="timeline-item completed">
+      <div class="timeline-item">
         <strong>December 14:</strong> Final Build Party & Mock Competitions
       </div>
     </div>
     
     <h3>❄️ Winter 2025</h3>
     <div class="timeline">
-      <div class="timeline-item current">
-        <strong>January 11:</strong> Regional Qualifying Tournament
+      <div class="timeline-item">
+        <strong>{{ site.data.season.regional_date }}:</strong> Regional Qualifying Tournament
       </div>
-      <div class="timeline-item upcoming">
-        <strong>February 8:</strong> State Championship (qualifying teams)
+      <div class="timeline-item">
+        <strong>{{ site.data.season.state_date }}:</strong> State Championship (qualifying teams)
       </div>
-      <div class="timeline-item upcoming">
+      <div class="timeline-item">
         <strong>March 15:</strong> Season Wrap-up & Awards Banquet
       </div>
     </div>
     
     <h3>🌸 Spring 2026</h3>
     <div class="timeline">
-      <div class="timeline-item upcoming">
+      <div class="timeline-item">
         <strong>April 12:</strong> Spring Festival & Project Showcase
       </div>
-      <div class="timeline-item upcoming">
+      <div class="timeline-item">
         <strong>May 17:</strong> Annual Hack-a-thon Fundraiser
       </div>
-      <div class="timeline-item upcoming">
+      <div class="timeline-item">
         <strong>June 21:</strong> Summer Program Planning & Registration
       </div>
     </div>
@@ -164,8 +166,7 @@ permalink: /resources/
   <div class="schedule-card">
     <h4>FLL Challenge Teams</h4>
     <div class="meeting-time">
-      <strong>Thursdays</strong><br>
-      6:30 PM - 8:30 PM
+      <strong>{{ site.data.facts.fll.meeting }}</strong>
     </div>
     <p>Main practice sessions during competition season (August - February)</p>
   </div>
@@ -265,40 +266,12 @@ permalink: /resources/
 
 <div class="parent-section">
   <h3>📋 How to Register</h3>
-  <div class="registration-steps">
-    <div class="step">
-      <div class="step-number">1</div>
-      <div class="step-content">
-        <h4>Complete Online Form</h4>
-        <p>Fill out our registration form with student information, emergency contacts, and program preferences.</p>
-        <a href="/contact#registration" class="btn btn-small">Register Now</a>
-      </div>
-    </div>
-    
-    <div class="step">
-      <div class="step-number">2</div>
-      <div class="step-content">
-        <h4>Submit Required Documents</h4>
-        <p>Provide liability waivers, medical information, and any special accommodation requests.</p>
-      </div>
-    </div>
-    
-    <div class="step">
-      <div class="step-number">3</div>
-      <div class="step-content">
-        <h4>Pay Program Fees</h4>
-        <p>Complete payment through our secure online system. Financial assistance is available upon request.</p>
-      </div>
-    </div>
-    
-    <div class="step">
-      <div class="step-number">4</div>
-      <div class="step-content">
-        <h4>Attend Orientation</h4>
-        <p>Join us for a parent and student orientation session before the season begins.</p>
-      </div>
-    </div>
-  </div>
+  <p>
+    Registration for all programs starts with a conversation. Send us a message and
+    we'll walk you through availability, required paperwork, and program fees —
+    financial assistance is available upon request.
+  </p>
+  <a href="/contact#contact-form" class="btn btn-primary">Contact Us to Register</a>
 </div>
 
 ### Team Information for Parents

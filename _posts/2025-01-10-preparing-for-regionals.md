@@ -2,7 +2,7 @@
 layout: post
 title: "Preparing for Regional Competition: Team Updates"
 date: 2025-01-10 14:30:00 -0500
-author: "Coach Sarah"
+author: "Lansing Tech Studio"
 categories: [competition, teams]
 tags: [fll, regionals, robots, innovation]
 excerpt: "With less than two weeks until our regional tournament, our FLL teams are putting the finishing touches on their robots and innovation projects. Here's what they've been working on."
@@ -23,8 +23,6 @@ The Lansing Homeschool Hackers have developed an incredible solution for monitor
 - Mastered 8 out of 10 robot missions
 - Presented to local marine biology experts for feedback
 
-**Quote from Team Captain Emma (age 14):** "Learning about coral bleaching made us realize how important our oceans are. Our monitoring system could help marine biologists track reef health in real-time and respond faster to threats."
-
 ### Team Scratch 💻
 **Focus**: Ocean Plastic Cleanup
 **Innovation Project**: Autonomous Cleanup Drone Network
@@ -36,20 +34,15 @@ This team has blown us away with their ambitious project to create a network of 
 - Scored 295 points in their best robot run
 - Partnered with a local environmental group for project validation
 
-**Quote from Team Member Alex (age 13):** "We started this season barely knowing how to program a motor. Now we're building autonomous systems! It shows what you can accomplish when you work together and don't give up."
-
 ### Team Python 🌊
 **Focus**: Lifeguard Support
 **Innovation Project**: Lifesaving drone in water
 
-The Ocean Explorers have tackled the problem of bycatch in commercial fishing with their smart net design that can selectively release non-target species. Their solution combines engineering creativity with environmental awareness.
+Team Python has tackled water safety with their lifesaving drone concept — a rapid-response drone that can reach a struggling swimmer and deliver flotation support faster than a lifeguard can swim. Their solution combines engineering creativity with real-world impact.
 
 **Recent Achievements:**
 - Created detailed technical drawings and 3D models
-- Consulted with local fishermen and marine biologists
 - Developed a comprehensive implementation plan
-
-**Quote from Team Member Jordan (age 12):** "We learned that sometimes the best solutions are simple ones. Our net design doesn't require expensive technology, but it could save thousands of sea turtles and dolphins."
 
 ## Competition Day Logistics
 
@@ -116,9 +109,6 @@ The support from our community has been overwhelming:
 - **Sponsor representatives** planning to visit our pit area
 
 ### Special Thanks
-- **Tech Innovations Inc.** for funding our registration fees
-- **Lansing Community Bank** for supporting transportation costs
-- **Tony's Pizza** for providing team dinner during final prep week
 - **All the families** who have volunteered countless hours
 
 ## Looking Beyond Competition

@@ -29,7 +29,26 @@ layout: default
         </div>
       </footer>
     </article>
-    
+
+    {% if jekyll.environment == "production" and site.disqus_shortname and site.disqus_shortname != "" and page.comments != false %}
+    <div class="post-comments">
+      <div id="disqus_thread"></div>
+      <script>
+        var disqus_config = function () {
+          this.page.url = '{{ page.url | absolute_url }}';
+          this.page.identifier = '{{ page.id }}';
+        };
+        (function() {
+          var d = document, s = d.createElement('script');
+          s.src = 'https://{{ site.disqus_shortname }}.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+      <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+    </div>
+    {% endif %}
+
     <nav class="post-navigation">
       <div class="nav-links">
         {% if page.previous.url %}

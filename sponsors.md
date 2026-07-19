@@ -93,67 +93,6 @@ permalink: /sponsors/
   </div>
 </div>
 
-<!-- ## Current Sponsors
-
-<div class="current-sponsors">
-  <h2>Platinum Sponsors</h2>
-  <div class="sponsor-showcase platinum-showcase">
-    <div class="sponsor-feature">
-      <img src="/assets/images/sponsor-tech-innovations.png" alt="Tech Innovations Inc" class="sponsor-logo-large">
-      <div class="sponsor-info">
-        <h3>Tech Innovations Inc.</h3>
-        <p>
-          "Supporting STEM education is an investment in our community's future. 
-          The students at Lansing Tech Studio represent the next generation of 
-          problem-solvers and innovators we need in our industry."
-        </p>
-        <cite>- Sarah Chen, CEO</cite>
-      </div>
-    </div>
-  </div>
-  
-  <h2>Gold Sponsors</h2>
-  <div class="sponsor-grid gold-grid">
-    <div class="sponsor-card">
-      <img src="/assets/images/sponsor-lansing-bank.png" alt="Lansing Community Bank" class="sponsor-logo">
-      <h4>Lansing Community Bank</h4>
-      <p>"Proud to support local youth in developing skills for tomorrow's careers."</p>
-    </div>
-    <div class="sponsor-card">
-      <img src="/assets/images/sponsor-engineering-firm.png" alt="Midwest Engineering Solutions" class="sponsor-logo">
-      <h4>Midwest Engineering Solutions</h4>
-      <p>"These students inspire us with their creativity and dedication to community service."</p>
-    </div>
-  </div>
-  
-  <h2>Silver & Bronze Sponsors</h2>
-  <div class="sponsor-grid silver-bronze-grid">
-    <div class="sponsor-item">
-      <img src="/assets/images/sponsor-pizza-place.png" alt="Tony's Pizza" class="sponsor-logo-small">
-      <span>Tony's Pizza & More</span>
-    </div>
-    <div class="sponsor-item">
-      <img src="/assets/images/sponsor-hardware-store.png" alt="Lansing Hardware" class="sponsor-logo-small">
-      <span>Lansing Hardware Store</span>
-    </div>
-    <div class="sponsor-item">
-      <img src="/assets/images/sponsor-auto-repair.png" alt="Mike's Auto Repair" class="sponsor-logo-small">
-      <span>Mike's Auto Repair</span>
-    </div>
-    <div class="sponsor-item">
-      <img src="/assets/images/sponsor-bookstore.png" alt="Chapter One Books" class="sponsor-logo-small">
-      <span>Chapter One Books</span>
-    </div>
-    <div class="sponsor-item">
-      <img src="/assets/images/sponsor-dental.png" alt="Lansing Family Dental" class="sponsor-logo-small">
-      <span>Lansing Family Dental</span>
-    </div>
-    <div class="sponsor-item">
-      <img src="/assets/images/sponsor-coffee.png" alt="Bean There Coffee" class="sponsor-logo-small">
-      <span>Bean There Coffee Shop</span>
-    </div>
-  </div>
-</div> -->
 
 <h2>Ways to Support</h2>
 
@@ -363,9 +302,9 @@ permalink: /sponsors/
     </div>
     
     <div class="recognition-item">
-      <h3>📧 Newsletter</h3>
-      <p>Weekly newsletter recognition sent to active participants each session including 
-      parents, educators, and community leaders.</p>
+      <h3>📧 Email Updates</h3>
+      <p>Sponsor recognition in the program email updates sent to participating
+      families throughout each season.</p>
     </div>
     
     <div class="recognition-item">

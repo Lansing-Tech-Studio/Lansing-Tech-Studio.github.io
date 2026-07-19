@@ -33,7 +33,7 @@ permalink: /programs/
 <div class="program-section">
   <div class="program-content">
     <div class="program-details">
-      <h3>Ages 9-14 • August - February</h3>
+      <h3>Ages {{ site.data.facts.fll.ages }} • August - February</h3>
       <p>
         Our FLL Challenge teams compete in the world's largest robotics competition for youth. 
         Students work together to research real-world problems, design and program autonomous 
@@ -58,10 +58,10 @@ permalink: /programs/
           <strong>September-December:</strong> Weekly practices, robot building, research project, and community demo
         </div>
         <div class="timeline-item">
-          <strong>December:</strong> Regional Competition
+          <strong>{{ site.data.season.regional_date }}:</strong> Regional Qualifying Tournament
         </div>
         <div class="timeline-item">
-          <strong>December:</strong> State Championship (qualifying teams)
+          <strong>{{ site.data.season.state_date }}:</strong> State Championship (qualifying teams)
         </div>
       </div>
     </div>
@@ -172,25 +172,32 @@ permalink: /programs/
     <p>Coding marathon and team building exercises where students collaborate to create innovative solutions to real-world problems to kick off the robotics season.</p>
   </div>
   <div class="event-card">
+    <h3>🚀 HackerFest</h3>
+    <p>A pre-season coding pump-up: one week in early August with an hour each evening of deep dives, collaborative coding, and tougher programming challenges.</p>
+  </div>
+  <div class="event-card">
+    <h3>🥳 Volunteer Appreciation Picnic</h3>
+    <p>A summer lakeside picnic to thank the volunteers who make our programs possible.</p>
+  </div>
+  <div class="event-card">
     <h3>☀️ Summer Programs</h3>
-    <p>Optional summer camp and workshops for continued learning during the off-season.</p>
-    <a href="/camps/" class="btn btn-outline btn-small">Camp Info</a>
+    <p>Optional summer camps and workshops for continued learning during the off-season — most recently our week-long PyBricks Summer Coding Camp, where students bring LEGO® creations to life with Python. Contact us to hear about the next one.</p>
   </div>
 </div>
 
 ## Program Requirements & Registration {#registration}
 
 ### FLL Challenge Teams
-- **Age:** 9-14 years old
+- **Age:** {{ site.data.facts.fll.ages }} years old
 - **Commitment:** Weekly 2-hour practices (August-February)
-- **Cost:** $200 per student (scholarships available)
-- **Registration:** Opens in July for following season
+- **Cost:** {{ site.data.facts.fll.cost }} (scholarships available)
+- **Registration:** Contact us by {{ site.data.facts.fll.registration_deadline }} for the following season
 
 ### Tech Workshops
 - **Age:** 10+ (specific age requirements vary by workshop)
 - **Schedule:** Spring Series
 - **Cost:** Free (visit our YouTube channels to watch the recordings)
-- **Registration:** January 2026
+- **Registration:** Contact us for the current workshop schedule
 
 ### Career Mentoring
 - **Age:** High school students (14-18)
