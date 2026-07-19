@@ -23,8 +23,6 @@ The Lansing Homeschool Hackers have developed an incredible solution for monitor
 - Mastered 8 out of 10 robot missions
 - Presented to local marine biology experts for feedback
 
-**Quote from Team Captain Emma (age 14):** "Learning about coral bleaching made us realize how important our oceans are. Our monitoring system could help marine biologists track reef health in real-time and respond faster to threats."
-
 ### Team Scratch 💻
 **Focus**: Ocean Plastic Cleanup
 **Innovation Project**: Autonomous Cleanup Drone Network
@@ -35,8 +33,6 @@ This team has blown us away with their ambitious project to create a network of 
 - Built a working prototype of their cleanup drone
 - Scored 295 points in their best robot run
 - Partnered with a local environmental group for project validation
-
-**Quote from Team Member Alex (age 13):** "We started this season barely knowing how to program a motor. Now we're building autonomous systems! It shows what you can accomplish when you work together and don't give up."
 
 ### Team Python 🌊
 **Focus**: Lifeguard Support
