@@ -1316,6 +1316,7 @@ h4 { font-size: 1.25rem; }
 
 .nav-links {
   display: flex;
+  align-items: center;
   gap: 1.5rem;
 }
 
@@ -1359,6 +1360,7 @@ h4 { font-size: 1.25rem; }
   font-family: inherit;
   font-size: inherit;
   font-weight: 500;
+  line-height: inherit;
   color: var(--text-dark);
   padding: 0.5rem 0;
   cursor: pointer;
@@ -1641,6 +1643,7 @@ h4 { font-size: 1.25rem; }
   
   .nav-links {
     flex-direction: column;
+    align-items: stretch;
     gap: 1rem;
     margin-bottom: 0;
     opacity: 0;
