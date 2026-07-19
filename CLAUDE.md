@@ -50,5 +50,5 @@ Standard Jekyll layout, with a few non-obvious points worth knowing before editi
 
 ## Reference docs in repo
 
-- `SiteLayout.md` — planned IA / sitemap (excluded from build via `_config.yml`).
 - `TODO.md` — work-in-progress notes (untracked).
+- `docs/` — design specs and implementation plans (excluded from build via `_config.yml`).

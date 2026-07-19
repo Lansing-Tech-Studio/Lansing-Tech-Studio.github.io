@@ -50,7 +50,9 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - SiteLayout.md
   - CLAUDE.md
   - TODO.md
   - docs/
+  - DEPLOYMENT.md
+  - README.md
+  - LICENSE
