@@ -28,6 +28,35 @@ permalink: /programs/
   <p class="lead">Comprehensive STEM education through hands-on learning, competition, and mentorship.</p>
 </div>
 
+## Program Requirements & Registration {#registration}
+
+### FLL Challenge Teams
+- **Age:** {{ site.data.facts.fll.ages }} years old
+- **Commitment:** Weekly 2-hour practices (August-February)
+- **Cost:** {{ site.data.facts.fll.cost }} (scholarships available)
+- **Registration:** Contact us by {{ site.data.facts.fll.registration_deadline }} for the following season
+
+### Tech Workshops
+- **Age:** 10+ (specific age requirements vary by workshop)
+- **Schedule:** Spring Series
+- **Cost:** Free (visit our YouTube channels to watch the recordings)
+- **Registration:** Contact us for the current workshop schedule
+
+### Career Mentoring
+- **Age:** High school students (14-18)
+- **Application required:** Essay and recommendation letter
+- **Cost:** Free
+- **Applications:** Accepted year-round
+
+<div class="registration-cta">
+  <h2>Ready to Join?</h2>
+  <p>We currently have a wait list for all of our teams, but make sure we have your information so we can notify you when spots become available.</p>
+  <div class="cta-buttons">
+    <a href="/contact#registration" class="btn btn-primary">Register Now</a>
+    <a href="/resources#calendar" class="btn btn-primary">View Calendar</a>
+  </div>
+</div>
+
 ## FIRST LEGO League Challenge Teams {#fll}
 
 <div class="program-section">
@@ -182,34 +211,5 @@ permalink: /programs/
   <div class="event-card">
     <h3>☀️ Summer Programs</h3>
     <p>Optional summer camps and workshops for continued learning during the off-season — most recently our week-long PyBricks Summer Coding Camp, where students bring LEGO® creations to life with Python. Contact us to hear about the next one.</p>
-  </div>
-</div>
-
-## Program Requirements & Registration {#registration}
-
-### FLL Challenge Teams
-- **Age:** {{ site.data.facts.fll.ages }} years old
-- **Commitment:** Weekly 2-hour practices (August-February)
-- **Cost:** {{ site.data.facts.fll.cost }} (scholarships available)
-- **Registration:** Contact us by {{ site.data.facts.fll.registration_deadline }} for the following season
-
-### Tech Workshops
-- **Age:** 10+ (specific age requirements vary by workshop)
-- **Schedule:** Spring Series
-- **Cost:** Free (visit our YouTube channels to watch the recordings)
-- **Registration:** Contact us for the current workshop schedule
-
-### Career Mentoring
-- **Age:** High school students (14-18)
-- **Application required:** Essay and recommendation letter
-- **Cost:** Free
-- **Applications:** Accepted year-round
-
-<div class="registration-cta">
-  <h2>Ready to Join?</h2>
-  <p>Spaces are limited and fill up quickly. Register early to secure your spot!</p>
-  <div class="cta-buttons">
-    <a href="/contact#registration" class="btn btn-primary">Register Now</a>
-    <a href="/resources#calendar" class="btn btn-primary">View Calendar</a>
   </div>
 </div>
