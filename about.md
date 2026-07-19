@@ -6,7 +6,7 @@ permalink: /about/
 
 <div class="about-hero">
   <h1>About Lansing Tech Studio</h1>
-  <p class="lead">Empowering youth through technology, robotics, and community engagement since 2020.</p>
+  <p class="lead">Empowering youth through technology, robotics, and community engagement since {{ site.data.facts.founded }}.</p>
 </div>
 
 ## What is FIRST?
@@ -113,16 +113,16 @@ My journey into technology wasn’t straightforward. I didn’t have access to c
 
 ## Our Story
 
-Founded in 2021, Lansing Tech Studio began as a small group of passionate educators and technologists who saw the need for more hands-on STEM education in our community. What started as a single FIRST LEGO League team has grown into a comprehensive youth development program serving dozens of students across multiple programs.
+Founded in {{ site.data.facts.founded }}, Lansing Tech Studio began as a small group of passionate educators and technologists who saw the need for more hands-on STEM education in our community. What started as a single FIRST LEGO League team has grown into a comprehensive youth development program serving dozens of students across multiple programs.
 
 We believe that every young person deserves the opportunity to explore technology, develop problem-solving skills, and discover their potential. Through our programs, students don't just learn to code or build robots – they learn to think critically, work collaboratively, and approach challenges with confidence and creativity.
 
 ## Community Impact
 
 Since our founding, we've:
-- Supported over 50 students in competitive robotics
-- Conducted 100+ hours of workshops and training
-- Participated in 25+ community service projects
+- Supported {{ site.data.facts.stats.students }} students in competitive robotics
+- Conducted {{ site.data.facts.stats.workshop_hours }} hours of workshops and training
+- Participated in {{ site.data.facts.stats.community_events }} community service projects
 - Mentored students who have gone on to pursue STEM careers
 - Built partnerships with local schools and community organizations
 
