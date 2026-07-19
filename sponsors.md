@@ -22,6 +22,57 @@ permalink: /sponsors/
 <h2>Sponsorship Levels</h2>
 
 <div class="sponsorship-tiers">
+
+  <div class="tier-card bronze">
+    <div class="tier-header">
+      <h3>🥉 Innovator Sponsor</h3>
+      <div class="tier-amount">$100 – $499</div>
+    </div>
+    <div class="tier-benefits">
+      <h4>Benefits Include:</h4>
+      <ul>
+        <li>Company logo on the Lansing Tech Studio website</li>
+        <li>Social media thank-you post</li>
+        <li>Handwritten thank-you card from students</li>
+        <li>Framed team photo</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="tier-card silver">
+    <div class="tier-header">
+      <h3>🥈 Pioneer Sponsor</h3>
+      <div class="tier-amount">$500 – $999</div>
+    </div>
+    <div class="tier-benefits">
+      <h4>All Innovator Benefits Plus:</h4>
+      <ul>
+        <li>Sponsor spotlight post on social media</li>
+        <li>Larger logo placement on the website</li>
+        <li>Recognition during Student Tech Demo Day</li>
+        <li>Student-made robotics thank-you gift</li>
+        <li>Annual impact summary</li>
+        <li>Framed team photo</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="tier-card gold">
+    <div class="tier-header">
+      <h3>🥇 Catalyst Sponsor</h3>
+      <div class="tier-amount">$1,000 – $2,499</div>
+    </div>
+    <div class="tier-benefits">
+      <h4>All Pioneer Benefits Plus:</h4>
+      <ul>
+        <li>Multiple social media features during the season</li>
+        <li>Logo displayed at Student Tech Demo Day</li>
+        <li>Recognition during student presentations</li>
+        <li>Signed framed team photo from students</li>
+      </ul>
+    </div>
+  </div>
+
   <div class="tier-card platinum">
     <div class="tier-header">
       <h3>🏆 Visionary Partner</h3>
@@ -41,58 +92,8 @@ permalink: /sponsors/
       </ul>
     </div>
   </div>
-  
-  <div class="tier-card gold">
-    <div class="tier-header">
-      <h3>🥇 Catalyst Sponsor</h3>
-      <div class="tier-amount">$1,000 – $2,499</div>
-    </div>
-    <div class="tier-benefits">
-      <h4>All Pioneer Benefits Plus:</h4>
-      <ul>
-        <li>Multiple social media features during the season</li>
-        <li>Logo displayed at Student Tech Demo Day</li>
-        <li>Recognition during student presentations</li>
-        <li>Signed framed team photo from students</li>
-      </ul>
-    </div>
-  </div>
-  
-  <div class="tier-card silver">
-    <div class="tier-header">
-      <h3>🥈 Pioneer Sponsor</h3>
-      <div class="tier-amount">$500 – $999</div>
-    </div>
-    <div class="tier-benefits">
-      <h4>All Innovator Benefits Plus:</h4>
-      <ul>
-        <li>Sponsor spotlight post on social media</li>
-        <li>Larger logo placement on the website</li>
-        <li>Recognition during Student Tech Demo Day</li>
-        <li>Student-made robotics thank-you gift</li>
-        <li>Annual impact summary</li>
-        <li>Framed team photo</li>
-      </ul>
-    </div>
-  </div>
-  
-  <div class="tier-card bronze">
-    <div class="tier-header">
-      <h3>🥉 Innovator Sponsor</h3>
-      <div class="tier-amount">$100 – $499</div>
-    </div>
-    <div class="tier-benefits">
-      <h4>Benefits Include:</h4>
-      <ul>
-        <li>Company logo on the Lansing Tech Studio website</li>
-        <li>Social media thank-you post</li>
-        <li>Handwritten thank-you card from students</li>
-        <li>Framed team photo</li>
-      </ul>
-    </div>
-  </div>
-</div>
 
+</div>
 
 <h2>Ways to Support</h2>
 
