@@ -70,7 +70,7 @@ Icons defined in `_data/social_icons.yml`.
 
 ## Site Configuration (`_config.yml`)
 
-- Navigation is hard-coded in `_layouts/default.html` (there is no `header_pages` config)
+- Navigation is configured in `_data/navigation.yml` and rendered by `_layouts/default.html` (there is no `header_pages` config)
 - `disqus_shortname` - Blog comments (empty string = disabled; posts can opt out with `comments: false`)
 - Social usernames: `github_username`, `facebook_username`, `youtube_username`
 - `mission_statement` - Reused across pages

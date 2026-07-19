@@ -22,7 +22,7 @@ Standard Jekyll layout, with a few non-obvious points worth knowing before editi
 
 - **Single global stylesheet**: `assets/css/style.scss` (~2000 lines) with SCSS front matter (`---\n---`) so Jekyll compiles it. All design tokens live as CSS custom properties on `:root` at the top of the file — change colors there, not inline. Brand palette: `--primary-color: #00A6FB` (blue), `--secondary-color: #FF6B35` (orange), `--accent-color: #92e6b2` (green).
 
-- **Layout chain**: `_layouts/default.html` is the shell (header nav, footer, all client-side JS for the mobile menu, dropdown a11y/keyboard handling, smooth-scroll). `page.html` and `post.html` both extend `default.html`. Programs is now a plain nav link (not a dropdown); the remaining dropdowns are Learn (Resources, Blog) and Get Involved (Outreach, Sponsors), hard-coded in `default.html`. `_config.yml` no longer has a `header_pages` setting.
+- **Layout chain**: `_layouts/default.html` is the shell (header nav, footer, all client-side JS for the mobile menu, dropdown a11y/keyboard handling, smooth-scroll). `page.html` and `post.html` both extend `default.html`. The header menu is data-driven: `_data/navigation.yml` defines items (`title` + either `url` or `dropdown` children) and `default.html` renders them. Current dropdowns are About (About Us, Blog) and Get Involved (Outreach, Sponsors); Learn is a plain link to `/resources/`. Edit the menu in the data file, not the template. `_config.yml` has no `header_pages` setting.
 
 - **Programs page**: has a separate sub-navigation script at `assets/js/programs-nav.js`, loaded globally from `default.html`. If you touch the programs page structure, check this script for ID/selector coupling.
 
@@ -38,7 +38,7 @@ Standard Jekyll layout, with a few non-obvious points worth knowing before editi
 
 - **Blog posts** (`_posts/`): filename `YYYY-MM-DD-slug.md`. Front matter: `layout: post`, `title`, `date` (with timezone, e.g. `2025-01-15 10:00:00 -0500`), `author`, `categories`, `tags`, `excerpt`. Common categories: `announcements`, `competition`, `teams`, `welcome`. `comments: false` in a post's front matter disables Disqus on that post; Disqus otherwise activates only when `disqus_shortname` is set in `_config.yml` and `JEKYLL_ENV=production`.
 
-- **Pages**: `layout: page`, `title`, `permalink: /slug/` (trailing slash). The `nav-link active` state in `default.html` matches against `page.url contains '/slug'`, so permalinks must align.
+- **Pages**: `layout: page`, `title`, `permalink: /slug/` (trailing slash). The `nav-link active` state in `default.html` matches `page.url contains` the item's `url` from `_data/navigation.yml`, so permalinks and nav urls must align (trailing slash included).
 
 - **Buttons / cards**: reuse existing classes (`.btn`, `.btn-primary`, `.btn-outline`, `.btn-small`, `.container`, `.program-card`, `.value-card`, `.bio-card`) rather than introducing new ones.
 
