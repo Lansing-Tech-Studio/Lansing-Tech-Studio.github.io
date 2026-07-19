@@ -51,10 +51,10 @@ layout: default
         <a href="/outreach" class="btn btn-outline">Learn More</a>
       </div>
       <div class="program-card">
-        <div class="program-icon">💻</div>
-        <h3>Pybricks Summer Camp</h3>
-        <p>Go deep into the world of LEGO Spike Prime and Python with hands-on projects using Pybricks.</p>
-        <a href="/camps" class="btn btn-outline">Learn More</a>
+        <div class="program-icon">📅</div>
+        <h3>Special Events & Camps</h3>
+        <p>Build parties, Demo Day, Hack-a-thons, and summer camps throughout the year.</p>
+        <a href="/programs#events" class="btn btn-outline">Learn More</a>
       </div>
     </div>
   </div>

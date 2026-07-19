@@ -181,8 +181,7 @@ permalink: /programs/
   </div>
   <div class="event-card">
     <h3>☀️ Summer Programs</h3>
-    <p>Optional summer camp and workshops for continued learning during the off-season.</p>
-    <a href="/camps/" class="btn btn-outline btn-small">Camp Info</a>
+    <p>Optional summer camps and workshops for continued learning during the off-season — most recently our week-long PyBricks Summer Coding Camp, where students bring LEGO® creations to life with Python. Contact us to hear about the next one.</p>
   </div>
 </div>
 

@@ -44,17 +44,9 @@
           <div class="nav-links">
             <a href="{{ '/' | relative_url }}" class="nav-link {% if page.url == '/' %}active{% endif %}">Home</a>
             <a href="{{ '/about' | relative_url }}" class="nav-link {% if page.url contains '/about' %}active{% endif %}">About</a>
-            <div class="nav-dropdown {% if page.url contains '/programs' or page.url contains '/camps' or page.url contains '/featured' %}active{% endif %}">
-              <button class="dropdown-trigger" aria-expanded="false" aria-haspopup="true">
-                Programs
-                <span class="chevron" aria-hidden="true"></span>
-              </button>
-              <div class="dropdown-menu" role="menu">
-                <a href="{{ '/programs' | relative_url }}" class="dropdown-item {% if page.url == '/programs/' %}active{% endif %}" role="menuitem">Programs</a>
-                <!-- <a href="{{ '/workshops' | relative_url }}" class="dropdown-item {% if page.url == '/workshops/' %}active{% endif %}" role="menuitem">Workshops</a> -->
-                <a href="{{ '/camps' | relative_url }}" class="dropdown-item {% if page.url == '/camps/' %}active{% endif %}" role="menuitem">Camps</a>
-              </div>
-            </div>
+            <a href="{{ '/programs' | relative_url }}" class="nav-link {% if page.url contains '/programs' %}active{% endif %}">Programs</a>
+            <!-- Workshops lives in a separate repo served at /workshops/ - restore a nav link here if wanted:
+            <a href="{{ '/workshops' | relative_url }}" class="nav-link">Workshops</a> -->
             <div class="nav-dropdown {% if page.url contains '/resources' or page.url contains '/blog' %}active{% endif %}">
               <button class="dropdown-trigger" aria-expanded="false" aria-haspopup="true">
                 Learn
@@ -121,7 +113,6 @@
           <h4>Quick Links</h4>
           <ul class="footer-links">
             <li><a href="{{ '/programs' | relative_url }}">Programs</a></li>
-            <li><a href="{{ '/camps' | relative_url }}">Camps</a></li>
             <li><a href="{{ '/about' | relative_url }}">About Us</a></li>
             <li><a href="{{ '/resources' | relative_url }}">Resources</a></li>
             <li><a href="{{ '/blog' | relative_url }}">Blog</a></li>
