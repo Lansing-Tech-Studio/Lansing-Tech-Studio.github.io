@@ -13,7 +13,7 @@ permalink: /about/
 
 Lansing Tech Studio began in {{ site.data.facts.founded }} as a backyard LEGO club for a handful of kids, out of which came our first team for FIRST LEGO League, the Lansing Homeschool Hackers. Since then we have grown our membership and our offerings to the robotics, coding, and service programs we run today.
 
-As a Christian homeschool family, Chelsea and Brendon started the Lansing Tech Studio to provide opportunities that were not readily available for the homeschool community. The Lansing Tech Studio provides opportunities that complement the other wonderful homeschool groups in the Lansing area, participating every year at the Michigan INCH Conference and the CHESS Homeschool Expo. Our faith is why we started this, and it grounds the values of humility and community service that we instill in our members.
+As a Christian homeschool family, Chelsea and Brendon started the Lansing Tech Studio to provide opportunities that were not readily available for the homeschool community. The Lansing Tech Studio provides opportunities that complement the other wonderful homeschool groups in the Lansing area, participating every year at the Michigan INCH Conference and the CHESS Homeschool Expo. Our values of compassion, team work, innovation, and service to others are what build our programs.
 
 Not only do we serve the homeschool community, but we also have public school and private school students who appreciate our approach to hands-on, project-based learning. We are proud to be a part of the Lansing community and to provide opportunities for students of all backgrounds to explore their interests in technology and robotics.
 
