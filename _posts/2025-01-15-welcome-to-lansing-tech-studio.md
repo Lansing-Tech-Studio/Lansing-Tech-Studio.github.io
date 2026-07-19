@@ -72,29 +72,16 @@ Whether you're a student, parent, or community member, there are many ways to jo
 - Sponsor teams and events
 - Provide resources and expertise
 
-## Success Stories
-
-We're proud to share that several of our alumni have gone on to pursue STEM careers:
-
-> "Lansing Tech Studio gave me the confidence to pursue computer science in college. The mentorship and hands-on learning prepared me for real-world challenges in ways that traditional classroom learning never could." - Sarah M., University of Michigan Computer Science student
-
-> "Working on community service projects with my FLL team taught me that technology isn't just about building cool things - it's about solving real problems that matter to people." - Marcus L., now studying engineering at MSU
-
 ## Thank You to Our Supporters
 
-None of this would be possible without our amazing sponsors and community partners:
-
-- **Tech Innovations Inc.** - Our platinum sponsor providing major funding and mentorship
-- **Lansing Community Bank** - Supporting our equipment purchases
-- **Midwest Engineering Solutions** - Offering professional development for our mentors
-- **Local businesses** - Providing supplies, services, and encouragement
+None of this would be possible without our sponsors, community partners, and the
+local businesses that provide supplies, services, and encouragement.
 
 ## Join Our Community
 
 Ready to be part of something amazing? Here's how to stay connected:
 
 - **Follow us on social media** for daily updates and behind-the-scenes content
-- **Subscribe to our newsletter** for monthly program updates
 - **Attend our events** and see our students in action
 - **Contact us** to learn about volunteer and sponsorship opportunities
 
