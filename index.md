@@ -89,25 +89,25 @@ layout: default
 <section class="mission-section">
   <div class="container">
     <div class="mission-content">
-      <h2 style="color: #f8acacff;">Our Mission</h2>
+      <h2>Our Mission</h2>
       <p class="mission-text">
-        At Lansing Tech Studio, we believe in the power of technology to transform lives and communities. We provide hands-on learning experiences that inspire creativity, foster collaboration, and build confidence in young people. Through robotics, coding, and community service, we're preparing the next generation of innovators and leaders.
+        {{ site.mission_statement }}
       </p>
       <div class="stats-grid">
         <div class="stat-item">
-          <div class="stat-number">50+</div>
+          <div class="stat-number">{{ site.data.facts.stats.students }}</div>
           <div class="stat-label">Students Served</div>
         </div>
         <div class="stat-item">
-          <div class="stat-number">5</div>
+          <div class="stat-number">{{ site.data.facts.stats.teams }}</div>
           <div class="stat-label">Active Teams</div>
         </div>
         <div class="stat-item">
-          <div class="stat-number">100+</div>
+          <div class="stat-number">{{ site.data.facts.stats.workshop_hours }}</div>
           <div class="stat-label">Workshop Hours</div>
         </div>
         <div class="stat-item">
-          <div class="stat-number">25+</div>
+          <div class="stat-number">{{ site.data.facts.stats.community_events }}</div>
           <div class="stat-label">Community Events</div>
         </div>
       </div>
