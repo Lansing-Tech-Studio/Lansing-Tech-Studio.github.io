@@ -1,0 +1,30 @@
+# Header navigation. Items have a title plus either:
+#   url:       plain link
+#   dropdown:  list of {title, url} children
+# Active-state matching in _layouts/default.html uses "page.url contains url"
+# (exact match for "/"), so keep urls aligned with page permalinks
+# (trailing slash included).
+- title: Home
+  url: /
+- title: About
+  dropdown:
+    - title: About Us
+      url: /about/
+    - title: Blog
+      url: /blog/
+- title: Programs
+  url: /programs/
+- title: Learn
+  url: /resources/
+- title: Get Involved
+  dropdown:
+    - title: Outreach
+      url: /outreach/
+    - title: Sponsors
+      url: /sponsors/
+- title: Contact
+  url: /contact/
+# Workshops lives in a separate repo served at /workshops/ — to restore a
+# nav link, add:
+# - title: Workshops
+#   url: /workshops/
