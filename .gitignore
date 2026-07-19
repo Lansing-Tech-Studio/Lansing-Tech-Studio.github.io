@@ -84,10 +84,8 @@ _config_local.yml
 spec/reports/
 test/tmp/
 test/version_tmp/
-
-# Documentation
-doc/
-rdoc/
+.playwright/
+.playwright-mcp/
 
 # Dependency lock files (uncomment if needed)
 # yarn.lock
