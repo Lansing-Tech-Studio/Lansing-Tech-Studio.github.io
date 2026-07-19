@@ -9,50 +9,27 @@ permalink: /about/
   <p class="lead">Empowering youth through technology, robotics, and community engagement since {{ site.data.facts.founded }}.</p>
 </div>
 
-## What is FIRST?
+## Our Story
 
-FIRST (For Inspiration and Recognition of Science and Technology) is an international youth organization that operates robotics competitions to inspire young people's interest and participation in science and technology.
+Founded in {{ site.data.facts.founded }}, Lansing Tech Studio began as a small group of passionate educators and technologists who saw the need for more hands-on STEM education in our community. What started as a single FIRST LEGO League team has grown into a comprehensive youth development program serving dozens of students across multiple programs.
 
-### FIRST LEGO League (FLL)
-FIRST LEGO League Challenge is a robotics program for students ages 9-14 that combines the excitement of sport with the rigor of science and technology. Teams research a real-world problem, develop a solution, and compete with LEGO-based robots.
+We believe that every young person deserves the opportunity to explore technology, develop problem-solving skills, and discover their potential. Through our programs, students don't just learn to code or build robots – they learn to think critically, work collaboratively, and approach challenges with confidence and creativity.
 
-**Key Components:**
-- **Robot Game**: Design and program a LEGO robot to complete missions
-- **Innovation Project**: Identify and solve a real-world problem
-- **Core Values**: Teamwork, discovery, inclusion, innovation, impact, and fun
+## Community Impact
 
-## Our Core Values
+Since our founding, we've:
+- Supported {{ site.data.facts.stats.students }} students in competitive robotics
+- Conducted {{ site.data.facts.stats.workshop_hours }} hours of workshops and training
+- Participated in {{ site.data.facts.stats.community_events }} community service projects
+- Mentored students who have gone on to pursue STEM careers
+- Built partnerships with local schools and community organizations
 
-<div class="values-grid">
-  <div class="value-card">
-    <div class="value-icon">🤝</div>
-    <h3>Teamwork</h3>
-    <p>We are stronger when we work together, supporting and learning from each other.</p>
-  </div>
-  <div class="value-card">
-    <div class="value-icon">🔍</div>
-    <h3>Discovery</h3>
-    <p>We explore new skills and ideas, embracing the joy of learning and experimentation.</p>
-  </div>
-  <div class="value-card">
-    <div class="value-icon">🌟</div>
-    <h3>Innovation</h3>
-    <p>We use creativity and persistence to solve problems in unexpected ways.</p>
-  </div>
-  <div class="value-card">
-    <div class="value-icon">🚀</div>
-    <h3>Impact</h3>
-    <p>We apply what we learn to improve our communities and make a positive difference.</p>
-  </div>
-  <div class="value-card">
-    <div class="value-icon">🎉</div>
-    <h3>Fun</h3>
-    <p>We enjoy and celebrate what we do, creating lasting memories and friendships.</p>
-  </div>
-  <div class="value-card">
-    <div class="value-icon">💙</div>
-    <h3>Inclusion</h3>
-    <p>We respect each other and embrace our differences, creating a welcoming environment for all.</p>
+<div class="cta-section">
+  <h2>Ready to Get Involved?</h2>
+  <p>Whether you're a student, parent, or community member, there are many ways to join our mission.</p>
+  <div class="cta-buttons">
+    <a href="/programs" class="btn btn-primary">Explore Programs</a>
+    <a href="/contact" class="btn btn-primary">Contact Us</a>
   </div>
 </div>
 
@@ -111,26 +88,49 @@ My journey into technology wasn’t straightforward. I didn’t have access to c
   </div>
 </div>
 
-## Our Story
+## What is FIRST?
 
-Founded in {{ site.data.facts.founded }}, Lansing Tech Studio began as a small group of passionate educators and technologists who saw the need for more hands-on STEM education in our community. What started as a single FIRST LEGO League team has grown into a comprehensive youth development program serving dozens of students across multiple programs.
+FIRST (For Inspiration and Recognition of Science and Technology) is an international youth organization that operates robotics competitions to inspire young people's interest and participation in science and technology.
 
-We believe that every young person deserves the opportunity to explore technology, develop problem-solving skills, and discover their potential. Through our programs, students don't just learn to code or build robots – they learn to think critically, work collaboratively, and approach challenges with confidence and creativity.
+### FIRST LEGO League (FLL)
+FIRST LEGO League Challenge is a robotics program for students ages 9-14 that combines the excitement of sport with the rigor of science and technology. Teams research a real-world problem, develop a solution, and compete with LEGO-based robots.
 
-## Community Impact
+**Key Components:**
+- **Robot Game**: Design and program a LEGO robot to complete missions
+- **Innovation Project**: Identify and solve a real-world problem
+- **Core Values**: Teamwork, discovery, inclusion, innovation, impact, and fun
 
-Since our founding, we've:
-- Supported {{ site.data.facts.stats.students }} students in competitive robotics
-- Conducted {{ site.data.facts.stats.workshop_hours }} hours of workshops and training
-- Participated in {{ site.data.facts.stats.community_events }} community service projects
-- Mentored students who have gone on to pursue STEM careers
-- Built partnerships with local schools and community organizations
+## FIRST Core Values
 
-<div class="cta-section">
-  <h2>Ready to Get Involved?</h2>
-  <p>Whether you're a student, parent, or community member, there are many ways to join our mission.</p>
-  <div class="cta-buttons">
-    <a href="/programs" class="btn btn-primary">Explore Programs</a>
-    <a href="/contact" class="btn btn-primary">Contact Us</a>
+<div class="values-grid">
+  <div class="value-card">
+    <div class="value-icon">🤝</div>
+    <h3>Teamwork</h3>
+    <p>We are stronger when we work together, supporting and learning from each other.</p>
+  </div>
+  <div class="value-card">
+    <div class="value-icon">🔍</div>
+    <h3>Discovery</h3>
+    <p>We explore new skills and ideas, embracing the joy of learning and experimentation.</p>
+  </div>
+  <div class="value-card">
+    <div class="value-icon">💙</div>
+    <h3>Inclusion</h3>
+    <p>We respect each other and embrace our differences, creating a welcoming environment for all.</p>
+  </div>
+  <div class="value-card">
+    <div class="value-icon">🌟</div>
+    <h3>Innovation</h3>
+    <p>We use creativity and persistence to solve problems in unexpected ways.</p>
+  </div>
+  <div class="value-card">
+    <div class="value-icon">🚀</div>
+    <h3>Impact</h3>
+    <p>We apply what we learn to improve our communities and make a positive difference.</p>
+  </div>
+  <div class="value-card">
+    <div class="value-icon">🎉</div>
+    <h3>Fun</h3>
+    <p>We enjoy and celebrate what we do, creating lasting memories and friendships.</p>
   </div>
 </div>
