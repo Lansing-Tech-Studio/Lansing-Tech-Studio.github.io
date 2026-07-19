@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Resources
+title: Learning Resources
 permalink: /resources/
 ---
 
 <div class="resources-hero">
-  <h1>Resources</h1>
+  <h1>Learning Resources</h1>
   <p class="lead">Tools, guides, and information to support your learning journey.</p>
 </div>
 
