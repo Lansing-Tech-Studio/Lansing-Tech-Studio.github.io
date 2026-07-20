@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+{%- comment -%}
+  Resource sub-pages. Unlike program.html this layout does not include
+  registration-cta.html: the signup prompt only fits the For Parents page, which
+  includes it from its own body.
+{%- endcomment -%}
+<div class="page-content">
+  <div class="container">
+    <div class="resources-hero">
+      <h1>{{ page.title }}</h1>
+      {% if page.lead %}<p class="lead">{{ page.lead }}</p>{% endif %}
+    </div>
+
+    {{ content }}
+
+    {% include collection-nav.html collection="resources" label="Resource" all_label="Resources" %}
+  </div>
+</div>

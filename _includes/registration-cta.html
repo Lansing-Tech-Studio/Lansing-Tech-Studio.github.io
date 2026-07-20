@@ -1,10 +1,11 @@
 <!-- Registration CTA. Wording lives in _data/facts.yml under `registration` so it
-     can be changed in one place; included by /programs/ and every program page. -->
+     can be changed in one place; included by /programs/, every program page,
+     /resources/, and the For Parents resource page. -->
 <div class="registration-cta">
   <h2>{{ site.data.facts.registration.heading }}</h2>
   <p>{{ site.data.facts.registration.message }}</p>
   <div class="cta-buttons">
     <a href="{{ '/contact#registration' | relative_url }}" class="btn btn-primary">Register Now</a>
-    <a href="{{ '/resources#calendar' | relative_url }}" class="btn btn-primary">View Calendar</a>
+    <a href="{{ '/resources/calendar/' | relative_url }}" class="btn btn-primary">View Calendar</a>
   </div>
 </div>

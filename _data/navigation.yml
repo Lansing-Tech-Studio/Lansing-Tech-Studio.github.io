@@ -1,6 +1,11 @@
-# Header navigation. Items have a title plus either:
-#   url:       plain link
-#   dropdown:  list of {title, url} children
+# Header navigation. Items have a title plus any of:
+#   url:        plain link (also makes a dropdown parent clickable)
+#   dropdown:   list of {title, url} children
+#   collection: name of a Jekyll collection ("programs", "resources") — children
+#               are generated from it (sorted by order), so adding a file to
+#               _programs/ or _resources/ adds a menu entry with no edits here
+# An item with both url and children renders as a clickable link that opens its
+# submenu on hover (desktop) or via the chevron button (mobile/keyboard).
 # Active-state matching in _layouts/default.html uses "page.url contains url"
 # (exact match for "/"), so keep urls aligned with page permalinks
 # (trailing slash included).
@@ -14,8 +19,10 @@
       url: /blog/
 - title: Programs
   url: /programs/
-- title: Learn
+  collection: programs
+- title: Resources
   url: /resources/
+  collection: resources
 - title: Get Involved
   dropdown:
     - title: Outreach

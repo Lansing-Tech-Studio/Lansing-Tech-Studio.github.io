@@ -34,13 +34,18 @@ disqus_shortname: ""
 mission_statement: "The Lansing Tech Studio empowers the next generation by igniting their passion for technology, innovation, leadership, and service, cultivating tomorrow’s leaders driven to shape a better future in their communities and the world."
 
 # Collections
-# Each program gets its own page under /programs/<name>/. The /programs/ landing
-# page and the prev/next links in _layouts/program.html are both generated from
-# this collection sorted by the `order` front matter key.
+# Each program/resource gets its own page under /programs/<name>/ or
+# /resources/<name>/. The landing page card grid, the header dropdown (via
+# `collection:` in _data/navigation.yml), and the prev/next links in
+# _includes/collection-nav.html are all generated from the collection sorted by
+# the `order` front matter key — adding a file is the only edit needed.
 collections:
   programs:
     output: true
     permalink: /programs/:name/
+  resources:
+    output: true
+    permalink: /resources/:name/
 
 # Defaults
 defaults:
@@ -54,6 +59,11 @@ defaults:
       type: "programs"
     values:
       layout: "program"
+  - scope:
+      path: ""
+      type: "resources"
+    values:
+      layout: "resource"
 
 # Exclude from processing
 exclude:
