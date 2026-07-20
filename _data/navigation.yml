@@ -22,8 +22,7 @@
       url: /outreach/
     - title: Sponsors
       url: /sponsors/
-- title: Contact
-  url: /contact/
+# Contact is reached via the "Contact Us" button in .nav-actions, not a nav item.
 # Workshops lives in a separate repo served at /workshops/ — to restore a
 # nav link, add:
 # - title: Workshops

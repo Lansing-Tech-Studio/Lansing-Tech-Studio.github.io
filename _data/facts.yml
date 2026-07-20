@@ -15,5 +15,13 @@ fll:
   registration_deadline: "July 31"
 mentoring:
   schedule: "By Appointment"
+# Registration call-to-action shown on /programs/ and every program sub-page via
+# _includes/registration-cta.html. Change the wording HERE when the wait list
+# situation changes — it is rendered in one place and reused everywhere.
+registration:
+  heading: "Ready to Join?"
+  message: >-
+    We currently have a wait list for all of our teams, but make sure we have
+    your information so we can notify you when spots become available.
 sponsorship:
   range: "$100 - $2,500+"

@@ -449,6 +449,30 @@ h4 { font-size: 1.25rem; }
   margin-top: 3rem;
 }
 
+/* Fixed-column variant for a four-card grid (the /programs/ landing page).
+   The base auto-fit rule above would orphan the fourth card on a row of its
+   own at any width that fits exactly three, so step 1 -> 2x2 -> 4 instead.
+   Written mobile-first with min-width only: a max-width pair would leave a
+   sub-pixel gap (e.g. a 1023.3px viewport matches neither) that falls back to
+   the auto-fit rule and reintroduces the orphan. Four across only above
+   1100px, below which a 4-column card gets uncomfortably narrow. */
+.programs-grid--four {
+  grid-template-columns: 1fr;
+
+  @media (min-width: 560px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 1100px) {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+
+    .program-card {
+      padding: 2rem 1.25rem;
+    }
+  }
+}
+
 .program-card {
   background: var(--bg-white);
   border-radius: 1rem;
@@ -459,6 +483,25 @@ h4 { font-size: 1.25rem; }
   position: relative;
   overflow: hidden;
   border: 2px solid transparent;
+  /* Column flex so the button can be pinned to the bottom of the card. Cards in
+     a row are equal height, so this lines the buttons up across the row no
+     matter how many lines the heading or summary above them take. */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Flex items do not collapse margins the way block siblings do, so the UA top
+   margins on the heading and paragraph would stack on top of the preceding
+   element's margin-bottom and push the card contents down. Zero them and let
+   the margin-bottom values below own the spacing. */
+.program-card > * {
+  margin-top: 0;
+}
+
+.program-card .btn {
+  margin-top: auto;
+  /* Without this the link would stretch to the full card width as a flex item */
+  align-self: center;
 }
 
 .program-card::before {
@@ -491,7 +534,10 @@ h4 { font-size: 1.25rem; }
 
 .program-icon {
   font-size: 3rem;
-  margin-bottom: 1rem;
+  /* 1.5rem, not 1rem: with margin collapsing off (see .program-card > *) this
+     value alone sets the icon-to-heading gap, and 1.5rem matches what the
+     collapsed icon/heading margins produced before the card became flex. */
+  margin-bottom: 1.5rem;
   display: block;
   transition: transform 0.3s ease;
 }
@@ -1234,7 +1280,7 @@ h4 { font-size: 1.25rem; }
 }
 
 /* CTA Sections */
-.cta-section, .volunteer-cta, .contact-cta, .become-sponsor-cta {
+.cta-section, .volunteer-cta, .contact-cta, .become-sponsor-cta, .registration-cta {
   text-align: center;
   padding: 4rem 2rem;
   background: var(--gradient-tech);
@@ -1766,253 +1812,102 @@ h4 { font-size: 1.25rem; }
   animation: fadeInUp 0.6s ease-out;
 }
 
-/* Floating Programs Navigation */
-.programs-nav {
-  position: fixed;
-  right: 2rem;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 900;
-  transition: all 0.3s ease;
+/* Program Sub-Pages: "At a Glance" requirements block */
+.program-requirements {
+  background: var(--bg-light);
+  border-left: 4px solid var(--primary-color);
+  border-radius: 0.5rem;
+  padding: 1.5rem 2rem;
+  margin: 2rem 0 3rem;
+
+  h2 {
+    margin-top: 0;
+    font-size: 1.25rem;
+  }
+
+  ul {
+    margin-bottom: 0;
+    list-style: none;
+    padding-left: 0;
+  }
+
+  li + li {
+    margin-top: 0.5rem;
+  }
 }
 
-.programs-nav-content {
-  background: var(--bg-white);
-  border-radius: 1rem;
-  padding: 1.5rem;
-  box-shadow: var(--shadow-xl);
-  border: 2px solid transparent;
-  background-clip: padding-box;
-  position: relative;
-  min-width: 200px;
-  transition: all 0.3s ease;
+/* Program Sub-Pages: previous/next navigation (mirrors the blog post pattern) */
+.program-navigation {
+  margin: 4rem 0 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border-light);
 }
 
-.programs-nav-content::before {
-  content: '';
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  right: -2px;
-  bottom: -2px;
-  background: var(--gradient-vibrant);
-  border-radius: 1rem;
-  z-index: -1;
-  opacity: 0.8;
-}
-
-.programs-nav-content h4 {
-  margin: 0 0 1rem 0;
-  font-size: 1rem;
-  font-weight: 700;
-  color: var(--text-dark);
-  background: var(--gradient-tech);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-align: center;
-  padding-bottom: 0.75rem;
-  border-bottom: 2px solid var(--border-light);
-}
-
-.programs-nav-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.program-nav-links {
   display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
 
-.programs-nav-link {
-  display: block;
-  padding: 0.625rem 1rem;
-  text-decoration: none;
-  color: var(--text-dark);
-  font-weight: 500;
-  font-size: 0.9rem;
-  border-radius: 0.5rem;
-  transition: all 0.2s ease;
-  position: relative;
-  overflow: hidden;
-  border-left: 3px solid transparent;
-}
-
-.programs-nav-link::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 0;
-  background: var(--gradient-tech);
-  transition: width 0.2s ease;
-  z-index: -1;
-  opacity: 0.1;
-}
-
-.programs-nav-link:hover {
-  color: var(--primary-color);
-  background-color: var(--bg-light);
-  border-left-color: var(--primary-color);
-}
-
-.programs-nav-link:hover::before {
-  width: 100%;
-}
-
-.programs-nav-link.active {
-  background: var(--gradient-tech);
-  color: var(--text-white);
-  font-weight: 600;
-  border-left-color: var(--secondary-color);
-  box-shadow: var(--shadow-md);
-}
-
-.programs-nav-link.active::before {
-  display: none;
-}
-
-.programs-nav-toggle {
-  display: none;
-  position: absolute;
-  right: 0;
-  top: -3rem;
-  background: var(--primary-color);
-  border: none;
-  border-radius: 0.5rem;
-  padding: 0.75rem;
-  cursor: pointer;
-  box-shadow: var(--shadow-lg);
-  flex-direction: column;
-  gap: 4px;
-  transition: all 0.3s ease;
-}
-
-.programs-nav-toggle:hover {
-  box-shadow: var(--shadow-xl);
-}
-
-.programs-nav-toggle.active span:nth-child(1) {
-  transform: rotate(45deg) translate(5px, 5px);
-}
-
-.programs-nav-toggle.active span:nth-child(2) {
-  opacity: 0;
-}
-
-.programs-nav-toggle.active span:nth-child(3) {
-  transform: rotate(-45deg) translate(5px, -5px);
-}
-
-/* Tablet and Mobile Responsive */
-@media (max-width: 1024px) {
-  .programs-nav {
-    right: 1rem;
-  }
-  
-  .programs-nav-content {
-    min-width: 180px;
-    padding: 1.25rem;
-  }
-  
-  .programs-nav-link {
-    font-size: 0.85rem;
-    padding: 0.5rem 0.75rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .programs-nav {
-    right: 1rem;
-    top: auto;
-    bottom: 2rem;
-    transform: none;
-  }
-  
-  .programs-nav-toggle {
+  a {
     display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    flex: 1 1 240px;
+    max-width: 100%;
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--border-light);
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
   }
-  
-  .programs-nav-content {
-    position: absolute;
-    bottom: 4rem;
-    right: 0;
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(10px) scale(0.95);
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    pointer-events: none;
-    min-width: 220px;
-    max-width: calc(100vw - 3rem);
-    overflow: hidden;
-    padding: 1.5rem 1.25rem;
+
+  a:hover,
+  a:focus-visible {
+    border-color: var(--primary-color);
+    box-shadow: var(--shadow-sm);
+    transform: translateY(-2px);
   }
-  
-  .programs-nav-content.active {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0) scale(1);
-    pointer-events: all;
+
+  /* When only "next" exists it should still sit on the right */
+  .program-nav-next:only-child {
+    margin-left: auto;
   }
-  
-  .programs-nav-list {
-    max-height: 70vh;
-    overflow-y: auto;
-    overflow-x: hidden;
+
+  .program-nav-next {
+    text-align: right;
   }
-  
-  /* Only show scrollbar when actually needed */
-  .programs-nav-list:not(:hover) {
-    scrollbar-width: thin;
+
+  .nav-subtitle {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-light);
   }
-  
-  /* Prevent horizontal scroll from active state */
-  .programs-nav-link {
-    padding-right: 1.5rem;
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
-  }
-  
-  .programs-nav-link:hover,
-  .programs-nav-link.active {
-    transform: none;
-  }
-  
-  /* Smooth scrollbar for mobile */
-  .programs-nav-list::-webkit-scrollbar {
-    width: 4px;
-  }
-  
-  .programs-nav-list::-webkit-scrollbar-track {
-    background: var(--bg-light);
-    border-radius: 2px;
-  }
-  
-  .programs-nav-list::-webkit-scrollbar-thumb {
-    background: var(--primary-color);
-    border-radius: 2px;
+
+  .nav-title {
+    font-weight: 600;
+    color: var(--primary-color);
   }
 }
 
-/* Small Mobile */
-@media (max-width: 480px) {
-  .programs-nav {
-    right: 0.5rem;
-    bottom: 1rem;
+.program-nav-all {
+  margin-top: 1.5rem;
+  text-align: center;
+
+  a {
+    text-decoration: none;
+    font-weight: 600;
   }
-  
-  .programs-nav-content {
-    right: 0;
-    min-width: 240px;
-    max-width: calc(100vw - 2rem);
-    overflow: hidden;
-    padding: 1.25rem 1rem;
-  }
-  
-  .programs-nav-link {
-    font-size: 0.85rem;
-    padding: 0.625rem 1rem;
+}
+
+@media (max-width: 600px) {
+  .program-nav-links {
+    flex-direction: column;
+
+    .program-nav-next {
+      text-align: left;
+    }
   }
 }
 

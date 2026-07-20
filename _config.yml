@@ -33,6 +33,15 @@ web3forms_access_key: "bd52f61f-8931-4882-9f74-b6074e2d1d2a"
 disqus_shortname: ""
 mission_statement: "The Lansing Tech Studio empowers the next generation by igniting their passion for technology, innovation, leadership, and service, cultivating tomorrow’s leaders driven to shape a better future in their communities and the world."
 
+# Collections
+# Each program gets its own page under /programs/<name>/. The /programs/ landing
+# page and the prev/next links in _layouts/program.html are both generated from
+# this collection sorted by the `order` front matter key.
+collections:
+  programs:
+    output: true
+    permalink: /programs/:name/
+
 # Defaults
 defaults:
   - scope:
@@ -40,6 +49,11 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  - scope:
+      path: ""
+      type: "programs"
+    values:
+      layout: "program"
 
 # Exclude from processing
 exclude:

@@ -164,7 +164,7 @@ permalink: /resources/
 
 <div class="schedule-grid">
   <div class="schedule-card">
-    <h4>FLL Challenge Teams</h4>
+    <h4>FIRST LEGO League Teams</h4>
     <div class="meeting-time">
       <strong>{{ site.data.facts.fll.meeting }}</strong>
     </div>
@@ -280,9 +280,9 @@ permalink: /resources/
   <div class="info-card">
     <h4>Communication</h4>
     <ul>
+      <li>"Hacker Fest" season kickoff/parent information event</li>
       <li>Weekly email updates during season</li>
-      <li>Parent WhatsApp group for quick updates</li>
-      <li>Monthly parent meetings</li>
+      <li>GroupMe for updates throughout the day at competitions</li>
       <li>Open communication with coaches</li>
     </ul>
   </div>

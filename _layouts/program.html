@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<div class="page-content">
+  <div class="container">
+    <div class="programs-hero">
+      <h1>{{ page.title }}</h1>
+      {% if page.lead %}<p class="lead">{{ page.lead }}</p>{% endif %}
+    </div>
+
+    {{ content }}
+
+    {% include registration-cta.html %}
+
+    {%- comment -%}
+      Jekyll only populates page.previous/page.next for posts, so prev/next for
+      this collection is derived here from the same `order`-sorted list the
+      /programs/ landing page uses.
+    {%- endcomment -%}
+    {% assign programs = site.programs | sort: "order" %}
+    {% assign current = 0 %}
+    {% for item in programs %}
+      {% if item.url == page.url %}{% assign current = forloop.index0 %}{% endif %}
+    {% endfor %}
+    {% assign last = programs.size | minus: 1 %}
+
+    <nav class="program-navigation" aria-label="Program navigation">
+      <div class="program-nav-links">
+        {% if current > 0 %}
+          {% assign previous_index = current | minus: 1 %}
+          {% assign previous_program = programs[previous_index] %}
+          <a class="program-nav-previous" href="{{ previous_program.url | relative_url }}">
+            <span class="nav-subtitle">Previous Program</span>
+            <span class="nav-title">{{ previous_program.title }}</span>
+          </a>
+        {% endif %}
+
+        {% if current < last %}
+          {% assign next_index = current | plus: 1 %}
+          {% assign next_program = programs[next_index] %}
+          <a class="program-nav-next" href="{{ next_program.url | relative_url }}">
+            <span class="nav-subtitle">Next Program</span>
+            <span class="nav-title">{{ next_program.title }}</span>
+          </a>
+        {% endif %}
+      </div>
+      <p class="program-nav-all"><a href="{{ '/programs/' | relative_url }}">← All Programs</a></p>
+    </nav>
+  </div>
+</div>

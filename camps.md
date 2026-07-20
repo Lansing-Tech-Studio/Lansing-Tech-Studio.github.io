@@ -1,5 +1,5 @@
 ---
 permalink: /camps/
-redirect_to: /programs/#events
+redirect_to: /programs/events/
 sitemap: false
 ---

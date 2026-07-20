@@ -28,21 +28,21 @@ layout: default
     <div class="programs-grid">
       <div class="program-card">
         <div class="program-icon">🤖</div>
-        <h3>FLL Challenge Teams</h3>
+        <h3>FIRST LEGO League Teams</h3>
         <p>Competitive robotics teams for youth ages {{ site.data.facts.fll.ages }}, building problem-solving skills and STEM knowledge.</p>
-        <a href="/programs#fll" class="btn btn-outline">Learn More</a>
+        <a href="/programs/fll/" class="btn btn-outline">Learn More</a>
       </div>
       <div class="program-card">
         <div class="program-icon">💻</div>
         <h3>Tech Workshops</h3>
         <p>Hands-on coding bootcamps, web development, and technology education for all skill levels.</p>
-        <a href="/programs#workshops" class="btn btn-outline">Learn More</a>
+        <a href="/programs/workshops/" class="btn btn-outline">Learn More</a>
       </div>
       <div class="program-card">
         <div class="program-icon">🎯</div>
         <h3>Career Mentoring</h3>
         <p>Guidance and mentorship for students pursuing careers in technology and engineering fields.</p>
-        <a href="/programs#mentoring" class="btn btn-outline">Learn More</a>
+        <a href="/programs/mentoring/" class="btn btn-outline">Learn More</a>
       </div>
       <div class="program-card">
         <div class="program-icon">🤝</div>
@@ -54,7 +54,7 @@ layout: default
         <div class="program-icon">📅</div>
         <h3>Special Events & Camps</h3>
         <p>Build parties, Demo Day, Hack-a-thons, and summer camps throughout the year.</p>
-        <a href="/programs#events" class="btn btn-outline">Learn More</a>
+        <a href="/programs/events/" class="btn btn-outline">Learn More</a>
       </div>
     </div>
   </div>
