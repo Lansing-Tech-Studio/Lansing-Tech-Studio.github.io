@@ -1,0 +1,44 @@
+{%- comment -%}
+  Previous/next navigation for a collection sub-page, plus a link back to the
+  collection landing page. Jekyll only populates page.previous/page.next for
+  posts, so the sequence is derived here from the same `order`-sorted list the
+  landing page and the header dropdown use.
+
+  Parameters:
+    collection — collection name, e.g. "programs" (also gives the /<name>/
+                 landing page URL)
+    label      — singular noun for the prev/next captions, e.g. "Program"
+    all_label  — plural noun for the back link, e.g. "Programs"
+
+  Usage: {% include collection-nav.html collection="programs" label="Program" all_label="Programs" %}
+{%- endcomment -%}
+{% assign items = site[include.collection] | sort: "order" %}
+{% assign current = 0 %}
+{% for item in items %}
+  {% if item.url == page.url %}{% assign current = forloop.index0 %}{% endif %}
+{% endfor %}
+{% assign last = items.size | minus: 1 %}
+
+<nav class="program-navigation" aria-label="{{ include.label }} navigation">
+  <div class="program-nav-links">
+    {% if current > 0 %}
+      {% assign previous_index = current | minus: 1 %}
+      {% assign previous_item = items[previous_index] %}
+      <a class="program-nav-previous" href="{{ previous_item.url | relative_url }}">
+        <span class="nav-subtitle">Previous {{ include.label }}</span>
+        <span class="nav-title">{{ previous_item.title }}</span>
+      </a>
+    {% endif %}
+
+    {% if current < last %}
+      {% assign next_index = current | plus: 1 %}
+      {% assign next_item = items[next_index] %}
+      <a class="program-nav-next" href="{{ next_item.url | relative_url }}">
+        <span class="nav-subtitle">Next {{ include.label }}</span>
+        <span class="nav-title">{{ next_item.title }}</span>
+      </a>
+    {% endif %}
+  </div>
+  {% capture landing_url %}/{{ include.collection }}/{% endcapture %}
+  <p class="program-nav-all"><a href="{{ landing_url | relative_url }}">← All {{ include.all_label }}</a></p>
+</nav>

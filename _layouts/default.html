@@ -43,19 +43,36 @@
         <div class="nav-menu" id="nav-menu">
           <div class="nav-links">
             {% for item in site.data.navigation %}
-            {% if item.dropdown %}
+            {% comment %} Children come from the item's own list, or from a collection.
+            Collection docs expose .url and .card_title, so both shapes read alike. {% endcomment %}
+            {% assign children = item.dropdown %}
+            {% if item.collection %}
+            {% assign children = site[item.collection] | sort: "order" %}
+            {% endif %}
+            {% if children and children.size > 0 %}
             {% assign parent_active = false %}
-            {% for child in item.dropdown %}
+            {% if item.url and page.url contains item.url %}{% assign parent_active = true %}{% endif %}
+            {% for child in children %}
             {% if page.url contains child.url %}{% assign parent_active = true %}{% endif %}
             {% endfor %}
-            <div class="nav-dropdown {% if parent_active %}active{% endif %}">
-              <button class="dropdown-trigger" aria-expanded="false" aria-haspopup="true">
+            <div class="nav-dropdown {% if item.url %}has-link{% endif %} {% if parent_active %}active{% endif %}">
+              {% if item.url %}
+              <a href="{{ item.url | relative_url }}" class="dropdown-trigger">{{ item.title }}</a>
+              <button class="dropdown-toggle" aria-expanded="false" aria-haspopup="true" aria-label="Show {{ item.title }} menu">
+                <span class="chevron" aria-hidden="true"></span>
+              </button>
+              {% else %}
+              <button class="dropdown-trigger dropdown-toggle" aria-expanded="false" aria-haspopup="true">
                 {{ item.title }}
                 <span class="chevron" aria-hidden="true"></span>
               </button>
+              {% endif %}
               <div class="dropdown-menu" role="menu">
-                {% for child in item.dropdown %}
-                <a href="{{ child.url | relative_url }}" class="dropdown-item {% if page.url contains child.url %}active{% endif %}" role="menuitem">{{ child.title }}</a>
+                {% if item.url %}
+                <a href="{{ item.url | relative_url }}" class="dropdown-item {% if page.url == item.url %}active{% endif %}" role="menuitem">All {{ item.title }}</a>
+                {% endif %}
+                {% for child in children %}
+                <a href="{{ child.url | relative_url }}" class="dropdown-item {% if page.url contains child.url %}active{% endif %}" role="menuitem">{{ child.card_title | default: child.title | escape }}</a>
                 {% endfor %}
               </div>
             </div>
@@ -159,7 +176,7 @@
     });
     
     // Close mobile menu when clicking on a link
-    document.querySelectorAll('.nav-link, .dropdown-item').forEach(link => {
+    document.querySelectorAll('.nav-link, .dropdown-item, a.dropdown-trigger').forEach(link => {
       link.addEventListener('click', () => {
         navMenu.classList.remove('active');
         navToggle.classList.remove('active');
@@ -175,12 +192,12 @@
         if (d !== dropdown) closeDropdown(d);
       });
       dropdown.classList.add('open');
-      dropdown.querySelector('.dropdown-trigger').setAttribute('aria-expanded', 'true');
+      dropdown.querySelector('.dropdown-toggle').setAttribute('aria-expanded', 'true');
     }
-    
+
     function closeDropdown(dropdown) {
       dropdown.classList.remove('open');
-      dropdown.querySelector('.dropdown-trigger').setAttribute('aria-expanded', 'false');
+      dropdown.querySelector('.dropdown-toggle').setAttribute('aria-expanded', 'false');
     }
     
     function closeAllDropdowns() {
@@ -199,7 +216,8 @@
     
     // Set up each dropdown
     dropdowns.forEach(dropdown => {
-      const trigger = dropdown.querySelector('.dropdown-trigger');
+      // On a linked dropdown the chevron button toggles; the title is a plain link
+      const trigger = dropdown.querySelector('.dropdown-toggle');
       const items = dropdown.querySelectorAll('.dropdown-item');
       
       // Click handler

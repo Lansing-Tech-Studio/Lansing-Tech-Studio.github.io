@@ -1408,8 +1408,34 @@ h4 { font-size: 1.25rem; }
   position: relative;
 }
 
+a.dropdown-trigger {
+  text-decoration: none;
+}
+
+/* Clickable parent: title links to the section, chevron button opens the menu */
+.nav-dropdown.has-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.125rem;
+}
+
+.dropdown-toggle {
+  display: inline-flex;
+  align-items: center;
+  background: none;
+  border: none;
+  color: var(--text-dark);
+  padding: 0.5rem 0.25rem;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
 .dropdown-trigger:hover,
-.nav-dropdown.active .dropdown-trigger {
+.dropdown-toggle:hover,
+.nav-dropdown:hover .dropdown-trigger,
+.nav-dropdown:hover .dropdown-toggle,
+.nav-dropdown.active .dropdown-trigger,
+.nav-dropdown.active .dropdown-toggle {
   color: var(--primary-color);
 }
 
@@ -1437,6 +1463,14 @@ h4 { font-size: 1.25rem; }
 
 .nav-dropdown.open .chevron {
   transform: rotate(180deg);
+}
+
+/* Hover opens the menu on pointer devices, so flip the chevron to match */
+@media (min-width: 769px) {
+  .nav-dropdown:hover .chevron,
+  .nav-dropdown:focus-within .chevron {
+    transform: rotate(180deg);
+  }
 }
 
 .dropdown-menu {
@@ -1735,7 +1769,31 @@ h4 { font-size: 1.25rem; }
     justify-content: space-between;
     padding: 0.25rem 0;
   }
-  
+
+  /* Linked parent: tap the title to visit the page, the chevron to expand */
+  .nav-dropdown.has-link {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .nav-dropdown.has-link .dropdown-trigger {
+    width: auto;
+    flex: 1;
+  }
+
+  /* Roomy tap target for the chevron next to the link */
+  .nav-dropdown.has-link .dropdown-toggle {
+    min-width: 44px;
+    min-height: 44px;
+    justify-content: flex-end;
+    padding: 0.25rem 0;
+  }
+
+  .nav-dropdown.has-link .dropdown-menu {
+    flex-basis: 100%;
+  }
+
   .dropdown-menu {
     position: static;
     transform: none;
@@ -1753,7 +1811,7 @@ h4 { font-size: 1.25rem; }
   }
   
   .nav-dropdown.open .dropdown-menu {
-    max-height: 200px;
+    max-height: 400px;
     padding: 0.5rem 0;
   }
   
@@ -1765,7 +1823,7 @@ h4 { font-size: 1.25rem; }
   
   .nav-dropdown.open:hover .dropdown-menu,
   .nav-dropdown.open:focus-within .dropdown-menu {
-    max-height: 200px;
+    max-height: 400px;
     padding: 0.5rem 0;
   }
   
