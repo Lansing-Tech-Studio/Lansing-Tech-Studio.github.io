@@ -17,6 +17,12 @@ lead: Compete in the world's largest robotics competition for youth.
   </ul>
 </div>
 
+<div class="featured-badge-dark">
+  <span class="badge-icon">✨</span>
+  <a href="/robotics/" class="badge-link">See what's happening in our current robotics season</a>
+  <span class="badge-arrow">→</span>
+</div>
+
 <div class="program-section">
   <div class="program-content">
     <div class="program-details">

@@ -1,5 +1,5 @@
 ---
 permalink: /featured/
-redirect_to: /programs/events/
+redirect_to: /robotics/
 sitemap: false
 ---

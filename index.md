@@ -4,10 +4,10 @@ layout: default
 
 <div class="hero-section">
   <div class="hero-content">
-    <a href="/expo" class="featured-badge">
+    <a href="/robotics" class="featured-badge">
       <span class="badge-icon">✨</span>
       <span class="badge-text">Featured:</span>
-      <span class="badge-link">Lansing Tech Expo</span>
+      <span class="badge-link">Robotics</span>
       <span class="badge-arrow">→</span>
     </a>
     <!-- <a href="https://www.youtube.com/watch?v=wfOlDhaeIko&list=PLcAS4Bap4HT8DZ1lDmJ0DKuGTKCSlsq8k" class="featured-badge">
