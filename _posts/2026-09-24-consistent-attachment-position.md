@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Get consistent attachment position"
+title: "Guaranteed consistent attachment position"
 date: 2026-09-24 22:00:00 -0500
 author: "Brendon Thiede"
 categories: [competition, teams]
@@ -26,9 +26,9 @@ right_wheel = Motor(Port.B, Direction.CLOCKWISE)
 drive_base = DriveBase(left_wheel, right_wheel, 62.4, 128)
 attachment = Motor(Port.D, Direction.COUNTERCLOCKWISE)
 
-# Runs at 200 deg/s until it stalls, then relax
-attachment.run_until_stalled(200, then=Stop.COAST)
-# Now lift it by 90 degrees
+# Runs at 200 deg/s until it stalls, staying under 30% power, then relax
+attachment.run_until_stalled(200, then=Stop.COAST, duty_limit=30)
+# Now lift it by 90 degrees as the desired starting position
 attachment.run_angle(100, -90, Stop.HOLD)
 # Continue with your mission
 drive_base.straight(250)
