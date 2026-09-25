@@ -2284,13 +2284,14 @@ h1 code, h2 code, h3 code, h4 code, h5 code, h6 code {
   padding: 0.1rem 0.35rem;
 }
 
-/* Fenced blocks */
-.highlighter-rouge {
+/* Fenced blocks. Kramdown also puts .highlighter-rouge on inline <code>, so
+   block rules are scoped to the div wrapper. */
+div.highlighter-rouge {
   position: relative;
   margin: 2rem 0;
 }
 
-.highlighter-rouge .highlight,
+div.highlighter-rouge .highlight,
 pre.highlight,
 pre {
   background: var(--code-bg);
@@ -2300,11 +2301,11 @@ pre {
   box-shadow: var(--shadow-sm);
 }
 
-.highlighter-rouge .highlight {
+div.highlighter-rouge .highlight {
   overflow: hidden; /* keeps the scrolling <pre> inside the rounded corners */
 }
 
-.highlighter-rouge .highlight pre.highlight {
+div.highlighter-rouge .highlight pre.highlight {
   margin: 0;
   border: none;
   border-radius: 0;
@@ -2329,11 +2330,18 @@ pre code {
   white-space: pre;
 }
 
-/* Language badge, from the class Rouge puts on the wrapper */
-.highlighter-rouge::before {
+/* Wide blocks are keyboard-scrollable (tabindex added in default.html) */
+pre:focus-visible {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 2px;
+}
+
+/* Language badge, from the class Rouge puts on the wrapper. Top-left, so the
+   copy button can sit top-right. */
+div.highlighter-rouge::before {
   position: absolute;
   top: 0.5rem;
-  right: 0.75rem;
+  left: 0.75rem;
   z-index: 1;
   font-family: 'Inter', sans-serif;
   font-size: 0.65rem;
@@ -2347,30 +2355,70 @@ pre code {
   pointer-events: none;
 }
 
-.language-python::before { content: "Python"; }
-.language-bash::before,
-.language-shell::before,
-.language-sh::before { content: "Shell"; }
-.language-json::before { content: "JSON"; }
-.language-yaml::before,
-.language-yml::before { content: "YAML"; }
-.language-html::before { content: "HTML"; }
-.language-css::before,
-.language-scss::before { content: "CSS"; }
-.language-javascript::before,
-.language-js::before { content: "JavaScript"; }
+/* Fallback for fences with no language or one not listed below; :where()
+   keeps it at zero specificity so the named labels win. */
+:where(div.highlighter-rouge)::before { content: "Code"; }
+div.language-plaintext::before,
+div.language-text::before { content: "Text"; }
+div.language-python::before { content: "Python"; }
+div.language-bash::before,
+div.language-shell::before,
+div.language-sh::before,
+div.language-console::before { content: "Shell"; }
+div.language-json::before { content: "JSON"; }
+div.language-yaml::before,
+div.language-yml::before { content: "YAML"; }
+div.language-html::before { content: "HTML"; }
+div.language-css::before,
+div.language-scss::before { content: "CSS"; }
+div.language-javascript::before,
+div.language-js::before { content: "JavaScript"; }
 
 /* Opt in per block with a kramdown IAL under the fence, e.g. {: .pybricks},
    so the block still gets Python highlighting but a truer label. */
-.language-python.micropython::before { content: "MicroPython"; }
-.language-python.pybricks::before { content: "Pybricks · MicroPython"; }
-.language-python.pybricks::before,
-.language-python.micropython::before {
+div.language-python.micropython::before { content: "MicroPython"; }
+div.language-python.pybricks::before { content: "Pybricks · MicroPython"; }
+div.language-python.pybricks::before,
+div.language-python.micropython::before {
   color: var(--accent-color);
 }
 
-/* Leave room for the badge above the first line */
-.highlighter-rouge .highlight pre.highlight {
+/* Copy button, added to each block by default.html */
+.code-copy {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.5rem;
+  z-index: 1;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--code-muted);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--code-border);
+  border-radius: 0.3rem;
+  padding: 0.2rem 0.55rem;
+  cursor: pointer;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.code-copy:hover,
+.code-copy:focus-visible {
+  color: var(--code-text);
+  border-color: var(--code-muted);
+}
+
+.code-copy:focus-visible {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 2px;
+}
+
+.code-copy.copied {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+/* Leave room for the badge and copy button above the first line */
+div.highlighter-rouge .highlight pre.highlight {
   padding-top: 2rem;
 }
 
@@ -2421,6 +2469,18 @@ pre code {
   color: var(--code-text);
 }
 
+.highlight .nt {
+  color: var(--code-function); /* HTML tag names, JSON keys */
+}
+
+.highlight .ni {
+  color: var(--code-number); /* HTML entities */
+}
+
+.highlight .nx {
+  color: var(--code-text);
+}
+
 .highlight .o, .highlight .p {
   color: var(--code-punctuation);
 }
@@ -2436,6 +2496,8 @@ pre code {
 .highlight .gs { font-weight: 700; }
 .highlight .ge { font-style: italic; }
 .highlight .gp { color: var(--code-muted); }
+.highlight .go { color: var(--code-punctuation); }
+.highlight .gr, .highlight .gt { color: var(--code-error); }
 
 /* Line numbers, if a block ever asks for them */
 .highlight .lineno, .highlight .gl {

@@ -296,6 +296,31 @@
         }
       });
     });
+
+    // Code blocks: keyboard-scrollable, plus a copy button where the Clipboard API exists
+    document.querySelectorAll('div.highlighter-rouge').forEach(block => {
+      const pre = block.querySelector('pre');
+      if (!pre) return;
+      pre.setAttribute('tabindex', '0');
+
+      if (!navigator.clipboard) return;
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'code-copy';
+      button.textContent = 'Copy';
+      button.setAttribute('aria-label', 'Copy code to clipboard');
+      button.addEventListener('click', () => {
+        navigator.clipboard.writeText(pre.innerText.replace(/\n$/, '')).then(() => {
+          button.textContent = 'Copied!';
+          button.classList.add('copied');
+          setTimeout(() => {
+            button.textContent = 'Copy';
+            button.classList.remove('copied');
+          }, 2000);
+        });
+      });
+      block.appendChild(button);
+    });
   </script>
 </body>
 </html>
