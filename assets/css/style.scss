@@ -31,6 +31,23 @@
   --gradient-tech: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%);
   --gradient-accent: linear-gradient(135deg, var(--secondary-color) 0%, var(--warning-color) 100%);
   --gradient-vibrant: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 50%, var(--accent-color) 100%);
+
+  /* Code blocks: a dark surface tuned to the brand palette */
+  --code-font: ui-monospace, SFMono-Regular, 'SF Mono', 'JetBrains Mono', Menlo, Consolas, 'Liberation Mono', monospace;
+  --code-bg: #0F1720;
+  --code-border: #22303F;
+  --code-text: #E8EDF2;
+  --code-muted: #8FA0B3;
+  --code-keyword: #FF8F5E;
+  --code-string: var(--accent-color);
+  --code-number: #FFC94D;
+  --code-function: #66D9FF;
+  --code-builtin: #7FD1FF;
+  --code-class: #A9E7FF;
+  --code-punctuation: #B9C4D0;
+  --code-error: #FF7A8F;
+  --code-inline-bg: var(--bg-light);
+  --code-inline-text: #0A4F73;
 }
 
 * {
@@ -2158,6 +2175,13 @@ html {
 }
 
 /* Blog Posts */
+/* Keep post images inside the column. Kept at .blog-content img specificity so
+   the .post-image-right sizing below still wins. */
+.blog-content img {
+  max-width: 100%;
+  height: auto;
+}
+
 .blog-content .post-image-right {
   float: right;
   width: 40%; /* Adjust as needed */
@@ -2235,4 +2259,198 @@ html {
 
 .post-comments {
   margin-top: 3rem;
+}
+
+/* Code Blocks and Syntax Highlighting */
+/* Rouge (via kramdown) wraps fenced blocks as
+   div.language-<lang>.highlighter-rouge > div.highlight > pre.highlight > code */
+
+code,
+kbd,
+samp {
+  font-family: var(--code-font);
+  font-size: 0.9em;
+}
+
+/* Inline code: `stalled` in a sentence */
+p code,
+li code,
+td code,
+h1 code, h2 code, h3 code, h4 code, h5 code, h6 code {
+  background: var(--code-inline-bg);
+  color: var(--code-inline-text);
+  border: 1px solid var(--border-light);
+  border-radius: 0.3rem;
+  padding: 0.1rem 0.35rem;
+}
+
+/* Fenced blocks */
+.highlighter-rouge {
+  position: relative;
+  margin: 2rem 0;
+}
+
+.highlighter-rouge .highlight,
+pre.highlight,
+pre {
+  background: var(--code-bg);
+  color: var(--code-text);
+  border: 1px solid var(--code-border);
+  border-radius: 0.75rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.highlighter-rouge .highlight {
+  overflow: hidden; /* keeps the scrolling <pre> inside the rounded corners */
+}
+
+.highlighter-rouge .highlight pre.highlight {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+pre {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 1.25rem 1.25rem 1.1rem;
+  margin: 2rem 0;
+  line-height: 1.6;
+  tab-size: 4;
+}
+
+pre code {
+  background: none;
+  border: none;
+  padding: 0;
+  color: inherit;
+  font-size: 0.875rem;
+  white-space: pre;
+}
+
+/* Language badge, from the class Rouge puts on the wrapper */
+.highlighter-rouge::before {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.75rem;
+  z-index: 1;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--code-muted);
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 0.3rem;
+  padding: 0.15rem 0.45rem;
+  pointer-events: none;
+}
+
+.language-python::before { content: "Python"; }
+.language-bash::before,
+.language-shell::before,
+.language-sh::before { content: "Shell"; }
+.language-json::before { content: "JSON"; }
+.language-yaml::before,
+.language-yml::before { content: "YAML"; }
+.language-html::before { content: "HTML"; }
+.language-css::before,
+.language-scss::before { content: "CSS"; }
+.language-javascript::before,
+.language-js::before { content: "JavaScript"; }
+
+/* Opt in per block with a kramdown IAL under the fence, e.g. {: .pybricks},
+   so the block still gets Python highlighting but a truer label. */
+.language-python.micropython::before { content: "MicroPython"; }
+.language-python.pybricks::before { content: "Pybricks · MicroPython"; }
+.language-python.pybricks::before,
+.language-python.micropython::before {
+  color: var(--accent-color);
+}
+
+/* Leave room for the badge above the first line */
+.highlighter-rouge .highlight pre.highlight {
+  padding-top: 2rem;
+}
+
+/* Rouge token colors */
+.highlight .c, .highlight .ch, .highlight .cd, .highlight .cm,
+.highlight .c1, .highlight .cs, .highlight .cp, .highlight .cpf {
+  color: var(--code-muted);
+  font-style: italic;
+}
+
+.highlight .k, .highlight .kc, .highlight .kd, .highlight .kn,
+.highlight .kp, .highlight .kr, .highlight .kt, .highlight .kv,
+.highlight .ow {
+  color: var(--code-keyword);
+  font-weight: 600;
+}
+
+.highlight .s, .highlight .sa, .highlight .sb, .highlight .sc,
+.highlight .dl, .highlight .sd, .highlight .s2, .highlight .sh,
+.highlight .si, .highlight .sx, .highlight .sr, .highlight .s1,
+.highlight .ss {
+  color: var(--code-string);
+}
+
+.highlight .se {
+  color: var(--code-number);
+}
+
+.highlight .m, .highlight .mb, .highlight .mf, .highlight .mh,
+.highlight .mi, .highlight .mo, .highlight .il {
+  color: var(--code-number);
+}
+
+.highlight .nf, .highlight .fm {
+  color: var(--code-function);
+}
+
+.highlight .nc, .highlight .ne, .highlight .nn {
+  color: var(--code-class);
+}
+
+.highlight .nb, .highlight .bp, .highlight .no, .highlight .nd {
+  color: var(--code-builtin);
+}
+
+.highlight .na, .highlight .nv, .highlight .vc,
+.highlight .vg, .highlight .vi, .highlight .nl, .highlight .py {
+  color: var(--code-text);
+}
+
+.highlight .o, .highlight .p {
+  color: var(--code-punctuation);
+}
+
+.highlight .err {
+  color: var(--code-error);
+}
+
+/* Generic/diff output, handy for terminal transcripts */
+.highlight .gd { color: var(--code-error); }
+.highlight .gi { color: var(--code-string); }
+.highlight .gh, .highlight .gu { color: var(--code-function); font-weight: 600; }
+.highlight .gs { font-weight: 700; }
+.highlight .ge { font-style: italic; }
+.highlight .gp { color: var(--code-muted); }
+
+/* Line numbers, if a block ever asks for them */
+.highlight .lineno, .highlight .gl {
+  color: var(--code-muted);
+  user-select: none;
+  padding-right: 1rem;
+}
+
+@media (max-width: 768px) {
+  pre {
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+
+  pre code {
+    font-size: 0.8rem;
+  }
 }
