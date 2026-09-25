@@ -1911,62 +1911,99 @@ a.dropdown-trigger {
   }
 }
 
-/* Program Sub-Pages: previous/next navigation (mirrors the blog post pattern) */
-.program-navigation {
+/* Previous/next navigation, shared by blog posts (post.html) and collection
+   sub-pages (_includes/collection-nav.html) */
+.program-navigation,
+.post-navigation {
   margin: 4rem 0 2rem;
   padding-top: 2rem;
   border-top: 1px solid var(--border-light);
 }
 
-.program-nav-links {
+.program-nav-links,
+.post-nav-links {
   display: flex;
   justify-content: space-between;
   gap: 1.5rem;
   flex-wrap: wrap;
 
   a {
+    position: relative;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
     flex: 1 1 240px;
     max-width: 100%;
-    padding: 1rem 1.25rem;
+    padding: 1.25rem 1.5rem;
+    background: var(--bg-light);
     border: 1px solid var(--border-light);
-    border-radius: 0.5rem;
+    border-radius: 0.75rem;
     text-decoration: none;
-    transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease, background-color 0.2s ease;
+  }
+
+  /* Brand gradient bar that slides in along the top edge on hover */
+  a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: var(--gradient-tech);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
   }
 
   a:hover,
   a:focus-visible {
+    background: var(--bg-white);
     border-color: var(--primary-color);
-    box-shadow: var(--shadow-sm);
+    box-shadow: var(--shadow-md);
     transform: translateY(-2px);
   }
 
+  a:hover::before,
+  a:focus-visible::before {
+    transform: scaleX(1);
+  }
+
   /* When only "next" exists it should still sit on the right */
-  .program-nav-next:only-child {
+  .program-nav-next:only-child,
+  .nav-next:only-child {
     margin-left: auto;
   }
 
-  .program-nav-next {
+  .program-nav-next,
+  .nav-next {
     text-align: right;
+  }
+
+  .program-nav-next::before,
+  .nav-next::before {
+    transform-origin: right;
   }
 
   .nav-subtitle {
     font-size: 0.8rem;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     color: var(--text-light);
   }
 
   .nav-title {
-    font-weight: 600;
+    font-size: 1.05rem;
+    font-weight: 700;
+    line-height: 1.35;
     color: var(--primary-color);
   }
 }
 
-.program-nav-all {
+.program-nav-all,
+.post-nav-all {
   margin-top: 1.5rem;
   text-align: center;
 
@@ -1977,10 +2014,12 @@ a.dropdown-trigger {
 }
 
 @media (max-width: 600px) {
-  .program-nav-links {
+  .program-nav-links,
+  .post-nav-links {
     flex-direction: column;
 
-    .program-nav-next {
+    .program-nav-next,
+    .nav-next {
       text-align: left;
     }
   }
@@ -2250,6 +2289,50 @@ html {
 }
 
 .blog-hashtags span:hover {
+  background: var(--primary-color);
+  color: var(--text-white);
+  border-color: var(--primary-color);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
+}
+
+/* Blog post tags */
+.post-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border-light);
+}
+
+.post-tags-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-light);
+}
+
+.post-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.post-tags .tag {
+  background: var(--bg-light);
+  color: var(--primary-color);
+  padding: 0.35rem 0.85rem;
+  border: 1px solid var(--border-light);
+  border-radius: 999px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.post-tags .tag:hover {
   background: var(--primary-color);
   color: var(--text-white);
   border-color: var(--primary-color);
